@@ -1,0 +1,17 @@
+.vector {
+  height: 33px;
+  margin-top: -0.34px;
+  mix-blend-mode: normal;
+  width: 50px;
+}
+.white {
+  align-items: flex-start;
+  display: flex;
+  mix-blend-mode: normal;
+  padding: 0 0.0px;
+  width: 50px;
+}
+.white-1.white {
+  height: 33px;
+  position: relative;
+}

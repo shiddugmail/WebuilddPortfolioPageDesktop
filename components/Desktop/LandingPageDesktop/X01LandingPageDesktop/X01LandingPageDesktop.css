@@ -1,0 +1,341 @@
+.blueprint {
+    height: 64px;
+    margin-left: 40px;
+    mix-blend-mode: normal;
+    width: 64px;
+}
+
+.lpd-building {
+    height: 64px;
+    margin-left: 40px;
+    mix-blend-mode: normal;
+    width: 64px;
+}
+
+.lpd-cost-estimator-bg {
+    align-items: flex-start;
+    background-size: 100% 100%;
+    display: flex;
+    height: 362px;
+    left: 84px;
+    min-width: 1280px;
+    position: absolute;
+    top: 4724px;
+}
+
+.lpd-flex-col {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    min-height: 1344px;
+    width: 640px;
+}
+
+.lpd-flex-row {
+    align-items: flex-start;
+    display: flex;
+    height: 374px;
+    margin-top: 64px;
+    min-width: 1280px;
+    position: relative;
+}
+
+.lpd-frame- {
+    height: 8px;
+    margin-right: -48px;
+    margin-top: 10px;
+    width: 1440px;
+}
+
+.lpd-frame--1 {
+    align-self: center;
+    height: 1px;
+    margin-left: 100.0px;
+    margin-top: 17px;
+    width: 1px;
+}
+
+.lpd-frame-1570 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: 6288px;
+    mix-blend-mode: normal;
+    position: relative;
+    width: 1444px;
+}
+
+.lpd-frame-16 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    left: 79px;
+    min-height: 478px;
+    position: absolute;
+    top: 241px;
+    width: 531px;
+}
+
+.lpd-frame-28 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    min-height: 448px;
+    padding: 40px 0;
+    position: relative;
+    width: 640px;
+}
+
+.lpd-frame-29 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    min-height: 448px;
+    padding: 41.5px 0;
+    position: relative;
+    width: 640px;
+}
+
+.lpd-frame-30 {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    min-height: 448px;
+    padding: 82.5px 0;
+    position: relative;
+    width: 640px;
+}
+
+.lpd-frame-36 {
+    height: 8px;
+    margin-right: -48px;
+    width: 1440px;
+}
+
+.lpd-frame-37 {
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    height: 574px;
+    left: 0;
+    opacity: 0.1;
+    overflow: hidden;
+    position: absolute;
+    top: 5179px;
+    width: 1444px;
+}
+
+.lpd-frame-68 {
+    align-self: center;
+    height: 1px;
+    margin-left: 100.0px;
+    margin-top: 13px;
+    width: 1px;
+}
+
+.lpd-group-107 {
+    align-items: flex-start;
+    display: flex;
+    height: 1344px;
+    margin-right: 4.0px;
+    margin-top: 64px;
+    min-width: 1280px;
+}
+
+.lpd-group-108 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    left: 84px;
+    min-height: 1534px;
+    position: absolute;
+    top: 896px;
+    width: 1284px;
+}
+
+.lpd-group-115 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    left: 84px;
+    min-height: 462px;
+    position: absolute;
+    top: 4152px;
+    width: 1280px;
+}
+
+.lpd-group-130 {
+    align-items: flex-start;
+    display: flex;
+    height: 824px;
+    left: 4px;
+    min-width: 1440px;
+    position: absolute;
+    top: 0;
+}
+
+.lpd-group-37 {
+    align-items: flex-start;
+    display: flex;
+    height: 824px;
+    left: 0;
+    min-width: 1440px;
+    padding: 0 1px;
+    position: absolute;
+    top: 0;
+}
+
+.lpd-header {
+    height: 72px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 1440px;
+}
+
+.lpd-overlap-group {
+    height: 5904px;
+    position: relative;
+    width: 1444px;
+}
+
+.lpd-overlap-group1 {
+    height: 824px;
+    position: relative;
+    width: 1440px;
+}
+
+.lpd-overlap-group2 {
+    height: 824px;
+    position: relative;
+    width: 1438px;
+}
+
+.lpd-plan {
+    height: 64px;
+    margin-left: 40px;
+    mix-blend-mode: normal;
+    width: 64px;
+}
+
+.lpd-rectangle- {
+    height: 448px;
+    mix-blend-mode: normal;
+    object-fit: cover;
+    width: 640px;
+}
+
+.lpd-rectangle-2 {
+    display: block;
+    height: 824px;
+    left: 0;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 0;
+    width: 1438px;
+}
+
+.lpd-rectangle-63 {
+    background-color: var(--black);
+    border-radius: 12px;
+    box-shadow: 0px 1px 3px #00153429;
+    height: 362px;
+    mix-blend-mode: normal;
+    opacity: 0.9;
+    width: 1280px;
+}
+
+.lpd-rectangle-65 {
+    background-color: var(--white);
+    height: 1191px;
+    left: 4px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 3954px;
+    width: 1440px;
+}
+
+.lpd-rectangle-66 {
+    background-color: var(--white);
+    height: 862px;
+    left: 4px;
+    mix-blend-mode: normal;
+    position: absolute;
+    top: 4972px;
+    width: 1440px;
+}
+
+.lpd-span0 {
+    letter-spacing: -0.22px;
+    line-height: 48px;
+}
+
+.lpd-span1 {
+    letter-spacing: -0.22px;
+    line-height: 40px;
+}
+
+.lpd-span2 {
+    color: var(--red);
+    font-size: var(--font-size-xxxxxl);
+    font-weight: 800;
+    letter-spacing: -0.42px;
+    line-height: 70px;
+}
+
+.lpd-text-1 {
+    color: transparent;
+    font-family: var(--font-family-overpass);
+    font-size: var(--font-size-xxxl2);
+    font-weight: 600;
+    height: 206px;
+    letter-spacing: -0.70px;
+    line-height: 32px;
+    min-height: 206px;
+    width: 533px;
+}
+
+.lpd-text-2 {
+    color: var(--black);
+    line-height: 28px;
+    margin-top: 32px;
+    min-height: 168px;
+    mix-blend-mode: normal;
+    width: 402px;
+}
+
+.lpd-text-3 {
+    color: var(--black);
+    line-height: 28px;
+    margin-left: 84.0px;
+    margin-top: 24px;
+    min-height: 54px;
+    min-width: 846px;
+    mix-blend-mode: normal;
+    text-align: center;
+    width: 846px;
+}
+
+.lpd-title {
+    color: var(--black);
+    font-weight: 800;
+    height: 48px;
+    line-height: 48px;
+    margin-right: 2.0px;
+    min-height: 48px;
+    min-width: 412px;
+    mix-blend-mode: normal;
+    text-align: center;
+    white-space: nowrap;
+    width: 412px;
+}
+
+.lpd-x01-landing-page-desktop {
+    align-items: flex-start;
+    background-color: var(--desert-storm);
+    display: flex;
+    justify-content: center;
+    mix-blend-mode: normal;
+    overflow: hidden;
+    width: 1440px;
+}

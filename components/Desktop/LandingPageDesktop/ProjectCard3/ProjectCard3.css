@@ -1,0 +1,61 @@
+.project-card {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    left: 85px;
+    min-height: 330px;
+    position: absolute;
+    top: 2756px;
+    width: 410px;
+}
+
+.lpd-project-card-1 {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    left: 85px;
+    min-height: 330px;
+    position: absolute;
+    top: 2756px;
+    width: 410px;
+    left: 519px;
+    top: 3134px;
+}
+
+.lpd-project-card-2.project-card {
+    left: 519px;
+}
+
+.lpd-project-card-3.project-card {
+    left: 953px;
+    top: 3134px;
+}
+
+.lpd-project-card-4.project-card {
+    left: 953px;
+    top: 3488px;
+}
+
+.lpd-project-card-5.project-card {
+    top: 3134px;
+}
+
+.lpd-project-card-6.project-card {
+    left: 519px;
+    top: 3488px;
+}
+
+.lpd-project-card-7.project-card {
+    top: 3488px;
+}
+
+.lpd-project-card-8 {
+    left: 953px;
+}
+
+.rectangle-62 {
+    height: 240px;
+    mix-blend-mode: normal;
+    object-fit: cover;
+    width: 410px;
+}

@@ -1,0 +1,16 @@
+    .x04-portfolio-detail-page-desktop {
+        display: none;
+    }
+    
+    @media screen and (min-width: 768px) {
+        .x04-portfolio-detail-page-desktop {
+            align-items: flex-start;
+            background-color: var(--desert-storm);
+            background-size: 100% 100%;
+            display: block;
+            height: 2304px;
+            mix-blend-mode: normal;
+            position: relative;
+            width: 1440px;
+        }
+    }

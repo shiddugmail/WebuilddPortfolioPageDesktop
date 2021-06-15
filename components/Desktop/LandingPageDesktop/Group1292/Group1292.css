@@ -1,0 +1,24 @@
+.ellipse-100 {
+  background-color: var(--red);
+  border-radius: 8px;
+  height: 16px;
+  margin-left: 16px;
+  mix-blend-mode: normal;
+  width: 16px;
+}
+.ellipse-99-1 {
+  background-color: var(--white);
+  border-radius: 8px;
+  height: 16px;
+  mix-blend-mode: normal;
+  width: 16px;
+}
+.group-129-1 {
+  align-items: flex-start;
+  display: flex;
+  height: 16px;
+  left: 700px;
+  min-width: 48px;
+  position: absolute;
+  top: 768px;
+}

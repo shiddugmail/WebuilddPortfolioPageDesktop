@@ -1,0 +1,38 @@
+.group-156 {
+  align-items: center;
+  background-color: var(--mercury);
+  display: flex;
+  height: 195px;
+  left: 4px;
+  min-width: 1440px;
+  padding: 0 96px;
+  position: absolute;
+  top: 5709px;
+}
+.image- {
+  height: 115px;
+  margin-left: 60px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  width: 160px;
+}
+.image-2 {
+  height: 115px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  width: 160px;
+}
+.image-4 {
+  height: 115px;
+  margin-left: 56px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  width: 160px;
+}
+.image-6 {
+  height: 115px;
+  margin-left: 52px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  width: 160px;
+}
