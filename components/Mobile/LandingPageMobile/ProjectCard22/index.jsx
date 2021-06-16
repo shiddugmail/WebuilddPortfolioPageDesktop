@@ -5,7 +5,7 @@ function ProjectCard22(props) {
   const { rectangle62, text77, surname, className } = props;
 
   return (
-    <div className={`project-card ${className || ""}`}>
+    <div className={`mlp-project-card ${className || ""}`}>
       <img className="rectangle-62" src={rectangle62} />
       <div className="group-99">
         <div className="text-10 valign-text-middle typographyheadlineh4-extrabold-24">{text77}</div>

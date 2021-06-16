@@ -9,11 +9,14 @@
     --font-size-30px: 30px;
     --font-size-l2: 16px;
     --font-size-m2: 14px;
+    --font-size-s2: 12px;
     --font-size-xl2: 20px;
     --font-size-xxl2: 24px;
     --font-size-xxxl2: 32px;
     --font-size-xxxxl: 40px;
+    --font-size-xxxxl2: 40px;
     --font-size-xxxxxl: 60px;
+    --font-family-inter: "Inter", Helvetica;
     --font-family-inter-regular: "Inter-Regular", Helvetica;
     --font-family-overpass: "Overpass", Helvetica;
 }
@@ -63,6 +66,14 @@
     font-size: var(--font-size-m2);
     font-style: normal;
     font-weight: 600;
+    letter-spacing: 0;
+}
+
+.typographybodysmall-12-regular {
+    font-family: var(--font-family-overpass);
+    font-size: var(--font-size-s2);
+    font-style: normal;
+    font-weight: 400;
     letter-spacing: 0;
 }
 
@@ -116,4 +127,43 @@
 
 .border-1px-white {
     border: 1px solid var(--white);
+}
+
+.inter-normal-white-14px {
+    color: var(--white);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-m2);
+    font-style: normal;
+    font-weight: 400;
+}
+
+.overpass-semi-bold-white-16px2 {
+    font-family: var(--font-family-overpass);
+    font-size: var(--font-size-l2);
+    font-style: normal;
+    font-weight: 600;
+}
+
+.overpass-semi-bold-white-16px-22 {
+    color: var(--white);
+    font-family: var(--font-family-overpass);
+    font-size: var(--font-size-l2);
+    font-style: normal;
+    font-weight: 600;
+}
+
+.overpass-extra-bold-mahogany-40px {
+    color: var(--red);
+    font-family: var(--font-family-overpass);
+    font-size: var(--font-size-xxxxl2);
+    font-style: normal;
+    font-weight: 800;
+}
+
+.overpass-semi-bold-mahogany-12px {
+    color: var(--red);
+    font-family: var(--font-family-overpass);
+    font-size: var(--font-size-s2);
+    font-style: normal;
+    font-weight: 600;
 }

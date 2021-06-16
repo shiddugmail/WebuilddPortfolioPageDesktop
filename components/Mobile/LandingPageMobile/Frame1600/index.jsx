@@ -76,50 +76,50 @@ function Frame1600(props) {
   } = props;
 
   return (
-    <div className="frame-1600">
-      <div className="overlap-group">
-        <div className="group-89">
-          <img className="line-4" src={line4} />
-          <img className="line-" src={line5} />
-          <img className="line-" src={line6} />
-          <img className="line-" src={line7} />
-          <img className="line-" src={line8} />
+    <div className="mpd-frame-1600">
+      <div className="mpd-overlap-group">
+        <div className="mpd-group-89">
+          <img className="mpd-line-4" src={line4} />
+          <img className="mpd-line-" src={line5} />
+          <img className="mpd-line-" src={line6} />
+          <img className="mpd-line-" src={line7} />
+          <img className="mpd-line-" src={line8} />
         </div>
-        <img className="rectangle-72" src={rectangle72} />
-        <div className="text-1 valign-text-middle typographyheadlineh5-extrabold-20">{text1}</div>
-        <p className="text-2 typographybodysmall-12-regular">
-          <span className="span typographybodysmall-12-regular">{spanText}</span>
-          <span className="span-1 typographybodysmall-12-regular">{spanText2}</span>
-          <span className="span2-1 overpass-semi-bold-mahogany-12px">{spanText3}</span>
-          <span className="span-1 typographybodysmall-12-regular">{spanText4}</span>
-          <span className="span typographybodysmall-12-regular">{spanText5}</span>
+        <img className="mpd-rectangle-72" src={rectangle72} />
+        <div className="mpd-text-1 valign-text-middle typographyheadlineh5-extrabold-20">{text1}</div>
+        <p className="mpd-text-2 typographybodysmall-12-regular">
+          <span className="mpd-span typographybodysmall-12-regular">{spanText}</span>
+          <span className="mpd-span-1 typographybodysmall-12-regular">{spanText2}</span>
+          <span className="mpd-span2-1 overpass-semi-bold-mahogany-12px">{spanText3}</span>
+          <span className="mpd-span-1 typographybodysmall-12-regular">{spanText4}</span>
+          <span className="mpd-span typographybodysmall-12-regular">{spanText5}</span>
         </p>
-        <img className="rectangle-73" src={rectangle73} />
-        <div className="text-3 valign-text-middle typographyheadlineh4-extrabold-24">{text3}</div>
-        <p className="text-4 typographybodysmall-12-regular">{text4}</p>
-        <img className="rectangle-70" src={rectangle70} />
-        <div className="text-5 valign-text-middle typographyheadlineh4-extrabold-24">{text5}</div>
-        <p className="text-6 typographybodysmall-12-regular">{text6}</p>
-        <p className="text-7 typography-body-smalltext-14-regular">{text7}</p>
-        <div className="why-webuild valign-text-middle typographyheadlineh4-extrabold-24">{whyWebuild}</div>
-        <img className="rectangle-69" src={rectangle69} />
+        <img className="mpd-rectangle-73" src={rectangle73} />
+        <div className="mpd-text-3 valign-text-middle typographyheadlineh4-extrabold-24">{text3}</div>
+        <p className="mpd-text-4 typographybodysmall-12-regular">{text4}</p>
+        <img className="mpd-rectangle-70" src={rectangle70} />
+        <div className="mpd-text-5 valign-text-middle typographyheadlineh4-extrabold-24">{text5}</div>
+        <p className="mpd-text-6 typographybodysmall-12-regular">{text6}</p>
+        <p className="mpd-text-7 typography-body-smalltext-14-regular">{text7}</p>
+        <div className="mpd-why-webuild valign-text-middle typographyheadlineh4-extrabold-24">{whyWebuild}</div>
+        <img className="mpd-rectangle-69" src={rectangle69} />
         <Group129 />
-        <p className="text-8 valign-text-middle overpass-semi-bold-white-16px2">
+        <p className="mpd-text-8 valign-text-middle overpass-semi-bold-white-16px2">
           <span>
-            <span className="span0 overpass-semi-bold-white-16px-22">{spanText6}</span>
-            <span className="span1 overpass-semi-bold-white-32px">{spanText7}</span>
-            <span className="span2 overpass-extra-bold-mahogany-40px">{spanText8}</span>
+            <span className="mpd-span0 overpass-semi-bold-white-16px-22">{spanText6}</span>
+            <span className="mpd-span1 overpass-semi-bold-white-32px">{spanText7}</span>
+            <span className="mpd-span2 overpass-extra-bold-mahogany-40px">{spanText8}</span>
           </span>
         </p>
-        <p className="text-9 typography-body-smalltext-14-regular">{text9}</p>
+        <p className="mpd-text-9 typography-body-smalltext-14-regular">{text9}</p>
         <GetAQuoteButton2>{getAQuoteButton2Props.children}</GetAQuoteButton2>
-        <div className="group-210">
-          <div className="our-projects valign-text-middle typographyheadlineh4-extrabold-24">{ourProjects}</div>
-          <p className="text-22 typography-body-smalltext-14-regular">{text22}</p>
+        <div className="mpd-group-210">
+          <div className="mpd-our-projects valign-text-middle typographyheadlineh4-extrabold-24">{ourProjects}</div>
+          <p className="mpd-text-22 typography-body-smalltext-14-regular">{text22}</p>
           <Frame1613 {...frame1613Props} />
-          <div className="overlap-group1">
-            <Button22 className="x2668590">{button22Props.children}</Button22>
-            <div className="rectangle-71"></div>
+          <div className="mpd-overlap-group1">
+            <Button22 className="mpd-x2668590">{button22Props.children}</Button22>
+            <div className="mpd-rectangle-71"></div>
             <PackagesCard
               basic={packagesCardProps.basic}
               group69Props={packagesCardProps.group69Props}
@@ -137,36 +137,36 @@ function Frame1600(props) {
               group69Props={group113Props.group69Props}
               buttonProps={group113Props.buttonProps}
             />
-            <p className="text-23 typographybody16-regular">{text23}</p>
-            <div className="packages valign-text-middle typographyheadlineh4-extrabold-24">{packages}</div>
-            <img className="cost-estimator-bg" src={costEstimatorBg} />
+            <p className="mpd-text-23 typographybody16-regular">{text23}</p>
+            <div className="mpd-packages valign-text-middle typographyheadlineh4-extrabold-24">{packages}</div>
+            <img className="mpd-cost-estimator-bg" src={costEstimatorBg} />
             <Group11422 costEstimator={group11422Props.costEstimator} text93={group11422Props.text93} />
             <EstimateNowButton>{estimateNowButtonProps.children}</EstimateNowButton>
             <Group11722 frame12Props={group11722Props.frame12Props} frame122Props={group11722Props.frame122Props} />
           </div>
-          <div className="testimonials valign-text-middle typographyheadlineh4-extrabold-24">{testimonials}</div>
-          <p className="text-24 typographybody16-regular">{text24}</p>
-          <div className="group-27">
-            <div className="overlap-group4">
-              <p className="text-19 typographybodysmall-12-regular">{text19}</p>
-              <div className="group-120">
-                <img className="ellipse-1" src={ellipse1} />
-                <div className="group-140">
-                  <div className="name valign-text-middle typographyheadlineh5-extrabold-20">{name}</div>
-                  <div className="bangalore-india valign-text-middle typographybodysmall-12-regular">
+          <div className="mpd-testimonials valign-text-middle typographyheadlineh4-extrabold-24">{testimonials}</div>
+          <p className="mpd-text-24 typographybody16-regular">{text24}</p>
+          <div className="mpd-group-27">
+            <div className="mpd-overlap-group4">
+              <p className="mpd-text-19 typographybodysmall-12-regular">{text19}</p>
+              <div className="mpd-group-120">
+                <img className="mpd-ellipse-1" src={ellipse1} />
+                <div className="mpd-group-140">
+                  <div className="mpd-name valign-text-middle typographyheadlineh5-extrabold-20">{name}</div>
+                  <div className="mpd-bangalore-india valign-text-middle typographybodysmall-12-regular">
                     {bangaloreIndia}
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <Group129 className="group-141" />
-          <div className="overlap-group2">
-            <div className="rectangle-74"></div>
-            <img className="image-3" src={image3} />
-            <img className="image-4" src={image4} />
-            <img className="image-5" src={image5} />
-            <div className="rectangle-67"></div>
+          <Group129 className="mpd-group-141" />
+          <div className="mpd-overlap-group2">
+            <div className="mpd-rectangle-74"></div>
+            <img className="mpd-image-3" src={image3} />
+            <img className="mpd-image-4" src={image4} />
+            <img className="mpd-image-5" src={image5} />
+            <div className="mpd-rectangle-67"></div>
             <Group8622 group85={group8622Props.group85} />
             <Group32 {...group32Props} />
             <Frame5

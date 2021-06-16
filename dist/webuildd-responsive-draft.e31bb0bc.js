@@ -33739,54 +33739,7 @@ if ("development" !== "production") {
     style: _propTypes.default.object
   });
 }
-},{"react-router":"node_modules/react-router/esm/react-router.js","@babel/runtime/helpers/esm/inheritsLoose":"node_modules/@babel/runtime/helpers/esm/inheritsLoose.js","react":"node_modules/react/index.js","history":"node_modules/history/esm/history.js","prop-types":"node_modules/prop-types/index.js","tiny-warning":"node_modules/tiny-warning/dist/tiny-warning.esm.js","@babel/runtime/helpers/esm/extends":"node_modules/@babel/runtime/helpers/esm/extends.js","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js","tiny-invariant":"node_modules/tiny-invariant/dist/tiny-invariant.esm.js"}],"components/Desktop/LandingPageDesktop/Group89/Group89.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Desktop/LandingPageDesktop/Group89/index.jsx":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-require("./Group89.css");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Group89(props) {
-  var line4 = props.line4,
-      line5 = props.line5,
-      line6 = props.line6,
-      line7 = props.line7,
-      line8 = props.line8;
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "group-89"
-  }, /*#__PURE__*/_react.default.createElement("img", {
-    className: "line-4",
-    src: line4
-  }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "line-",
-    src: line5
-  }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "line--1",
-    src: line6
-  }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "line--1",
-    src: line7
-  }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "line-",
-    src: line8
-  }));
-}
-
-var _default = Group89;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","./Group89.css":"components/Desktop/LandingPageDesktop/Group89/Group89.css"}],"node_modules/animejs/lib/anime.es.js":[function(require,module,exports) {
+},{"react-router":"node_modules/react-router/esm/react-router.js","@babel/runtime/helpers/esm/inheritsLoose":"node_modules/@babel/runtime/helpers/esm/inheritsLoose.js","react":"node_modules/react/index.js","history":"node_modules/history/esm/history.js","prop-types":"node_modules/prop-types/index.js","tiny-warning":"node_modules/tiny-warning/dist/tiny-warning.esm.js","@babel/runtime/helpers/esm/extends":"node_modules/@babel/runtime/helpers/esm/extends.js","@babel/runtime/helpers/esm/objectWithoutPropertiesLoose":"node_modules/@babel/runtime/helpers/esm/objectWithoutPropertiesLoose.js","tiny-invariant":"node_modules/tiny-invariant/dist/tiny-invariant.esm.js"}],"node_modules/animejs/lib/anime.es.js":[function(require,module,exports) {
 "use strict";
 
 Object.defineProperty(exports, "__esModule", {
@@ -36142,1657 +36095,7 @@ function timeline_load_initial_values(components) {
 
 const loadTimelineData = timeline_load_initial_values;
 exports.loadTimelineData = loadTimelineData;
-},{"animejs/lib/anime.es.js":"node_modules/animejs/lib/anime.es.js"}],"components/Desktop/LandingPageDesktop/GetAQuoteButton22/GetAQuoteButton22.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Desktop/LandingPageDesktop/GetAQuoteButton22/index.jsx":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireWildcard(require("react"));
-
-var _animaTimeline = require("anima-timeline");
-
-require("./GetAQuoteButton22.css");
-
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
-
-function GetAQuoteButton22(props) {
-  var children = props.children;
-  (0, _react.useEffect)(function () {
-    (0, _animaTimeline.loadTimelineData)(x2607547TimelineData);
-  }, []);
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "x2607547 animate-enter2 component component-wrapper not-ready"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "master-button-0sW4MC"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "button-i260754751-V82dLG valign-text-middle"
-  }, children)));
-}
-
-var x2607547TimelineData = [{
-  initial_state_name: "Property-1=Primary",
-  root_element: ".x2607547",
-  states_flow: {
-    "Property-1=Primary": {
-      listeners: [],
-      overrides: {}
-    },
-    "Property-1=Secondary": {
-      listeners: [],
-      overrides: {}
-    },
-    "Property-1=Tertiary": {
-      listeners: [],
-      overrides: {}
-    }
-  }
-}];
-var _default = GetAQuoteButton22;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","anima-timeline":"node_modules/anima-timeline/index-esm.js","./GetAQuoteButton22.css":"components/Desktop/LandingPageDesktop/GetAQuoteButton22/GetAQuoteButton22.css"}],"components/Desktop/LandingPageDesktop/Frame29/Frame29.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Desktop/LandingPageDesktop/Frame29/index.jsx":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-require("./Frame29.css");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Frame29(props) {
-  var text9 = props.text9,
-      spanText = props.spanText,
-      spanText2 = props.spanText2,
-      spanText3 = props.spanText3,
-      spanText4 = props.spanText4,
-      spanText5 = props.spanText5;
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "frame-29-1"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "text-4 valign-text-middle typographyheadlineh4-extrabold-24"
-  }, text9), /*#__PURE__*/_react.default.createElement("p", {
-    className: "text-5 typography-body-smalltext-14-regular"
-  }, /*#__PURE__*/_react.default.createElement("span", {
-    className: "span typography-body-smalltext-14-regular"
-  }, spanText), /*#__PURE__*/_react.default.createElement("span", {
-    className: "span-1 typography-body-smalltext-14-regular"
-  }, spanText2), /*#__PURE__*/_react.default.createElement("span", {
-    className: "span2-1 typographybodycaption-14-semi-bold"
-  }, spanText3), /*#__PURE__*/_react.default.createElement("span", {
-    className: "span-1 typography-body-smalltext-14-regular"
-  }, spanText4), /*#__PURE__*/_react.default.createElement("span", {
-    className: "span typography-body-smalltext-14-regular"
-  }, spanText5)));
-}
-
-var _default = Frame29;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","./Frame29.css":"components/Desktop/LandingPageDesktop/Frame29/Frame29.css"}],"components/Desktop/LandingPageDesktop/Frame292/Frame292.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Desktop/LandingPageDesktop/Frame292/index.jsx":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-require("./Frame292.css");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Frame292(props) {
-  var text13 = props.text13,
-      text14 = props.text14;
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "frame-29-2"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "text-8 valign-text-middle typographyheadlineh4-extrabold-24"
-  }, text13), /*#__PURE__*/_react.default.createElement("p", {
-    className: "text-9 typography-body-smalltext-14-regular"
-  }, text14));
-}
-
-var _default = Frame292;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","./Frame292.css":"components/Desktop/LandingPageDesktop/Frame292/Frame292.css"}],"components/Desktop/LandingPageDesktop/Frame293/Frame293.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Desktop/LandingPageDesktop/Frame293/index.jsx":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-require("./Frame293.css");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Frame293(props) {
-  var text11 = props.text11,
-      text12 = props.text12;
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "frame-29-3"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "text-6 valign-text-middle typographyheadlineh4-extrabold-24"
-  }, text11), /*#__PURE__*/_react.default.createElement("p", {
-    className: "text-7 typography-body-smalltext-14-regular"
-  }, text12));
-}
-
-var _default = Frame293;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","./Frame293.css":"components/Desktop/LandingPageDesktop/Frame293/Frame293.css"}],"components/Desktop/LandingPageDesktop/Group109/Group109.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Desktop/LandingPageDesktop/Group109/index.jsx":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-require("./Group109.css");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Group109(props) {
-  var ourProjects = props.ourProjects,
-      text21 = props.text21,
-      className = props.className;
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "group-109 ".concat(className || "")
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "our-projects valign-text-middle typographyheadlineh2-extrabold-40"
-  }, ourProjects), /*#__PURE__*/_react.default.createElement("p", {
-    className: "text-10 valign-text-middle typographybody16-regular"
-  }, text21));
-}
-
-var _default = Group109;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","./Group109.css":"components/Desktop/LandingPageDesktop/Group109/Group109.css"}],"components/Desktop/LandingPageDesktop/Group139/Group139.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Desktop/LandingPageDesktop/Group139/index.jsx":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-require("./Group139.css");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Group139(props) {
-  var children = props.children;
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "group-139"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "overlap-group1-1"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "rectangle-46"
-  }), /*#__PURE__*/_react.default.createElement("div", {
-    className: "price overpass-extra-bold-shark-14px"
-  }, children)));
-}
-
-var _default = Group139;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","./Group139.css":"components/Desktop/LandingPageDesktop/Group139/Group139.css"}],"components/Desktop/LandingPageDesktop/Group104/Group104.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Desktop/LandingPageDesktop/Group104/index.jsx":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-var _Group = _interopRequireDefault(require("../Group139"));
-
-require("./Group104.css");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Group104(props) {
-  var apartments = props.apartments,
-      buildiings = props.buildiings,
-      place = props.place,
-      living = props.living,
-      group139Props = props.group139Props;
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "group-104"
-  }, /*#__PURE__*/_react.default.createElement(_Group.default, null, group139Props.children), /*#__PURE__*/_react.default.createElement("div", {
-    className: "apartments typographybodycaption-14-semi-bold"
-  }, apartments), /*#__PURE__*/_react.default.createElement("div", {
-    className: "buildiings typographybodycaption-14-semi-bold"
-  }, buildiings), /*#__PURE__*/_react.default.createElement("div", {
-    className: "lpd-place typographybodycaption-14-semi-bold"
-  }, place), /*#__PURE__*/_react.default.createElement("div", {
-    className: "living typographybodycaption-14-semi-bold"
-  }, living));
-}
-
-var _default = Group104;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","../Group139":"components/Desktop/LandingPageDesktop/Group139/index.jsx","./Group104.css":"components/Desktop/LandingPageDesktop/Group104/Group104.css"}],"components/Desktop/LandingPageDesktop/Group99/Group99.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Desktop/LandingPageDesktop/Group99/index.jsx":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-require("./Group99.css");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Group99(props) {
-  var text1 = props.text1,
-      surname = props.surname,
-      className = props.className;
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "group-99 ".concat(className || "")
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "text-11 valign-text-middle typographyheadlineh4-extrabold-24"
-  }, text1), /*#__PURE__*/_react.default.createElement("p", {
-    className: "surname typography-body-smalltext-14-regular"
-  }, surname));
-}
-
-var _default = Group99;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","./Group99.css":"components/Desktop/LandingPageDesktop/Group99/Group99.css"}],"components/Desktop/LandingPageDesktop/ProjectCard3/ProjectCard3.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Desktop/LandingPageDesktop/ProjectCard3/index.jsx":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-var _Group = _interopRequireDefault(require("../Group99"));
-
-require("./ProjectCard3.css");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function ProjectCard3(props) {
-  var rectangle62 = props.rectangle62,
-      group99Props = props.group99Props;
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "project-card"
-  }, /*#__PURE__*/_react.default.createElement("img", {
-    className: "rectangle-62",
-    src: rectangle62
-  }), /*#__PURE__*/_react.default.createElement(_Group.default, {
-    text1: group99Props.text1,
-    surname: group99Props.surname
-  }));
-}
-
-var _default = ProjectCard3;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","../Group99":"components/Desktop/LandingPageDesktop/Group99/index.jsx","./ProjectCard3.css":"components/Desktop/LandingPageDesktop/ProjectCard3/ProjectCard3.css"}],"components/Desktop/LandingPageDesktop/Button22/Button22.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Desktop/LandingPageDesktop/Button22/index.jsx":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireWildcard(require("react"));
-
-var _animaTimeline = require("anima-timeline");
-
-require("./Button22.css");
-
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
-
-function Button22(props) {
-  var children = props.children;
-  (0, _react.useEffect)(function () {
-    (0, _animaTimeline.loadTimelineData)(x2607791TimelineData);
-  }, []);
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "x2607791 component component-wrapper not-ready"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "master-button-gAXIb9"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "button-i260779151-GqONSi valign-text-middle"
-  }, children)));
-}
-
-var x2607791TimelineData = [{
-  initial_state_name: "Property-1=Tertiary",
-  root_element: ".x2607791",
-  states_flow: {
-    "Property-1=Primary": {
-      listeners: [],
-      overrides: {
-        "": {
-          position: "relative"
-        }
-      }
-    },
-    "Property-1=Secondary": {
-      listeners: [],
-      overrides: {
-        "": {
-          position: "relative"
-        }
-      }
-    },
-    "Property-1=Tertiary": {
-      listeners: [],
-      overrides: {}
-    }
-  }
-}];
-var _default = Button22;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","anima-timeline":"node_modules/anima-timeline/index-esm.js","./Button22.css":"components/Desktop/LandingPageDesktop/Button22/Button22.css"}],"components/Desktop/LandingPageDesktop/Group102/Group102.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Desktop/LandingPageDesktop/Group102/index.jsx":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-require("./Group102.css");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Group102(props) {
-  var construction = props.construction,
-      place = props.place;
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "group-102"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "group-103"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "overlap-group1-2"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "rectangle-46-1"
-  }), /*#__PURE__*/_react.default.createElement("div", {
-    className: "construction overpass-extra-bold-shark-14px"
-  }, construction))), /*#__PURE__*/_react.default.createElement("div", {
-    className: "place-1 typographybodycaption-14-semi-bold"
-  }, place));
-}
-
-var _default = Group102;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","./Group102.css":"components/Desktop/LandingPageDesktop/Group102/Group102.css"}],"components/Desktop/LandingPageDesktop/Group69/Group69.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Desktop/LandingPageDesktop/Group69/index.jsx":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-require("./Group69.css");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Group69(props) {
-  var number = props.number,
-      text4 = props.text4,
-      className = props.className;
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "group-69 ".concat(className || "")
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "number valign-text-middle typographyheadlineh2-extrabold-40"
-  }, number), /*#__PURE__*/_react.default.createElement("div", {
-    className: "text-25 valign-text-middle typographybody16-regular"
-  }, text4));
-}
-
-var _default = Group69;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","./Group69.css":"components/Desktop/LandingPageDesktop/Group69/Group69.css"}],"components/Desktop/LandingPageDesktop/Button8/Button8.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Desktop/LandingPageDesktop/Button8/index.jsx":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireWildcard(require("react"));
-
-var _animaTimeline = require("anima-timeline");
-
-require("./Button8.css");
-
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
-
-function Button8(props) {
-  var children = props.children,
-      className = props.className;
-  (0, _react.useEffect)(function () {
-    (0, _animaTimeline.loadTimelineData)(i2601231466600TimelineData);
-  }, []);
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "i26012314-66600 component component-wrapper not-ready ".concat(className || "")
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "master-button-4KxvdI"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "button-i2601231466-hdozzc valign-text-middle"
-  }, children)));
-}
-
-var i2601231466600TimelineData = [{
-  initial_state_name: "Property-1=Primary",
-  root_element: ".i26012314-66600",
-  states_flow: {
-    "Property-1=Primary": {
-      listeners: [],
-      overrides: {}
-    },
-    "Property-1=Secondary": {
-      listeners: [],
-      overrides: {}
-    },
-    "Property-1=Tertiary": {
-      listeners: [],
-      overrides: {}
-    }
-  }
-}];
-var _default = Button8;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","anima-timeline":"node_modules/anima-timeline/index-esm.js","./Button8.css":"components/Desktop/LandingPageDesktop/Button8/Button8.css"}],"components/Desktop/LandingPageDesktop/PackageCard/PackageCard.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Desktop/LandingPageDesktop/PackageCard/index.jsx":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-var _Group = _interopRequireDefault(require("../Group69"));
-
-var _Button = _interopRequireDefault(require("../Button8"));
-
-require("./PackageCard.css");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function PackageCard(props) {
-  var text64 = props.text64,
-      icons = props.icons,
-      group69Props = props.group69Props,
-      button8Props = props.button8Props;
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "package-card"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "text-24 valign-text-middle typographyheadlineh4-extrabold-24"
-  }, text64), /*#__PURE__*/_react.default.createElement("div", {
-    className: "icons",
-    style: {
-      backgroundImage: "url(".concat(icons, ")")
-    }
-  }), /*#__PURE__*/_react.default.createElement(_Group.default, {
-    number: group69Props.number,
-    text4: group69Props.text4
-  }), /*#__PURE__*/_react.default.createElement(_Button.default, null, button8Props.children));
-}
-
-var _default = PackageCard;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","../Group69":"components/Desktop/LandingPageDesktop/Group69/index.jsx","../Button8":"components/Desktop/LandingPageDesktop/Button8/index.jsx","./PackageCard.css":"components/Desktop/LandingPageDesktop/PackageCard/PackageCard.css"}],"components/Desktop/LandingPageDesktop/Group111/Group111.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Desktop/LandingPageDesktop/Group111/index.jsx":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-var _Group = _interopRequireDefault(require("../Group69"));
-
-var _Button = _interopRequireDefault(require("../Button8"));
-
-require("./Group111.css");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Group111(props) {
-  var basicI2601231166 = props.basicI2601231166,
-      icons = props.icons,
-      group69Props = props.group69Props,
-      button8Props = props.button8Props;
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "group-111"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "basic-i2601231166 valign-text-middle typographyheadlineh4-extrabold-24"
-  }, basicI2601231166), /*#__PURE__*/_react.default.createElement("img", {
-    className: "icons-1",
-    src: icons
-  }), /*#__PURE__*/_react.default.createElement(_Group.default, {
-    number: group69Props.number,
-    text4: group69Props.text4,
-    className: "group-69-1"
-  }), /*#__PURE__*/_react.default.createElement(_Button.default, {
-    className: "i26012311-66600"
-  }, button8Props.children));
-}
-
-var _default = Group111;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","../Group69":"components/Desktop/LandingPageDesktop/Group69/index.jsx","../Button8":"components/Desktop/LandingPageDesktop/Button8/index.jsx","./Group111.css":"components/Desktop/LandingPageDesktop/Group111/Group111.css"}],"components/Desktop/LandingPageDesktop/Group273/Group273.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Desktop/LandingPageDesktop/Group273/index.jsx":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-require("./Group273.css");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Group273(props) {
-  var text278 = props.text278,
-      ellipse1 = props.ellipse1,
-      name = props.name,
-      text279 = props.text279,
-      className = props.className;
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "group-27-1 ".concat(className || "")
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "overlap-group3"
-  }, /*#__PURE__*/_react.default.createElement("p", {
-    className: "text-54 typographybodycaption-14-semi-bold"
-  }, text278), /*#__PURE__*/_react.default.createElement("div", {
-    className: "group-120"
-  }, /*#__PURE__*/_react.default.createElement("img", {
-    className: "ellipse-1",
-    src: ellipse1
-  }), /*#__PURE__*/_react.default.createElement("div", {
-    className: "flex-col-1"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "name valign-text-middle typographyheadlineh3-extrabold-30"
-  }, name), /*#__PURE__*/_react.default.createElement("div", {
-    className: "text-55 valign-text-middle typographybody16-regular"
-  }, text279)))));
-}
-
-var _default = Group273;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","./Group273.css":"components/Desktop/LandingPageDesktop/Group273/Group273.css"}],"components/Desktop/LandingPageDesktop/Group129/Group129.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Desktop/LandingPageDesktop/Group129/index.jsx":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-require("./Group129.css");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Group129() {
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "group-129"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "ellipse-99"
-  }), /*#__PURE__*/_react.default.createElement("div", {
-    className: "ellipse-10"
-  }), /*#__PURE__*/_react.default.createElement("div", {
-    className: "ellipse-10"
-  }));
-}
-
-var _default = Group129;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","./Group129.css":"components/Desktop/LandingPageDesktop/Group129/Group129.css"}],"components/Desktop/LandingPageDesktop/Group114/Group114.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Desktop/LandingPageDesktop/Group114/index.jsx":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-require("./Group114.css");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Group114(props) {
-  var costEstimator = props.costEstimator,
-      text69 = props.text69;
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "group-114"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "cost-estimator valign-text-middle typographyheadlineh2-extrabold-40"
-  }, costEstimator), /*#__PURE__*/_react.default.createElement("p", {
-    className: "text-58 valign-text-middle typographybody16-regular"
-  }, text69));
-}
-
-var _default = Group114;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","./Group114.css":"components/Desktop/LandingPageDesktop/Group114/Group114.css"}],"components/Desktop/LandingPageDesktop/EstimateNowButton/EstimateNowButton.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Desktop/LandingPageDesktop/EstimateNowButton/index.jsx":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireWildcard(require("react"));
-
-var _animaTimeline = require("anima-timeline");
-
-require("./EstimateNowButton.css");
-
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
-
-function EstimateNowButton(props) {
-  var children = props.children;
-  (0, _react.useEffect)(function () {
-    (0, _animaTimeline.loadTimelineData)(x26012333TimelineData);
-  }, []);
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "x26012333 component component-wrapper not-ready"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "master-button-vdtmmz"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "button-i2601233351-k5Tboy valign-text-middle"
-  }, children)));
-}
-
-var x26012333TimelineData = [{
-  initial_state_name: "Property-1=Primary",
-  root_element: ".x26012333",
-  states_flow: {
-    "Property-1=Primary": {
-      listeners: [],
-      overrides: {}
-    },
-    "Property-1=Secondary": {
-      listeners: [],
-      overrides: {
-        "": {
-          position: "relative"
-        }
-      }
-    },
-    "Property-1=Tertiary": {
-      listeners: [],
-      overrides: {
-        "": {
-          position: "relative"
-        }
-      }
-    }
-  }
-}];
-var _default = EstimateNowButton;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","anima-timeline":"node_modules/anima-timeline/index-esm.js","./EstimateNowButton.css":"components/Desktop/LandingPageDesktop/EstimateNowButton/EstimateNowButton.css"}],"components/Desktop/LandingPageDesktop/Frame1/Frame1.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Desktop/LandingPageDesktop/Frame1/index.jsx":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-require("./Frame1.css");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Frame1(props) {
-  var children = props.children,
-      className = props.className;
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "frame-1 border-1px-white ".concat(className || "")
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "text-59 inter-regular-normal-white-14px"
-  }, children));
-}
-
-var _default = Frame1;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","./Frame1.css":"components/Desktop/LandingPageDesktop/Frame1/Frame1.css"}],"components/Desktop/LandingPageDesktop/Group117/Group117.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Desktop/LandingPageDesktop/Group117/index.jsx":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-var _Frame = _interopRequireDefault(require("../Frame1"));
-
-require("./Group117.css");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Group117(props) {
-  var frame1Props = props.frame1Props,
-      frame12Props = props.frame12Props;
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "group-117"
-  }, /*#__PURE__*/_react.default.createElement(_Frame.default, null, frame1Props.children), /*#__PURE__*/_react.default.createElement(_Frame.default, {
-    className: "frame-1-1"
-  }, frame12Props.children));
-}
-
-var _default = Group117;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","../Frame1":"components/Desktop/LandingPageDesktop/Frame1/index.jsx","./Group117.css":"components/Desktop/LandingPageDesktop/Group117/Group117.css"}],"components/Desktop/LandingPageDesktop/Group156/Group156.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Desktop/LandingPageDesktop/Group156/index.jsx":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-require("./Group156.css");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Group156(props) {
-  var image2 = props.image2,
-      image3 = props.image3,
-      image4 = props.image4,
-      image5 = props.image5,
-      image6 = props.image6,
-      image7 = props.image7;
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "group-156"
-  }, /*#__PURE__*/_react.default.createElement("img", {
-    className: "image-2",
-    src: image2
-  }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "image-",
-    src: image3
-  }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "image-4",
-    src: image4
-  }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "image-",
-    src: image5
-  }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "image-6",
-    src: image6
-  }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "image-",
-    src: image7
-  }));
-}
-
-var _default = Group156;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","./Group156.css":"components/Desktop/LandingPageDesktop/Group156/Group156.css"}],"components/Desktop/LandingPageDesktop/Group1292/Group1292.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Desktop/LandingPageDesktop/Group1292/index.jsx":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-require("./Group1292.css");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Group1292() {
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "group-129-1"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "ellipse-99-1"
-  }), /*#__PURE__*/_react.default.createElement("div", {
-    className: "ellipse-100"
-  }));
-}
-
-var _default = Group1292;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","./Group1292.css":"components/Desktop/LandingPageDesktop/Group1292/Group1292.css"}],"components/Desktop/LandingPageDesktop/White/White.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Desktop/LandingPageDesktop/White/index.jsx":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-require("./White.css");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function White(props) {
-  var src = props.src,
-      className = props.className;
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "white ".concat(className || "")
-  }, /*#__PURE__*/_react.default.createElement("img", {
-    className: "vector",
-    src: src
-  }));
-}
-
-var _default = White;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","./White.css":"components/Desktop/LandingPageDesktop/White/White.css"}],"components/Desktop/LandingPageDesktop/Group86/Group86.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Desktop/LandingPageDesktop/Group86/index.jsx":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-var _White = _interopRequireDefault(require("../White"));
-
-require("./Group86.css");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Group86(props) {
-  var group85 = props.group85,
-      whiteProps = props.whiteProps;
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "group-86"
-  }, /*#__PURE__*/_react.default.createElement(_White.default, {
-    src: whiteProps.src
-  }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "group-85",
-    src: group85
-  }));
-}
-
-var _default = Group86;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","../White":"components/Desktop/LandingPageDesktop/White/index.jsx","./Group86.css":"components/Desktop/LandingPageDesktop/Group86/Group86.css"}],"components/Desktop/LandingPageDesktop/GetAQuoteButton222/GetAQuoteButton222.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Desktop/LandingPageDesktop/GetAQuoteButton222/index.jsx":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireWildcard(require("react"));
-
-var _animaTimeline = require("anima-timeline");
-
-require("./GetAQuoteButton222.css");
-
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
-
-function GetAQuoteButton222(props) {
-  var children = props.children;
-  (0, _react.useEffect)(function () {
-    (0, _animaTimeline.loadTimelineData)(i2601234964120TimelineData);
-  }, []);
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "i26012349-64120 component component-wrapper not-ready"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "master-button-FifxVR"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "button-i2601234964-yyNXsM valign-text-middle"
-  }, children)));
-}
-
-var i2601234964120TimelineData = [{
-  initial_state_name: "Property-1=Primary",
-  root_element: ".i26012349-64120",
-  states_flow: {
-    "Property-1=Primary": {
-      listeners: [],
-      overrides: {}
-    },
-    "Property-1=Secondary": {
-      listeners: [],
-      overrides: {}
-    },
-    "Property-1=Tertiary": {
-      listeners: [],
-      overrides: {}
-    }
-  }
-}];
-var _default = GetAQuoteButton222;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","anima-timeline":"node_modules/anima-timeline/index-esm.js","./GetAQuoteButton222.css":"components/Desktop/LandingPageDesktop/GetAQuoteButton222/GetAQuoteButton222.css"}],"components/Desktop/LandingPageDesktop/HeaderWithBackground9/HeaderWithBackground9.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Desktop/LandingPageDesktop/HeaderWithBackground9/index.jsx":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-var _Group = _interopRequireDefault(require("../Group86"));
-
-var _GetAQuoteButton = _interopRequireDefault(require("../GetAQuoteButton222"));
-
-require("./HeaderWithBackground9.css");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function HeaderWithBackground9(props) {
-  var place = props.place,
-      unselectedI2601234 = props.unselectedI2601234,
-      projects = props.projects,
-      unselectedI26012342 = props.unselectedI26012342,
-      unselectedI26012343 = props.unselectedI26012343,
-      unselectedI26012344 = props.unselectedI26012344,
-      unselectedI26012345 = props.unselectedI26012345,
-      unselectedI26012346 = props.unselectedI26012346,
-      group86Props = props.group86Props,
-      getAQuoteButton22Props = props.getAQuoteButton22Props;
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "header-with-background"
-  }, /*#__PURE__*/_react.default.createElement(_Group.default, {
-    group85: group86Props.group85,
-    whiteProps: group86Props.whiteProps
-  }), /*#__PURE__*/_react.default.createElement("div", {
-    className: "frame-34"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "frame-27"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "selected"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "overlap-group1-3"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "rectangle-61"
-  }), /*#__PURE__*/_react.default.createElement("div", {
-    className: "place-2 valign-text-middle overpass-bold-shark-14px"
-  }, place))), /*#__PURE__*/_react.default.createElement("div", {
-    className: "unselected-i2601234-1 valign-text-middle typography-body-smalltext-14-regular"
-  }, unselectedI2601234), /*#__PURE__*/_react.default.createElement("img", {
-    className: "projects",
-    src: projects
-  }), /*#__PURE__*/_react.default.createElement("div", {
-    className: "unselected-i2601234-2 valign-text-middle typography-body-smalltext-14-regular"
-  }, unselectedI26012342), /*#__PURE__*/_react.default.createElement("div", {
-    className: "unselected-i2601234 valign-text-middle typography-body-smalltext-14-regular"
-  }, unselectedI26012343), /*#__PURE__*/_react.default.createElement("div", {
-    className: "unselected-i2601234-4 valign-text-middle typography-body-smalltext-14-regular"
-  }, unselectedI26012344), /*#__PURE__*/_react.default.createElement("div", {
-    className: "unselected-i2601234-5 valign-text-middle typography-body-smalltext-14-regular"
-  }, unselectedI26012345), /*#__PURE__*/_react.default.createElement("div", {
-    className: "unselected-i2601234-3 valign-text-middle typography-body-smalltext-14-regular"
-  }, unselectedI26012346)), /*#__PURE__*/_react.default.createElement(_GetAQuoteButton.default, null, getAQuoteButton22Props.children)));
-}
-
-var _default = HeaderWithBackground9;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","../Group86":"components/Desktop/LandingPageDesktop/Group86/index.jsx","../GetAQuoteButton222":"components/Desktop/LandingPageDesktop/GetAQuoteButton222/index.jsx","./HeaderWithBackground9.css":"components/Desktop/LandingPageDesktop/HeaderWithBackground9/HeaderWithBackground9.css"}],"components/Desktop/LandingPageDesktop/Group86222/Group86222.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Desktop/LandingPageDesktop/Group86222/index.jsx":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-var _White = _interopRequireDefault(require("../White"));
-
-require("./Group86222.css");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Group86222(props) {
-  var group85 = props.group85,
-      whiteProps = props.whiteProps;
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "group-86-1"
-  }, /*#__PURE__*/_react.default.createElement(_White.default, {
-    src: whiteProps.src,
-    className: "white-1"
-  }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "group-85-1",
-    src: group85
-  }));
-}
-
-var _default = Group86222;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","../White":"components/Desktop/LandingPageDesktop/White/index.jsx","./Group86222.css":"components/Desktop/LandingPageDesktop/Group86222/Group86222.css"}],"components/Desktop/LandingPageDesktop/Group324/Group324.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Desktop/LandingPageDesktop/Group324/index.jsx":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-require("./Group324.css");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Group324(props) {
-  var overlapGroup1 = props.overlapGroup1,
-      text7 = props.text7,
-      vector2 = props.vector2,
-      text8 = props.text8,
-      overlapGroup12 = props.overlapGroup12,
-      vector3 = props.vector3,
-      text9 = props.text9;
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "group-32"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "group-189"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "map-pin-1"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "overlap-group1-6",
-    style: {
-      backgroundImage: "url(".concat(overlapGroup1, ")")
-    }
-  }, /*#__PURE__*/_react.default.createElement("img", {
-    className: "vector-3",
-    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-167@2x.svg"
-  }))), /*#__PURE__*/_react.default.createElement("p", {
-    className: "text-26 typographybody16-regular"
-  }, text7)), /*#__PURE__*/_react.default.createElement("div", {
-    className: "group-18"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "phone"
-  }, /*#__PURE__*/_react.default.createElement("img", {
-    className: "vector-5",
-    src: vector2
-  })), /*#__PURE__*/_react.default.createElement("div", {
-    className: "text-2-1 valign-text-middle typographybody16-regular"
-  }, text8)), /*#__PURE__*/_react.default.createElement("div", {
-    className: "group-18"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "mail"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "overlap-group1-5",
-    style: {
-      backgroundImage: "url(".concat(overlapGroup12, ")")
-    }
-  }, /*#__PURE__*/_react.default.createElement("img", {
-    className: "vector-4",
-    src: vector3
-  }))), /*#__PURE__*/_react.default.createElement("div", {
-    className: "text-2-1 valign-text-middle typographybody16-regular"
-  }, text9)));
-}
-
-var _default = Group324;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","./Group324.css":"components/Desktop/LandingPageDesktop/Group324/Group324.css"}],"components/Desktop/LandingPageDesktop/FacebookAppSymbol3/FacebookAppSymbol3.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Desktop/LandingPageDesktop/FacebookAppSymbol3/index.jsx":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-require("./FacebookAppSymbol3.css");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function FacebookAppSymbol3(props) {
-  var src = props.src;
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "facebook-app-symbol"
-  }, /*#__PURE__*/_react.default.createElement("img", {
-    className: "f-1",
-    src: src
-  }));
-}
-
-var _default = FacebookAppSymbol3;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","./FacebookAppSymbol3.css":"components/Desktop/LandingPageDesktop/FacebookAppSymbol3/FacebookAppSymbol3.css"}],"components/Desktop/LandingPageDesktop/Twitter3/Twitter3.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Desktop/LandingPageDesktop/Twitter3/index.jsx":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-require("./Twitter3.css");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Twitter3(props) {
-  var src = props.src;
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "twitter"
-  }, /*#__PURE__*/_react.default.createElement("img", {
-    className: "vector-6",
-    src: src
-  }));
-}
-
-var _default = Twitter3;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","./Twitter3.css":"components/Desktop/LandingPageDesktop/Twitter3/Twitter3.css"}],"components/Desktop/LandingPageDesktop/Frame4/Frame4.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Desktop/LandingPageDesktop/Frame4/index.jsx":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-require("./Frame4.css");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Frame4(props) {
-  var text41 = props.text41,
-      text42 = props.text42,
-      text43 = props.text43,
-      text44 = props.text44,
-      text45 = props.text45,
-      text46 = props.text46,
-      text47 = props.text47,
-      className = props.className;
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "frame-4-1 ".concat(className || "")
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "text-30 valign-text-middle typographybody16-regular"
-  }, text41), /*#__PURE__*/_react.default.createElement("div", {
-    className: "text-3-1 valign-text-middle typographybody16-regular"
-  }, text42), /*#__PURE__*/_react.default.createElement("div", {
-    className: "text-3-1 valign-text-middle typographybody16-regular"
-  }, text43), /*#__PURE__*/_react.default.createElement("div", {
-    className: "text-3-1 valign-text-middle typographybody16-regular"
-  }, text44), /*#__PURE__*/_react.default.createElement("div", {
-    className: "text-3-1 valign-text-middle typographybody16-regular"
-  }, text45), /*#__PURE__*/_react.default.createElement("div", {
-    className: "text-3-1 valign-text-middle typographybody16-regular"
-  }, text46), /*#__PURE__*/_react.default.createElement("div", {
-    className: "text-3-1 valign-text-middle typographybody16-regular"
-  }, text47));
-}
-
-var _default = Frame4;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","./Frame4.css":"components/Desktop/LandingPageDesktop/Frame4/Frame4.css"}],"components/Desktop/LandingPageDesktop/Frame53/Frame53.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Desktop/LandingPageDesktop/Frame53/index.jsx":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-var _Frame = _interopRequireDefault(require("../Frame4"));
-
-require("./Frame53.css");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Frame53(props) {
-  var text40 = props.text40,
-      frame4Props = props.frame4Props;
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "frame-5"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "text-29 valign-text-middle typographyheadlineh5-extrabold-20"
-  }, text40), /*#__PURE__*/_react.default.createElement(_Frame.default, {
-    text41: frame4Props.text41,
-    text42: frame4Props.text42,
-    text43: frame4Props.text43,
-    text44: frame4Props.text44,
-    text45: frame4Props.text45,
-    text46: frame4Props.text46,
-    text47: frame4Props.text47
-  }));
-}
-
-var _default = Frame53;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","../Frame4":"components/Desktop/LandingPageDesktop/Frame4/index.jsx","./Frame53.css":"components/Desktop/LandingPageDesktop/Frame53/Frame53.css"}],"components/Desktop/LandingPageDesktop/Frame42/Frame42.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Desktop/LandingPageDesktop/Frame42/index.jsx":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-require("./Frame42.css");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Frame42(props) {
-  var text49 = props.text49,
-      text50 = props.text50,
-      place = props.place,
-      text51 = props.text51,
-      text52 = props.text52,
-      className = props.className;
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "frame-4-2 ".concat(className || "")
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "text-38 valign-text-middle overpass-extra-bold-white-16px"
-  }, text49), /*#__PURE__*/_react.default.createElement("div", {
-    className: "frame-1580"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "text-39 valign-text-middle typographybody16-regular"
-  }, text50), /*#__PURE__*/_react.default.createElement("div", {
-    className: "frame-1580-item valign-text-middle typographybody16-regular"
-  }, place), /*#__PURE__*/_react.default.createElement("div", {
-    className: "frame-1580-item valign-text-middle typographybody16-regular"
-  }, text51), /*#__PURE__*/_react.default.createElement("div", {
-    className: "frame-1580-item valign-text-middle typographybody16-regular"
-  }, text52)));
-}
-
-var _default = Frame42;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","./Frame42.css":"components/Desktop/LandingPageDesktop/Frame42/Frame42.css"}],"components/Desktop/LandingPageDesktop/Frame6/Frame6.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Desktop/LandingPageDesktop/Frame6/index.jsx":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-var _Frame = _interopRequireDefault(require("../Frame42"));
-
-require("./Frame6.css");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Frame6(props) {
-  var text48 = props.text48,
-      frame42Props = props.frame42Props,
-      frame422Props = props.frame422Props;
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "frame-6"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "text-37 valign-text-middle typographyheadlineh5-extrabold-20"
-  }, text48), /*#__PURE__*/_react.default.createElement("div", {
-    className: "frame-1577"
-  }, /*#__PURE__*/_react.default.createElement(_Frame.default, {
-    text49: frame42Props.text49,
-    text50: frame42Props.text50,
-    place: frame42Props.place,
-    text51: frame42Props.text51,
-    text52: frame42Props.text52
-  }), /*#__PURE__*/_react.default.createElement(_Frame.default, {
-    text49: frame422Props.text49,
-    text50: frame422Props.text50,
-    place: frame422Props.place,
-    text51: frame422Props.text51,
-    text52: frame422Props.text52,
-    className: "frame-5-1"
-  })));
-}
-
-var _default = Frame6;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","../Frame42":"components/Desktop/LandingPageDesktop/Frame42/index.jsx","./Frame6.css":"components/Desktop/LandingPageDesktop/Frame6/Frame6.css"}],"components/Desktop/LandingPageDesktop/Frame7/Frame7.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Desktop/LandingPageDesktop/Frame7/index.jsx":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-var _Frame = _interopRequireDefault(require("../Frame4"));
-
-require("./Frame7.css");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Frame7(props) {
-  var text56 = props.text56,
-      frame4Props = props.frame4Props;
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "frame-7"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "text-45 valign-text-middle typographyheadlineh5-extrabold-20"
-  }, text56), /*#__PURE__*/_react.default.createElement(_Frame.default, {
-    text41: frame4Props.text41,
-    text42: frame4Props.text42,
-    text43: frame4Props.text43,
-    text44: frame4Props.text44,
-    text45: frame4Props.text45,
-    text46: frame4Props.text46,
-    text47: frame4Props.text47,
-    className: "frame-4"
-  }));
-}
-
-var _default = Frame7;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","../Frame4":"components/Desktop/LandingPageDesktop/Frame4/index.jsx","./Frame7.css":"components/Desktop/LandingPageDesktop/Frame7/Frame7.css"}],"components/Desktop/LandingPageDesktop/Footer2/Footer2.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Desktop/LandingPageDesktop/Footer2/index.jsx":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-var _Group = _interopRequireDefault(require("../Group86222"));
-
-var _Group2 = _interopRequireDefault(require("../Group324"));
-
-var _FacebookAppSymbol = _interopRequireDefault(require("../FacebookAppSymbol3"));
-
-var _Twitter = _interopRequireDefault(require("../Twitter3"));
-
-var _Frame = _interopRequireDefault(require("../Frame53"));
-
-var _Frame2 = _interopRequireDefault(require("../Frame6"));
-
-var _Frame3 = _interopRequireDefault(require("../Frame7"));
-
-require("./Footer2.css");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Footer2(props) {
-  var overlapGroup = props.overlapGroup,
-      vector2 = props.vector2,
-      group8622Props = props.group8622Props,
-      group32Props = props.group32Props,
-      facebookAppSymbol3Props = props.facebookAppSymbol3Props,
-      twitter3Props = props.twitter3Props,
-      frame53Props = props.frame53Props,
-      frame6Props = props.frame6Props,
-      frame7Props = props.frame7Props;
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "footer"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "frame-1585"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "frame-1578"
-  }, /*#__PURE__*/_react.default.createElement(_Group.default, {
-    group85: group8622Props.group85,
-    whiteProps: group8622Props.whiteProps
-  }), /*#__PURE__*/_react.default.createElement("div", {
-    className: "frame-1584"
-  }, /*#__PURE__*/_react.default.createElement(_Group2.default, {
-    overlapGroup1: group32Props.overlapGroup1,
-    text7: group32Props.text7,
-    vector2: group32Props.vector2,
-    text8: group32Props.text8,
-    overlapGroup12: group32Props.overlapGroup12,
-    vector3: group32Props.vector3,
-    text9: group32Props.text9
-  }), /*#__PURE__*/_react.default.createElement("div", {
-    className: "frame-1583"
-  }, /*#__PURE__*/_react.default.createElement(_FacebookAppSymbol.default, {
-    src: facebookAppSymbol3Props.src
-  }), /*#__PURE__*/_react.default.createElement("div", {
-    className: "instagram"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "overlap-group1-4",
-    style: {
-      backgroundImage: "url(".concat(overlapGroup, ")")
-    }
-  }, /*#__PURE__*/_react.default.createElement("img", {
-    className: "vector-2",
-    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-56@2x.svg"
-  }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "vector-1",
-    src: vector2
-  }))), /*#__PURE__*/_react.default.createElement(_Twitter.default, {
-    src: twitter3Props.src
-  })))), /*#__PURE__*/_react.default.createElement(_Frame.default, {
-    text40: frame53Props.text40,
-    frame4Props: frame53Props.frame4Props
-  }), /*#__PURE__*/_react.default.createElement(_Frame2.default, {
-    text48: frame6Props.text48,
-    frame42Props: frame6Props.frame42Props,
-    frame422Props: frame6Props.frame422Props
-  })), /*#__PURE__*/_react.default.createElement(_Frame3.default, {
-    text56: frame7Props.text56,
-    frame4Props: frame7Props.frame4Props
-  }));
-}
-
-var _default = Footer2;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","../Group86222":"components/Desktop/LandingPageDesktop/Group86222/index.jsx","../Group324":"components/Desktop/LandingPageDesktop/Group324/index.jsx","../FacebookAppSymbol3":"components/Desktop/LandingPageDesktop/FacebookAppSymbol3/index.jsx","../Twitter3":"components/Desktop/LandingPageDesktop/Twitter3/index.jsx","../Frame53":"components/Desktop/LandingPageDesktop/Frame53/index.jsx","../Frame6":"components/Desktop/LandingPageDesktop/Frame6/index.jsx","../Frame7":"components/Desktop/LandingPageDesktop/Frame7/index.jsx","./Footer2.css":"components/Desktop/LandingPageDesktop/Footer2/Footer2.css"}],"components/Desktop/LandingPageDesktop/X01LandingPageDesktop/X01LandingPageDesktop.css":[function(require,module,exports) {
+},{"animejs/lib/anime.es.js":"node_modules/animejs/lib/anime.es.js"}],"components/Desktop/LandingPageDesktop/X01LandingPageDesktop/X01LandingPageDesktop.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
@@ -37805,54 +36108,20 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 
-var _react = _interopRequireDefault(require("react"));
+var _react = _interopRequireWildcard(require("react"));
 
-var _Group = _interopRequireDefault(require("../Group89"));
-
-var _GetAQuoteButton = _interopRequireDefault(require("../GetAQuoteButton22"));
-
-var _Frame = _interopRequireDefault(require("../Frame29"));
-
-var _Frame2 = _interopRequireDefault(require("../Frame292"));
-
-var _Frame3 = _interopRequireDefault(require("../Frame293"));
-
-var _Group2 = _interopRequireDefault(require("../Group109"));
-
-var _Group3 = _interopRequireDefault(require("../Group104"));
-
-var _ProjectCard = _interopRequireDefault(require("../ProjectCard3"));
-
-var _Button = _interopRequireDefault(require("../Button22"));
-
-var _Group4 = _interopRequireDefault(require("../Group102"));
-
-var _PackageCard = _interopRequireDefault(require("../PackageCard"));
-
-var _Group5 = _interopRequireDefault(require("../Group111"));
-
-var _Group6 = _interopRequireDefault(require("../Group273"));
-
-var _Group7 = _interopRequireDefault(require("../Group129"));
-
-var _Group8 = _interopRequireDefault(require("../Group114"));
-
-var _EstimateNowButton = _interopRequireDefault(require("../EstimateNowButton"));
-
-var _Group9 = _interopRequireDefault(require("../Group117"));
-
-var _Group10 = _interopRequireDefault(require("../Group156"));
-
-var _Group11 = _interopRequireDefault(require("../Group1292"));
-
-var _HeaderWithBackground = _interopRequireDefault(require("../HeaderWithBackground9"));
-
-var _Footer = _interopRequireDefault(require("../Footer2"));
+var _animaTimeline = require("anima-timeline");
 
 require("./X01LandingPageDesktop.css");
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
 
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+// function App() {
+//   return <X01LandingPageDesktop {...x01LandingPageDesktopData} />;
+// }
+// export default App;
 function X01LandingPageDesktop(props) {
   var rectangle2 = props.rectangle2,
       spanText = props.spanText,
@@ -37954,7 +36223,7 @@ function X01LandingPageDesktop(props) {
     className: "lpd-frame-1570"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "lpd-overlap-group"
-  }, /*#__PURE__*/_react.default.createElement(_Group.default, {
+  }, /*#__PURE__*/_react.default.createElement(Group89, {
     line4: group89Props.line4,
     line5: group89Props.line5,
     line6: group89Props.line6,
@@ -37987,7 +36256,7 @@ function X01LandingPageDesktop(props) {
     className: "lpd-span2 "
   }, spanText3))), /*#__PURE__*/_react.default.createElement("p", {
     className: "lpd-text-2 typographybody16-regular"
-  }, text42), /*#__PURE__*/_react.default.createElement(_GetAQuoteButton.default, null, getAQuoteButton2Props.children)))), /*#__PURE__*/_react.default.createElement("div", {
+  }, text42), /*#__PURE__*/_react.default.createElement(GetAQuoteButton22, null, getAQuoteButton2Props.children)))), /*#__PURE__*/_react.default.createElement("div", {
     className: "lpd-header"
   }))), /*#__PURE__*/_react.default.createElement("div", {
     className: "lpd-group-108"
@@ -38004,7 +36273,7 @@ function X01LandingPageDesktop(props) {
   }, /*#__PURE__*/_react.default.createElement("img", {
     className: "lpd-building",
     src: building
-  }), /*#__PURE__*/_react.default.createElement(_Frame.default, {
+  }), /*#__PURE__*/_react.default.createElement(Frame29, {
     text9: frame29Props.text9,
     spanText: frame29Props.spanText,
     spanText2: frame29Props.spanText2,
@@ -38012,282 +36281,1547 @@ function X01LandingPageDesktop(props) {
     spanText4: frame29Props.spanText4,
     spanText5: frame29Props.spanText5
   })), /*#__PURE__*/_react.default.createElement("img", {
-    className: "lpd-rectangle-",
+    className: "lpd-rectangle",
     src: rectangle49
   }), /*#__PURE__*/_react.default.createElement("div", {
     className: "lpd-frame-30"
   }, /*#__PURE__*/_react.default.createElement("img", {
     className: "lpd-plan",
     src: plan
-  }), /*#__PURE__*/_react.default.createElement(_Frame2.default, {
+  }), /*#__PURE__*/_react.default.createElement(Frame292, {
     text13: frame292Props.text13,
     text14: frame292Props.text14
   }))), /*#__PURE__*/_react.default.createElement("div", {
     className: "lpd-flex-col"
   }, /*#__PURE__*/_react.default.createElement("img", {
-    className: "lpd-rectangle-",
+    className: "lpd-rectangle",
     src: rectangle48
   }), /*#__PURE__*/_react.default.createElement("div", {
     className: "lpd-frame-29"
   }, /*#__PURE__*/_react.default.createElement("img", {
-    className: "blueprint",
+    className: "lpd-blueprint",
     src: blueprint
-  }), /*#__PURE__*/_react.default.createElement(_Frame3.default, {
+  }), /*#__PURE__*/_react.default.createElement(Frame293, {
     text11: frame293Props.text11,
     text12: frame293Props.text12
   })), /*#__PURE__*/_react.default.createElement("img", {
-    className: "lpd-rectangle-",
+    className: "lpd-rectangle",
     src: rectangle50
-  })))), /*#__PURE__*/_react.default.createElement(_Group3.default, {
+  })))), /*#__PURE__*/_react.default.createElement(Group109, {
+    ourProjects: group109Props.ourProjects,
+    text21: group109Props.text21
+  }), /*#__PURE__*/_react.default.createElement(Group104, {
     apartments: group104Props.apartments,
     buildiings: group104Props.buildiings,
     place: group104Props.place,
     living: group104Props.living,
     group139Props: group104Props.group139Props
-  }), /*#__PURE__*/_react.default.createElement(_ProjectCard.default, {
+  }), /*#__PURE__*/_react.default.createElement(ProjectCard3, {
+    rectangle62: projectCard3Props.rectangle62,
+    group99Props: projectCard3Props.group99Props
+  }), /*#__PURE__*/_react.default.createElement(ProjectCard3, {
     rectangle62: projectCard32Props.rectangle62,
-    group99Props: projectCard32Props.group99Props,
-    className: "lproject-card-5"
-  }), /*#__PURE__*/_react.default.createElement(_ProjectCard.default, {
+    className: "lpd-project-card-1" //{projectCard32Props.className}
+    ,
+    group99Props: projectCard32Props.group99Props
+  }), /*#__PURE__*/_react.default.createElement(ProjectCard3, {
     rectangle62: projectCard33Props.rectangle62,
-    group99Props: projectCard33Props.group99Props,
-    className: "project-card-7"
-  }), /*#__PURE__*/_react.default.createElement(_ProjectCard.default, {
+    className: "lpd-project-card-2" //{projectCard33Props.className}
+    ,
+    group99Props: projectCard33Props.group99Props
+  }), /*#__PURE__*/_react.default.createElement(ProjectCard3, {
     rectangle62: projectCard34Props.rectangle62,
-    group99Props: projectCard34Props.group99Props,
-    className: "project-card-6"
-  }), /*#__PURE__*/_react.default.createElement(_ProjectCard.default, {
+    className: "lpd-project-card-3",
+    group99Props: projectCard34Props.group99Props
+  }), /*#__PURE__*/_react.default.createElement(ProjectCard3, {
     rectangle62: projectCard35Props.rectangle62,
-    group99Props: projectCard35Props.group99Props,
-    className: "project-card-4"
-  }), /*#__PURE__*/_react.default.createElement(_ProjectCard.default, {
+    className: "lpd-project-card-4",
+    group99Props: projectCard35Props.group99Props
+  }), /*#__PURE__*/_react.default.createElement(ProjectCard3, {
     rectangle62: projectCard36Props.rectangle62,
-    group99Props: projectCard36Props.group99Props,
-    className: "project-card-2"
-  }), /*#__PURE__*/_react.default.createElement(_ProjectCard.default, {
+    className: "lpd-project-card-5",
+    group99Props: projectCard36Props.group99Props
+  }), /*#__PURE__*/_react.default.createElement(ProjectCard3, {
     rectangle62: projectCard37Props.rectangle62,
-    group99Props: projectCard37Props.group99Props,
-    className: "project-card-8"
-  }), /*#__PURE__*/_react.default.createElement(_ProjectCard.default, {
+    className: "lpd-project-card-6",
+    group99Props: projectCard37Props.group99Props
+  }), /*#__PURE__*/_react.default.createElement(ProjectCard3, {
     rectangle62: projectCard38Props.rectangle62,
-    group99Props: projectCard38Props.group99Props,
-    className: "project-card-1"
-  }), /*#__PURE__*/_react.default.createElement(_ProjectCard.default, {
+    className: "lpd-project-card-7",
+    group99Props: projectCard38Props.group99Props
+  }), /*#__PURE__*/_react.default.createElement(ProjectCard3, {
     rectangle62: projectCard39Props.rectangle62,
-    group99Props: projectCard39Props.group99Props,
-    className: "project-card-3"
-  }), /*#__PURE__*/_react.default.createElement(_Button.default, null, button22Props.children), /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-project-card-8",
+    group99Props: projectCard39Props.group99Props
+  }), /*#__PURE__*/_react.default.createElement("div", {
     className: "lpd-frame-37"
   }, /*#__PURE__*/_react.default.createElement("img", {
     className: "lpd-frame-36",
     src: frame36
   }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "lpd-frame-",
+    className: "lpd-frame",
     src: frame37
   }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "lpd-frame-",
+    className: "lpd-frame",
     src: frame38
   }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "lpd-frame-",
+    className: "lpd-frame",
     src: frame39
   }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "lpd-frame-",
+    className: "lpd-frame",
     src: frame40
   }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "lpd-frame-",
+    className: "lpd-frame",
     src: frame41
   }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "lpd-frame-",
+    className: "lpd-frame",
     src: frame42
   }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "lpd-frame-",
+    className: "lpd-frame",
     src: frame43
   }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "lpd-frame-",
+    className: "lpd-frame",
     src: frame44
   }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "lpd-frame-",
+    className: "lpd-frame",
     src: frame45
   }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "lpd-frame-",
+    className: "lpd-frame",
     src: frame46
   }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "lpd-frame-",
+    className: "lpd-frame",
     src: frame47
   }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "lpd-frame-",
+    className: "lpd-frame",
     src: frame48
   }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "lpd-frame-",
+    className: "lpd-frame",
     src: frame49
   }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "lpd-frame-",
+    className: "lpd-frame",
     src: frame50
   }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "lpd-frame-",
+    className: "lpd-frame",
     src: frame51
   }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "lpd-frame-",
+    className: "lpd-frame",
     src: frame52
   }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "lpd-frame-",
+    className: "lpd-frame",
     src: frame53
   }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "lpd-frame-",
+    className: "lpd-frame",
     src: frame54
   }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "lpd-frame-",
+    className: "lpd-frame",
     src: frame55
   }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "lpd-frame-",
+    className: "lpd-frame",
     src: frame56
   }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "lpd-frame-",
+    className: "lpd-frame",
     src: frame57
   }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "lpd-frame-",
+    className: "lpd-frame",
     src: frame58
   }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "lpd-frame-",
+    className: "lpd-frame",
     src: frame59
   }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "lpd-frame-",
+    className: "lpd-frame",
     src: frame60
   }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "lpd-frame-",
+    className: "lpd-frame",
     src: frame61
   }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "lpd-frame-",
+    className: "lpd-frame",
     src: frame62
   }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "lpd-frame-",
+    className: "lpd-frame",
     src: frame63
   }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "lpd-frame-",
+    className: "lpd-frame",
     src: frame64
   }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "lpd-frame-",
+    className: "lpd-frame",
     src: frame65
   }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "lpd-frame-",
+    className: "lpd-frame",
     src: frame66
   }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "lpd-frame-",
+    className: "lpd-frame",
     src: frame67
   }), /*#__PURE__*/_react.default.createElement("img", {
     className: "lpd-frame-68",
     src: frame68
   }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "lpd-frame--1",
+    className: "lpd-frame-1",
     src: frame69
   }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "lpd-frame--1",
+    className: "lpd-frame-1",
     src: frame70
   }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "lpd-frame--1",
+    className: "lpd-frame-1",
     src: frame71
   }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "lpd-frame--1",
+    className: "lpd-frame-1",
     src: frame72
   }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "lpd-frame--1",
+    className: "lpd-frame-1",
     src: frame73
   }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "lpd-frame--1",
+    className: "lpd-frame-1",
     src: frame74
   }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "lpd-frame--1",
+    className: "lpd-frame-1",
     src: frame75
   }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "lpd-frame--1",
+    className: "lpd-frame-1",
     src: frame76
   }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "lpd-frame--1",
+    className: "lpd-frame-1",
     src: frame77
   }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "lpd-frame--1",
+    className: "lpd-frame-1",
     src: frame78
   }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "lpd-frame--1",
+    className: "lpd-frame-1",
     src: frame79
   }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "lpd-frame--1",
+    className: "lpd-frame-1",
     src: frame80
   }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "lpd-frame--1",
+    className: "lpd-frame-1",
     src: frame81
-  })), /*#__PURE__*/_react.default.createElement(_Group2.default, {
+  })), /*#__PURE__*/_react.default.createElement(Group109, {
     ourProjects: group1092Props.ourProjects,
     text21: group1092Props.text21,
-    className: "lpd-group-110"
+    className: "lpd-group-110" //{group1092Props.className}
+
   }), /*#__PURE__*/_react.default.createElement("div", {
     className: "lpd-group-115"
-  }, /*#__PURE__*/_react.default.createElement(_Group4.default, {
+  }, /*#__PURE__*/_react.default.createElement(Group102, {
     construction: group102Props.construction,
     place: group102Props.place
   }), /*#__PURE__*/_react.default.createElement("div", {
     className: "lpd-flex-row"
-  }, /*#__PURE__*/_react.default.createElement(_PackageCard.default, {
+  }, /*#__PURE__*/_react.default.createElement(PackageCard, {
     text64: packageCardProps.text64,
     icons: packageCardProps.icons,
     group69Props: packageCardProps.group69Props,
     button8Props: packageCardProps.button8Props
-  }), /*#__PURE__*/_react.default.createElement(_Group5.default, {
+  }), /*#__PURE__*/_react.default.createElement(Group111, {
     basicI2601231166: group111Props.basicI2601231166,
     icons: group111Props.icons,
     group69Props: group111Props.group69Props,
     button8Props: group111Props.button8Props
-  }), /*#__PURE__*/_react.default.createElement(_Group5.default, {
+  }), /*#__PURE__*/_react.default.createElement(Group111, {
     basicI2601231166: group1112Props.basicI2601231166,
     icons: group1112Props.icons,
     group69Props: group1112Props.group69Props,
     button8Props: group1112Props.button8Props
-  }), /*#__PURE__*/_react.default.createElement(_Group5.default, {
+  }), /*#__PURE__*/_react.default.createElement(Group111, {
     basicI2601231166: group1113Props.basicI2601231166,
     icons: group1113Props.icons,
     group69Props: group1113Props.group69Props,
     button8Props: group1113Props.button8Props
-  }))), /*#__PURE__*/_react.default.createElement(_Group2.default, {
+  }))), /*#__PURE__*/_react.default.createElement(Group109, {
     ourProjects: group1093Props.ourProjects,
     text21: group1093Props.text21,
-    className: "group-110-1"
-  }), /*#__PURE__*/_react.default.createElement(_Group6.default, {
+    className: "lpd-group-110-1"
+  }), /*#__PURE__*/_react.default.createElement(Group273, {
     text278: group273Props.text278,
     ellipse1: group273Props.ellipse1,
     name: group273Props.name,
     text279: group273Props.text279
-  }), /*#__PURE__*/_react.default.createElement(_Group6.default, {
+  }), /*#__PURE__*/_react.default.createElement(Group273, {
     text278: group2732Props.text278,
     ellipse1: group2732Props.ellipse1,
     name: group2732Props.name,
     text279: group2732Props.text279,
-    className: "group-27"
-  }), /*#__PURE__*/_react.default.createElement(_Group7.default, null), /*#__PURE__*/_react.default.createElement("div", {
+    className: group2732Props.className
+  }), /*#__PURE__*/_react.default.createElement(Group129, null), /*#__PURE__*/_react.default.createElement("div", {
     className: "lpd-cost-estimator-bg",
     style: {
       backgroundImage: "url(".concat(costEstimatorBg, ")")
     }
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "lpd-rectangle-63"
-  })), /*#__PURE__*/_react.default.createElement(_Group8.default, {
+  })), /*#__PURE__*/_react.default.createElement(Group114, {
     costEstimator: group114Props.costEstimator,
     text69: group114Props.text69
-  }), /*#__PURE__*/_react.default.createElement(_EstimateNowButton.default, null, estimateNowButtonProps.children), /*#__PURE__*/_react.default.createElement(_Group9.default, {
+  }), /*#__PURE__*/_react.default.createElement(Group117, {
     frame1Props: group117Props.frame1Props,
     frame12Props: group117Props.frame12Props
-  }), /*#__PURE__*/_react.default.createElement(_Group10.default, {
+  }), /*#__PURE__*/_react.default.createElement(Group156, {
     image2: group156Props.image2,
     image3: group156Props.image3,
     image4: group156Props.image4,
     image5: group156Props.image5,
     image6: group156Props.image6,
     image7: group156Props.image7
-  }), /*#__PURE__*/_react.default.createElement(_Group11.default, null), /*#__PURE__*/_react.default.createElement(_HeaderWithBackground.default, headerWithBackground9Props)), /*#__PURE__*/_react.default.createElement(_Footer.default, footer2Props))));
+  }), /*#__PURE__*/_react.default.createElement(Group1292, null), /*#__PURE__*/_react.default.createElement(HeaderWithBackground9, headerWithBackground9Props)), /*#__PURE__*/_react.default.createElement(Footer2, footer2Props))));
 }
 
 var _default = X01LandingPageDesktop;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","../Group89":"components/Desktop/LandingPageDesktop/Group89/index.jsx","../GetAQuoteButton22":"components/Desktop/LandingPageDesktop/GetAQuoteButton22/index.jsx","../Frame29":"components/Desktop/LandingPageDesktop/Frame29/index.jsx","../Frame292":"components/Desktop/LandingPageDesktop/Frame292/index.jsx","../Frame293":"components/Desktop/LandingPageDesktop/Frame293/index.jsx","../Group109":"components/Desktop/LandingPageDesktop/Group109/index.jsx","../Group104":"components/Desktop/LandingPageDesktop/Group104/index.jsx","../ProjectCard3":"components/Desktop/LandingPageDesktop/ProjectCard3/index.jsx","../Button22":"components/Desktop/LandingPageDesktop/Button22/index.jsx","../Group102":"components/Desktop/LandingPageDesktop/Group102/index.jsx","../PackageCard":"components/Desktop/LandingPageDesktop/PackageCard/index.jsx","../Group111":"components/Desktop/LandingPageDesktop/Group111/index.jsx","../Group273":"components/Desktop/LandingPageDesktop/Group273/index.jsx","../Group129":"components/Desktop/LandingPageDesktop/Group129/index.jsx","../Group114":"components/Desktop/LandingPageDesktop/Group114/index.jsx","../EstimateNowButton":"components/Desktop/LandingPageDesktop/EstimateNowButton/index.jsx","../Group117":"components/Desktop/LandingPageDesktop/Group117/index.jsx","../Group156":"components/Desktop/LandingPageDesktop/Group156/index.jsx","../Group1292":"components/Desktop/LandingPageDesktop/Group1292/index.jsx","../HeaderWithBackground9":"components/Desktop/LandingPageDesktop/HeaderWithBackground9/index.jsx","../Footer2":"components/Desktop/LandingPageDesktop/Footer2/index.jsx","./X01LandingPageDesktop.css":"components/Desktop/LandingPageDesktop/X01LandingPageDesktop/X01LandingPageDesktop.css"}],"components/Mobile/LandingPageMobile/Group129/Group129.css":[function(require,module,exports) {
+
+function Group89(props) {
+  var line4 = props.line4,
+      line5 = props.line5,
+      line6 = props.line6,
+      line7 = props.line7,
+      line8 = props.line8;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-group-89"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpd-line-4",
+    src: line4
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpd-line",
+    src: line5
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpd-line-1",
+    src: line6
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpd-line-1",
+    src: line7
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpd-line",
+    src: line8
+  }));
+}
+
+function GetAQuoteButton22(props) {
+  var children = props.children;
+  (0, _react.useEffect)(function () {
+    (0, _animaTimeline.loadTimelineData)(x2607547TimelineData);
+  }, []);
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-x2607547 animate-enter2 component component-wrapper not-ready"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-master-button-0sW4MC"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-button-i260754751-V82dLG valign-text-middle"
+  }, children)));
+}
+
+var x2607547TimelineData = [{
+  initial_state_name: "Property-1=Primary",
+  root_element: ".x2607547",
+  states_flow: {
+    "Property-1=Primary": {
+      listeners: [],
+      overrides: {}
+    },
+    "Property-1=Secondary": {
+      listeners: [],
+      overrides: {}
+    },
+    "Property-1=Tertiary": {
+      listeners: [],
+      overrides: {}
+    }
+  }
+}];
+
+function Frame29(props) {
+  var text9 = props.text9,
+      spanText = props.spanText,
+      spanText2 = props.spanText2,
+      spanText3 = props.spanText3,
+      spanText4 = props.spanText4,
+      spanText5 = props.spanText5;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-frame-29-1"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-text-4 valign-text-middle typographyheadlineh4-extrabold-24"
+  }, text9), /*#__PURE__*/_react.default.createElement("p", {
+    className: "lpd-text-5 typography-body-smalltext-14-regular"
+  }, /*#__PURE__*/_react.default.createElement("span", {
+    className: "lpd-span typography-body-smalltext-14-regular"
+  }, spanText), /*#__PURE__*/_react.default.createElement("span", {
+    className: "lpd-span-1 typography-body-smalltext-14-regular"
+  }, spanText2), /*#__PURE__*/_react.default.createElement("span", {
+    className: "lpd-span2-1 typographybodycaption-14-semi-bold"
+  }, spanText3), /*#__PURE__*/_react.default.createElement("span", {
+    className: "lpd-span-1 typography-body-smalltext-14-regular"
+  }, spanText4), /*#__PURE__*/_react.default.createElement("span", {
+    className: "lpd-span typography-body-smalltext-14-regular"
+  }, spanText5)));
+}
+
+function Frame292(props) {
+  var text13 = props.text13,
+      text14 = props.text14;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-frame-29-2"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-text-8 valign-text-middle typographyheadlineh4-extrabold-24"
+  }, text13), /*#__PURE__*/_react.default.createElement("p", {
+    className: "lpd-text-9 typography-body-smalltext-14-regular"
+  }, text14));
+}
+
+function Frame293(props) {
+  var text11 = props.text11,
+      text12 = props.text12;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-frame-29-3"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-text-6 valign-text-middle typographyheadlineh4-extrabold-24"
+  }, text11), /*#__PURE__*/_react.default.createElement("p", {
+    className: "lpd-text-7 typography-body-smalltext-14-regular"
+  }, text12));
+}
+
+function Group109(props) {
+  var ourProjects = props.ourProjects,
+      text21 = props.text21,
+      className = props.className;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-group-109 ".concat(className || "")
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-our-projects valign-text-middle typographyheadlineh2-extrabold-40"
+  }, ourProjects), /*#__PURE__*/_react.default.createElement("p", {
+    className: "lpd-text valign-text-middle typographybody16-regular"
+  }, text21));
+}
+
+function Group104(props) {
+  var apartments = props.apartments,
+      buildiings = props.buildiings,
+      place = props.place,
+      living = props.living,
+      group139Props = props.group139Props;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-group-104"
+  }, /*#__PURE__*/_react.default.createElement(Group139, null, group139Props.children), /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-apartments typographybodycaption-14-semi-bold"
+  }, apartments), /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-buildiings typographybodycaption-14-semi-bold"
+  }, buildiings), /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-place typographybodycaption-14-semi-bold"
+  }, place), /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-living typographybodycaption-14-semi-bold"
+  }, living));
+}
+
+function Group139(props) {
+  var children = props.children;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-group-139"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-overlap-group1-1"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-rectangle-46"
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-price overpass-extra-bold-shark-14px"
+  }, children)));
+}
+
+function ProjectCard3(props) {
+  var rectangle62 = props.rectangle62,
+      className = props.className,
+      group99Props = props.group99Props;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-project-card ".concat(className || "")
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpd-rectangle-62",
+    src: rectangle62
+  }), /*#__PURE__*/_react.default.createElement(Group99, {
+    text1: group99Props.text1,
+    surname: group99Props.surname
+  }));
+}
+
+function Group99(props) {
+  var text1 = props.text1,
+      surname = props.surname;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-group-99"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-text-1-1 valign-text-middle typographyheadlineh4-extrabold-24"
+  }, text1), /*#__PURE__*/_react.default.createElement("p", {
+    className: "lpd-surname typography-body-smalltext-14-regular"
+  }, surname));
+} // function Button22(props) {
+//   const { children } = props;
+//   useEffect(() => {
+//     loadTimelineData(x2607791TimelineData);
+//   }, []);
+//   return (
+//     <div className="lpd-x2607791 component component-wrapper not-ready">
+//       <div className="lpd-master-button-gAXIb9">
+//         <div className="lpd-button-i260779151-GqONSi valign-text-middle">{children}</div>
+//       </div>
+//     </div>
+//   );
+// }
+
+
+var x2607791TimelineData = [{
+  initial_state_name: "Property-1=Tertiary",
+  root_element: ".x2607791",
+  states_flow: {
+    "Property-1=Primary": {
+      listeners: [],
+      overrides: {
+        "": {
+          position: "relative"
+        }
+      }
+    },
+    "Property-1=Secondary": {
+      listeners: [],
+      overrides: {
+        "": {
+          position: "relative"
+        }
+      }
+    },
+    "Property-1=Tertiary": {
+      listeners: [],
+      overrides: {}
+    }
+  }
+}];
+
+function Group102(props) {
+  var construction = props.construction,
+      place = props.place;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-group-102"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-group-103"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-overlap-group1-2"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-rectangle-46-1"
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-construction overpass-extra-bold-shark-14px"
+  }, construction))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-place-1 typographybodycaption-14-semi-bold"
+  }, place));
+}
+
+function PackageCard(props) {
+  var text64 = props.text64,
+      icons = props.icons,
+      group69Props = props.group69Props,
+      button8Props = props.button8Props;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-package-card"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-text-24 valign-text-middle typographyheadlineh4-extrabold-24"
+  }, text64), /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-icons",
+    style: {
+      backgroundImage: "url(".concat(icons, ")")
+    }
+  }), /*#__PURE__*/_react.default.createElement(Group69, {
+    number: group69Props.number,
+    text4: group69Props.text4
+  }), /*#__PURE__*/_react.default.createElement(Button8, null, button8Props.children));
+}
+
+function Group69(props) {
+  var number = props.number,
+      text4 = props.text4;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-group-69"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-number valign-text-middle typographyheadlineh2-extrabold-40"
+  }, number), /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-text-2-1 valign-text-middle typographybody16-regular"
+  }, text4));
+}
+
+function Button8(props) {
+  var children = props.children;
+  (0, _react.useEffect)(function () {
+    (0, _animaTimeline.loadTimelineData)(i2601231466600TimelineData);
+  }, []);
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-i26012314-66600 component component-wrapper not-ready"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-master-button-4KxvdI"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-button-i2601231466-hdozzc valign-text-middle"
+  }, children)));
+}
+
+var i2601231466600TimelineData = [{
+  initial_state_name: "Property-1=Primary",
+  root_element: ".i26012314-66600",
+  states_flow: {
+    "Property-1=Primary": {
+      listeners: [],
+      overrides: {}
+    },
+    "Property-1=Secondary": {
+      listeners: [],
+      overrides: {}
+    },
+    "Property-1=Tertiary": {
+      listeners: [],
+      overrides: {}
+    }
+  }
+}];
+
+function Group111(props) {
+  var basicI2601231166 = props.basicI2601231166,
+      icons = props.icons,
+      group69Props = props.group69Props,
+      button8Props = props.button8Props;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-group-11"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-basic-i2601231 valign-text-middle typographyheadlineh4-extrabold-24"
+  }, basicI2601231166), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpd-icons-1",
+    src: icons
+  }), /*#__PURE__*/_react.default.createElement(Group69, {
+    number: group69Props.number,
+    text4: group69Props.text4
+  }), /*#__PURE__*/_react.default.createElement(Button8, null, button8Props.children));
+}
+
+function Group273(props) {
+  var text278 = props.text278,
+      ellipse1 = props.ellipse1,
+      name = props.name,
+      text279 = props.text279,
+      className = props.className;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-group-27 ".concat(className || "")
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-overlap-group-1"
+  }, /*#__PURE__*/_react.default.createElement("p", {
+    className: "lpd-text-5-1 typographybodycaption-14-semi-bold"
+  }, text278), /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-group-120"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpd-ellipse-1",
+    src: ellipse1
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-flex-col-1"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-name valign-text-middle typographyheadlineh3-extrabold-30"
+  }, name), /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-text-5-2 valign-text-middle typographybody16-regular"
+  }, text279)))));
+}
+
+function Group129() {
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-group-129"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-ellipse-99"
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-ellipse-10"
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-ellipse-10"
+  }));
+}
+
+function Group114(props) {
+  var costEstimator = props.costEstimator,
+      text69 = props.text69;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-group-114"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-cost-estimator valign-text-middle typographyheadlineh2-extrabold-40"
+  }, costEstimator), /*#__PURE__*/_react.default.createElement("p", {
+    className: "lpd-text-58 valign-text-middle typographybody16-regular"
+  }, text69));
+}
+
+function EstimateNowButton(props) {
+  var children = props.children;
+  (0, _react.useEffect)(function () {
+    (0, _animaTimeline.loadTimelineData)(x26012333TimelineData);
+  }, []);
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-x26012333 component component-wrapper not-ready"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-master-button-vdtmmz"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-button-i2601233351-k5Tboy valign-text-middle"
+  }, children)));
+}
+
+var x26012333TimelineData = [{
+  initial_state_name: "Property-1=Primary",
+  root_element: ".x26012333",
+  states_flow: {
+    "Property-1=Primary": {
+      listeners: [],
+      overrides: {}
+    },
+    "Property-1=Secondary": {
+      listeners: [],
+      overrides: {
+        "": {
+          position: "relative"
+        }
+      }
+    },
+    "Property-1=Tertiary": {
+      listeners: [],
+      overrides: {
+        "": {
+          position: "relative"
+        }
+      }
+    }
+  }
+}];
+
+function Group117(props) {
+  var frame1Props = props.frame1Props,
+      frame12Props = props.frame12Props;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-group-117"
+  }, /*#__PURE__*/_react.default.createElement(Frame1, null, frame1Props.children), /*#__PURE__*/_react.default.createElement(Frame1, {
+    className: frame12Props.className
+  }, frame12Props.children));
+}
+
+function Frame1(props) {
+  var children = props.children,
+      className = props.className;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-frame-1-1 border-1px-white ".concat(className || "")
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-text-59 inter-normal-white-14px"
+  }, children));
+}
+
+function Group156(props) {
+  var image2 = props.image2,
+      image3 = props.image3,
+      image4 = props.image4,
+      image5 = props.image5,
+      image6 = props.image6,
+      image7 = props.image7;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-group-156"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpd-image-2",
+    src: image2
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpd-image",
+    src: image3
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpd-image-4",
+    src: image4
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpd-image",
+    src: image5
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpd-image-6",
+    src: image6
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpd-image",
+    src: image7
+  }));
+}
+
+function Group1292() {
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-group-129-1"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-ellipse-99-1"
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-ellipse-100"
+  }));
+}
+
+function HeaderWithBackground9(props) {
+  var place = props.place,
+      unselectedI2601234 = props.unselectedI2601234,
+      projects = props.projects,
+      unselectedI26012342 = props.unselectedI26012342,
+      unselectedI26012343 = props.unselectedI26012343,
+      unselectedI26012344 = props.unselectedI26012344,
+      unselectedI26012345 = props.unselectedI26012345,
+      unselectedI26012346 = props.unselectedI26012346,
+      group86Props = props.group86Props,
+      getAQuoteButton22Props = props.getAQuoteButton22Props;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-header-with-background"
+  }, /*#__PURE__*/_react.default.createElement(Group86, {
+    group85: group86Props.group85,
+    whiteProps: group86Props.whiteProps
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-frame-34"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-frame-27"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-selected"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-overlap-group1-3"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-rectangle-61"
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-place-2 valign-text-middle overpass-bold-shark-14px"
+  }, place))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-unselected-i2601234 valign-text-middle typography-body-smalltext-14-regular"
+  }, unselectedI2601234), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpd-projects",
+    src: projects
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-unselected-i2601234-1 valign-text-middle typography-body-smalltext-14-regular"
+  }, unselectedI26012342), /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-unselected-i2601234-2 valign-text-middle typography-body-smalltext-14-regular"
+  }, unselectedI26012343), /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-unselected-i2601234-3 valign-text-middle typography-body-smalltext-14-regular"
+  }, unselectedI26012344), /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-unselected-i2601234-4 valign-text-middle typography-body-smalltext-14-regular"
+  }, unselectedI26012345), /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-unselected-i2601234-5 valign-text-middle typography-body-smalltext-14-regular"
+  }, unselectedI26012346)), /*#__PURE__*/_react.default.createElement(GetAQuoteButton222, null, getAQuoteButton22Props.children)));
+}
+
+function Group86(props) {
+  var group85 = props.group85,
+      whiteProps = props.whiteProps;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-group-86"
+  }, /*#__PURE__*/_react.default.createElement(White, {
+    src: whiteProps.src
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpd-group-85",
+    src: group85
+  }));
+}
+
+function White(props) {
+  var src = props.src;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-white"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpd-vector",
+    src: src
+  }));
+}
+
+function GetAQuoteButton222(props) {
+  var children = props.children;
+  (0, _react.useEffect)(function () {
+    (0, _animaTimeline.loadTimelineData)(i2601234964120TimelineData);
+  }, []);
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-i26012349-64120 component component-wrapper not-ready"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-master-button-FifxVR"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-button-i2601234964-yyNXsM valign-text-middle"
+  }, children)));
+}
+
+var i2601234964120TimelineData = [{
+  initial_state_name: "Property-1=Primary",
+  root_element: ".i26012349-64120",
+  states_flow: {
+    "Property-1=Primary": {
+      listeners: [],
+      overrides: {}
+    },
+    "Property-1=Secondary": {
+      listeners: [],
+      overrides: {}
+    },
+    "Property-1=Tertiary": {
+      listeners: [],
+      overrides: {}
+    }
+  }
+}];
+
+function Footer2(props) {
+  var overlapGroup = props.overlapGroup,
+      vector2 = props.vector2,
+      group8622Props = props.group8622Props,
+      group32Props = props.group32Props,
+      facebookAppSymbol3Props = props.facebookAppSymbol3Props,
+      twitter3Props = props.twitter3Props,
+      frame53Props = props.frame53Props,
+      frame6Props = props.frame6Props,
+      frame7Props = props.frame7Props;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-footer"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-frame-1585"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-frame-1578"
+  }, /*#__PURE__*/_react.default.createElement(Group86222, {
+    group85: group8622Props.group85,
+    whiteProps: group8622Props.whiteProps
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-frame-1584"
+  }, /*#__PURE__*/_react.default.createElement(Group324, {
+    overlapGroup1: group32Props.overlapGroup1,
+    text7: group32Props.text7,
+    vector2: group32Props.vector2,
+    text8: group32Props.text8,
+    overlapGroup12: group32Props.overlapGroup12,
+    vector3: group32Props.vector3,
+    text9: group32Props.text9
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-frame-1583"
+  }, /*#__PURE__*/_react.default.createElement(FacebookAppSymbol3, {
+    src: facebookAppSymbol3Props.src
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-instagram"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-overlap-group1-4",
+    style: {
+      backgroundImage: "url(".concat(overlapGroup, ")")
+    }
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpd-vector-1",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-56@2x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpd-vector-2",
+    src: vector2
+  }))), /*#__PURE__*/_react.default.createElement(Twitter3, {
+    src: twitter3Props.src
+  })))), /*#__PURE__*/_react.default.createElement(Frame53, {
+    text40: frame53Props.text40,
+    frame4Props: frame53Props.frame4Props
+  }), /*#__PURE__*/_react.default.createElement(Frame6, {
+    text48: frame6Props.text48,
+    frame42Props: frame6Props.frame42Props,
+    frame422Props: frame6Props.frame422Props
+  })), /*#__PURE__*/_react.default.createElement(Frame7, {
+    text56: frame7Props.text56,
+    frame4Props: frame7Props.frame4Props
+  }));
+}
+
+function Group86222(props) {
+  var group85 = props.group85,
+      whiteProps = props.whiteProps;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-group-86-1"
+  }, /*#__PURE__*/_react.default.createElement(White, {
+    src: whiteProps.src
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpd-group-85-1",
+    src: group85
+  }));
+}
+
+function Group324(props) {
+  var overlapGroup1 = props.overlapGroup1,
+      text7 = props.text7,
+      vector2 = props.vector2,
+      text8 = props.text8,
+      overlapGroup12 = props.overlapGroup12,
+      vector3 = props.vector3,
+      text9 = props.text9;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-group-32"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-group-189"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-map-pin-1"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-overlap-group1-5",
+    style: {
+      backgroundImage: "url(".concat(overlapGroup1, ")")
+    }
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpd-vector-3",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-167@2x.svg"
+  }))), /*#__PURE__*/_react.default.createElement("p", {
+    className: "lpd-text-26 typographybody16-regular"
+  }, text7)), /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-group-18"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-phone"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpd-vector-4",
+    src: vector2
+  })), /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-text-2-2 valign-text-middle typographybody16-regular"
+  }, text8)), /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-group-18"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-mail"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-overlap-group1-6",
+    style: {
+      backgroundImage: "url(".concat(overlapGroup12, ")")
+    }
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpd-vector-5",
+    src: vector3
+  }))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-text-2-2 valign-text-middle typographybody16-regular"
+  }, text9)));
+}
+
+function FacebookAppSymbol3(props) {
+  var src = props.src;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-facebook-app-symbol"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpd-f-1",
+    src: src
+  }));
+}
+
+function Twitter3(props) {
+  var src = props.src;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-twitter"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpd-vector-6",
+    src: src
+  }));
+}
+
+function Frame53(props) {
+  var text40 = props.text40,
+      frame4Props = props.frame4Props;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-frame-5"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-text-29 valign-text-middle typographyheadlineh5-extrabold-20"
+  }, text40), /*#__PURE__*/_react.default.createElement(Frame4, {
+    text41: frame4Props.text41,
+    text42: frame4Props.text42,
+    text43: frame4Props.text43,
+    text44: frame4Props.text44,
+    text45: frame4Props.text45,
+    text46: frame4Props.text46,
+    text47: frame4Props.text47
+  }));
+}
+
+function Frame4(props) {
+  var text41 = props.text41,
+      text42 = props.text42,
+      text43 = props.text43,
+      text44 = props.text44,
+      text45 = props.text45,
+      text46 = props.text46,
+      text47 = props.text47;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-frame-4"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-text-10 valign-text-middle typographybody16-regular"
+  }, text41), /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-text-11 valign-text-middle typographybody16-regular"
+  }, text42), /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-text-11 valign-text-middle typographybody16-regular"
+  }, text43), /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-text-11 valign-text-middle typographybody16-regular"
+  }, text44), /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-text-11 valign-text-middle typographybody16-regular"
+  }, text45), /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-text-11 valign-text-middle typographybody16-regular"
+  }, text46), /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-text-11 valign-text-middle typographybody16-regular"
+  }, text47));
+}
+
+function Frame6(props) {
+  var text48 = props.text48,
+      frame42Props = props.frame42Props,
+      frame422Props = props.frame422Props;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-frame-6"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-text-37 valign-text-middle typographyheadlineh5-extrabold-20"
+  }, text48), /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-frame-1577"
+  }, /*#__PURE__*/_react.default.createElement(Frame42, {
+    text49: frame42Props.text49,
+    text50: frame42Props.text50,
+    place: frame42Props.place,
+    text51: frame42Props.text51,
+    text52: frame42Props.text52
+  }), /*#__PURE__*/_react.default.createElement(Frame42, {
+    text49: frame422Props.text49,
+    text50: frame422Props.text50,
+    place: frame422Props.place,
+    text51: frame422Props.text51,
+    text52: frame422Props.text52,
+    className: frame422Props.className
+  })));
+}
+
+function Frame42(props) {
+  var text49 = props.text49,
+      text50 = props.text50,
+      place = props.place,
+      text51 = props.text51,
+      text52 = props.text52,
+      className = props.className;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-frame-4-1 ".concat(className || "")
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-text-38 valign-text-middle overpass-extra-bold-white-16px"
+  }, text49), /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-frame-1580"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-text-12 valign-text-middle typographybody16-regular"
+  }, text50), /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-place-3 valign-text-middle typographybody16-regular"
+  }, place), /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-text-40 valign-text-middle typographybody16-regular"
+  }, text51), /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-text-41 valign-text-middle typographybody16-regular"
+  }, text52)));
+}
+
+function Frame7(props) {
+  var text56 = props.text56,
+      frame4Props = props.frame4Props;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-frame-7"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpd-text-45 valign-text-middle typographyheadlineh5-extrabold-20"
+  }, text56), /*#__PURE__*/_react.default.createElement(Frame4, {
+    text41: frame4Props.text41,
+    text42: frame4Props.text42,
+    text43: frame4Props.text43,
+    text44: frame4Props.text44,
+    text45: frame4Props.text45,
+    text46: frame4Props.text46,
+    text47: frame4Props.text47
+  }));
+}
+
+var group89Data = {
+  line4: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/line-5@1x.svg",
+  line5: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/line-5@1x.svg",
+  line6: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/line-5@1x.svg",
+  line7: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/line-5@1x.svg",
+  line8: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/line-5@1x.svg"
+};
+var getAQuoteButton22Data = {
+  children: "GET A QUOTE"
+};
+var frame29Data = {
+  text9: "The Webuildd Difference",
+  spanText: "What makes us stand miles apart from other firms? We call it “Webuildd Difference”: from the very first time you meet us, to the interaction with our team, the hassle-free engagement and finally the day we hand you the keys to your new home/building, the only standard we accept for ourselves (and our customers) is “Consistent Excellence”. We are never satisfied with our laurels, and our service to you goes far beyond simply putting one brick on top of another. We not only ensure that get quality, but also blend it with creativity, engineering, management, quality and multiple other disciplines to deliver the perfect output for your residential or commercial needs. We have even created our very own",
+  spanText2: " ",
+  spanText3: "cost estimator",
+  spanText4: " ",
+  spanText5: "that helps you calculate your probable capital outgo for your upcoming building. We really like to make things easy for our clients"
+};
+var frame292Data = {
+  text13: "Our Customer Value Propositions",
+  text14: "When it comes to building a new residential or commercial building, choosing the right partner to bring your vision to life is an important first step. Our experienced Webuildd team has all the expertise, resources, and connections you need to turn inspiration into reality with seamless ease. You don’t have to deal with the hassles of managing complex coordination and multiple resources. Our in-house team has you covered from legal, estimation, site planning, architectural design,"
+};
+var frame293Data = {
+  text11: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "Why Choose Us? Minimum Hassles. ", /*#__PURE__*/_react.default.createElement("br", null), "Maximum Value"),
+  text12: "We possess third generation business continuity which is a rarity. Which means that you gain decades of collaborative experience to your benefit. Expertise, quality, transparency, reliability and cost effectiveness are why our customers come back to us again and again. We offer a perfect blend of all these factors resulting in deep customer delight. We put the “Smart” in everything that we do. Smarter design, smarter spaces, smarter value. Simply: smarter living. With exciting options and construction plans to choose from, one is certain to be right for you. Yes, other people do some of what we do, but no one does everything in the unique way we do."
+};
+var group109Data = {
+  ourProjects: "Our Projects",
+  text21: "We offer an entire array of construction options. Choose from basic to luxury according to your requirements"
+};
+var group139Data = {
+  children: "ALL"
+};
+var group104Data = {
+  apartments: "APARTMENTS",
+  buildiings: "BUILDIINGS",
+  place: "INTERIOR",
+  living: "LIVING",
+  group139Props: group139Data
+};
+var group99Data = {
+  text1: "Project Name",
+  surname: "Small description about the project"
+};
+var projectCard3Data = {
+  rectangle62: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/rectangle-62@2x.png",
+  group99Props: group99Data
+};
+var group992Data = {
+  text1: "Project Name",
+  surname: "Small description about the project"
+};
+var projectCard32Data = {
+  rectangle62: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/rectangle-62-1@2x.png",
+  className: "lpd-lpd-project-card-1",
+  group99Props: group992Data
+};
+var group993Data = {
+  text1: "Project Name",
+  surname: "Small description about the project"
+};
+var projectCard33Data = {
+  rectangle62: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/rectangle-62-2@2x.png",
+  className: "lpd-lpd-project-card-2",
+  group99Props: group993Data
+};
+var group994Data = {
+  text1: "Project Name",
+  surname: "Small description about the project"
+};
+var projectCard34Data = {
+  rectangle62: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/rectangle-62-3@2x.png",
+  className: "lpd-lpd-project-card-3",
+  group99Props: group994Data
+};
+var group995Data = {
+  text1: "Project Name",
+  surname: "Small description about the project"
+};
+var projectCard35Data = {
+  rectangle62: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/rectangle-62-4@2x.png",
+  className: "lpd-lpd-project-card-4",
+  group99Props: group995Data
+};
+var group996Data = {
+  text1: "Project Name",
+  surname: "Small description about the project"
+};
+var projectCard36Data = {
+  rectangle62: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/rectangle-62-5@2x.png",
+  className: "lpd-lpd-project-card-5",
+  group99Props: group996Data
+};
+var group997Data = {
+  text1: "Project Name",
+  surname: "Small description about the project"
+};
+var projectCard37Data = {
+  rectangle62: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/rectangle-62-6@2x.png",
+  className: "lpd-lpd-project-card-6",
+  group99Props: group997Data
+};
+var group998Data = {
+  text1: "Project Name",
+  surname: "Small description about the project"
+};
+var projectCard38Data = {
+  rectangle62: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/rectangle-62-7@2x.png",
+  className: "lpd-lpd-project-card-7",
+  group99Props: group998Data
+};
+var group999Data = {
+  text1: "Project Name",
+  surname: "Small description about the project"
+};
+var projectCard39Data = {
+  rectangle62: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/rectangle-62-8@2x.png",
+  className: "lpd-lpd-project-card-8",
+  group99Props: group999Data
+};
+var button22Data = {
+  children: "VIEW MORE"
+};
+var group1092Data = {
+  ourProjects: "Packages",
+  text21: "We offer an entire array of construction options. Choose from basic to luxury according to your requirements",
+  className: "lpd-group-110"
+};
+var group102Data = {
+  construction: "CONSTRUCTION",
+  place: "INTERIOR"
+};
+var group69Data = {
+  number: "1600",
+  text4: "Rs/Sft"
+};
+var button8Data = {
+  children: "VIEW DETAILS"
+};
+var packageCardData = {
+  text64: "Basic",
+  icons: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/basic-1@2x.svg",
+  group69Props: group69Data,
+  button8Props: button8Data
+};
+var group692Data = {
+  number: "1600",
+  text4: "Rs/Sft"
+};
+var button82Data = {
+  children: "VIEW DETAILS"
+};
+var group111Data = {
+  basicI2601231166: "Standard",
+  icons: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/icons@2x.svg",
+  group69Props: group692Data,
+  button8Props: button82Data
+};
+var group693Data = {
+  number: "1600",
+  text4: "Rs/Sft"
+};
+var button83Data = {
+  children: "VIEW DETAILS"
+};
+var group1112Data = {
+  basicI2601231166: "Premium",
+  icons: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/icons-1@2x.svg",
+  group69Props: group693Data,
+  button8Props: button83Data
+};
+var group694Data = {
+  number: "1600",
+  text4: "Rs/Sft"
+};
+var button84Data = {
+  children: "VIEW DETAILS"
+};
+var group1113Data = {
+  basicI2601231166: "Luxury",
+  icons: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/icons-2@2x.svg",
+  group69Props: group694Data,
+  button8Props: button84Data
+};
+var group1093Data = {
+  ourProjects: "Testimonials",
+  text21: "Listen to what our customers say about us. They are the beating heart of our business",
+  className: "lpd-group-110-1"
+};
+var group273Data = {
+  text278: "The whole team was very very supportive and I am really very happy. I am an extremely happy customer, Thank you Webuild !",
+  ellipse1: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/ellipse-1@2x.svg",
+  name: "Robert Fox",
+  text279: "Bangalore, India"
+};
+var group2732Data = {
+  text278: "The whole team was very very supportive and I am really very happy. I am an extremely happy customer, Thank you Webuild !",
+  ellipse1: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/ellipse-1-1@2x.svg",
+  name: "Annette Black",
+  text279: "Bangalore, India",
+  className: "lpd-group-27-1"
+};
+var group114Data = {
+  costEstimator: "Cost Estimator",
+  text69: "Our very own software infused with years of experience. Use it to find a probable cost estimation to help you make a better choice"
+};
+var estimateNowButtonData = {
+  children: "ESTIMATE NOW"
+};
+var frame1Data = {
+  children: "City"
+};
+var frame12Data = {
+  children: "Area of Construction (Sq.ft)",
+  className: "lpd-frame-1-2"
+};
+var group117Data = {
+  frame1Props: frame1Data,
+  frame12Props: frame12Data
+};
+var group156Data = {
+  image2: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/image-2@2x.png",
+  image3: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/image-3@2x.png",
+  image4: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/image-4@2x.png",
+  image5: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/image-5@2x.png",
+  image6: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/image-6@2x.png",
+  image7: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/image-7@2x.png"
+};
+var whiteData = {
+  src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-98@2x.svg"
+};
+var group86Data = {
+  group85: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/group-85-13@2x.svg",
+  whiteProps: whiteData
+};
+var getAQuoteButton222Data = {
+  children: "GET A QUOTE"
+};
+var headerWithBackground9Data = {
+  place: "HOME",
+  unselectedI2601234: "ABOUT US",
+  projects: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/projects@2x.png",
+  unselectedI26012342: "VIDEOS",
+  unselectedI26012343: "INSIGHTS",
+  unselectedI26012344: "BLOGS",
+  unselectedI26012345: "FAQ’S",
+  unselectedI26012346: "CONTACT US",
+  group86Props: group86Data,
+  getAQuoteButton22Props: getAQuoteButton222Data
+};
+var white2Data = {
+  src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-88@2x.svg"
+};
+var group86222Data = {
+  group85: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/group-85-12@2x.svg",
+  whiteProps: white2Data
+};
+var group324Data = {
+  overlapGroup1: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-166@2x.svg",
+  text7: "#8, 105, Vishal Park Word, 3rd Cross, Cambridge Road Ulsoor, Bangalore, Bengaluru, Karnataka 560008",
+  vector2: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-168@2x.svg",
+  text8: "+91 8976535221, +91 8755645342",
+  overlapGroup12: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-169@2x.svg",
+  vector3: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-170@2x.svg",
+  text9: "contact@webuild.com"
+};
+var facebookAppSymbol3Data = {
+  src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/f-1-5@2x.svg"
+};
+var twitter3Data = {
+  src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-174@2x.svg"
+};
+var frame4Data = {
+  text41: "About Us",
+  text42: "Projects",
+  text43: "Videos",
+  text44: "Packages",
+  text45: "Insights",
+  text46: "Blogs",
+  text47: "FAQ’s"
+};
+var frame53Data = {
+  text40: "Quick Links",
+  frame4Props: frame4Data
+};
+var frame42Data = {
+  text49: "Construction",
+  text50: "Basic",
+  place: "Standard",
+  text51: "Premium",
+  text52: "Luxury"
+};
+var frame422Data = {
+  text49: "Interior",
+  text50: "Basic",
+  place: "Standard",
+  text51: "Premium",
+  text52: "Luxury",
+  className: "lpd-frame-5-1"
+};
+var frame6Data = {
+  text48: "Packages",
+  frame42Props: frame42Data,
+  frame422Props: frame422Data
+};
+var frame43Data = {
+  text41: "BBEMP",
+  text42: "BWSSB",
+  text43: "BESCOM",
+  text44: "Procedure",
+  text45: "Vaastu",
+  text46: "Bye Laws",
+  text47: "Tips & Ideas"
+};
+var frame7Data = {
+  text56: "Insights",
+  frame4Props: frame43Data
+};
+var footer2Data = {
+  overlapGroup: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-202@2x.svg",
+  vector2: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-173@2x.svg",
+  group8622Props: group86222Data,
+  group32Props: group324Data,
+  facebookAppSymbol3Props: facebookAppSymbol3Data,
+  twitter3Props: twitter3Data,
+  frame53Props: frame53Data,
+  frame6Props: frame6Data,
+  frame7Props: frame7Data
+};
+var x01LandingPageDesktopData = {
+  rectangle2: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/rectangle-2-1@2x.png",
+  spanText: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "Gain the Power of \u201CUnified C2C\u201D ", /*#__PURE__*/_react.default.createElement("br", null), "Unburden yourself while"),
+  spanText2: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, " ", /*#__PURE__*/_react.default.createElement("br", null)),
+  spanText3: "we build your future.",
+  text42: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "At Webuilld we offer you a completely", /*#__PURE__*/_react.default.createElement("br", null), "\u201CUnified Conception to Construction\u201D value proposition.  ", /*#__PURE__*/_react.default.createElement("br", null), "No more dealing with a dozen sub-contractors or labour hassles when constructing your home or commercial building"),
+  whyWebuild: "Why Webuild?",
+  text43: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "Because we bring to the table XX years of comprehensive experience, XX happy customers blended with ", /*#__PURE__*/_react.default.createElement("br", null), "trust, reliability and transparency"),
+  building: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/building@2x.png",
+  rectangle49: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/rectangle-49-2@2x.png",
+  plan: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/plan@2x.png",
+  rectangle48: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/rectangle-48-10@2x.png",
+  blueprint: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/blueprint-1@2x.png",
+  rectangle50: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/rectangle-50-10@2x.png",
+  frame36: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-36-2@1x.svg",
+  frame37: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-36-2@1x.svg",
+  frame38: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-36-2@1x.svg",
+  frame39: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-36-2@1x.svg",
+  frame40: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-36-2@1x.svg",
+  frame41: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-36-2@1x.svg",
+  frame42: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-36-2@1x.svg",
+  frame43: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-36-2@1x.svg",
+  frame44: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-36-2@1x.svg",
+  frame45: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-36-2@1x.svg",
+  frame46: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-36-2@1x.svg",
+  frame47: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-36-2@1x.svg",
+  frame48: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-36-2@1x.svg",
+  frame49: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-36-2@1x.svg",
+  frame50: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-36-2@1x.svg",
+  frame51: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-36-2@1x.svg",
+  frame52: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-36-2@1x.svg",
+  frame53: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-36-2@1x.svg",
+  frame54: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-36-2@1x.svg",
+  frame55: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-36-2@1x.svg",
+  frame56: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-36-2@1x.svg",
+  frame57: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-36-2@1x.svg",
+  frame58: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-36-2@1x.svg",
+  frame59: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-36-2@1x.svg",
+  frame60: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-36-2@1x.svg",
+  frame61: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-36-2@1x.svg",
+  frame62: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-36-2@1x.svg",
+  frame63: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-36-2@1x.svg",
+  frame64: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-36-2@1x.svg",
+  frame65: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-36-2@1x.svg",
+  frame66: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-36-2@1x.svg",
+  frame67: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-36-2@1x.svg",
+  frame68: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-68@1x.png",
+  frame69: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-68@1x.png",
+  frame70: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-68@1x.png",
+  frame71: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-68@1x.png",
+  frame72: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-68@1x.png",
+  frame73: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-68@1x.png",
+  frame74: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-68@1x.png",
+  frame75: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-68@1x.png",
+  frame76: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-68@1x.png",
+  frame77: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-68@1x.png",
+  frame78: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-68@1x.png",
+  frame79: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-68@1x.png",
+  frame80: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-68@1x.png",
+  frame81: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-68@1x.png",
+  costEstimatorBg: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/mask-group@1x.svg",
+  group89Props: group89Data,
+  getAQuoteButton2Props: getAQuoteButton22Data,
+  frame29Props: frame29Data,
+  frame292Props: frame292Data,
+  frame293Props: frame293Data,
+  group109Props: group109Data,
+  group104Props: group104Data,
+  projectCard3Props: projectCard3Data,
+  projectCard32Props: projectCard32Data,
+  projectCard33Props: projectCard33Data,
+  projectCard34Props: projectCard34Data,
+  projectCard35Props: projectCard35Data,
+  projectCard36Props: projectCard36Data,
+  projectCard37Props: projectCard37Data,
+  projectCard38Props: projectCard38Data,
+  projectCard39Props: projectCard39Data,
+  button22Props: button22Data,
+  group1092Props: group1092Data,
+  group102Props: group102Data,
+  packageCardProps: packageCardData,
+  group111Props: group111Data,
+  group1112Props: group1112Data,
+  group1113Props: group1113Data,
+  group1093Props: group1093Data,
+  group273Props: group273Data,
+  group2732Props: group2732Data,
+  group114Props: group114Data,
+  estimateNowButtonProps: estimateNowButtonData,
+  group117Props: group117Data,
+  group156Props: group156Data,
+  headerWithBackground9Props: headerWithBackground9Data,
+  footer2Props: footer2Data
+};
+},{"react":"node_modules/react/index.js","anima-timeline":"node_modules/anima-timeline/index-esm.js","./X01LandingPageDesktop.css":"components/Desktop/LandingPageDesktop/X01LandingPageDesktop/X01LandingPageDesktop.css"}],"components/Mobile/LandingPageMobile/Group129/Group129.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
@@ -38478,7 +38012,7 @@ function ProjectCard22(props) {
       surname = props.surname,
       className = props.className;
   return /*#__PURE__*/_react.default.createElement("div", {
-    className: "project-card ".concat(className || "")
+    className: "mlp-project-card ".concat(className || "")
   }, /*#__PURE__*/_react.default.createElement("img", {
     className: "rectangle-62",
     src: rectangle62
@@ -39716,86 +39250,86 @@ function Frame1600(props) {
       group87Props = props.group87Props,
       frame145Props = props.frame145Props;
   return /*#__PURE__*/_react.default.createElement("div", {
-    className: "frame-1600"
+    className: "mpd-frame-1600"
   }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "overlap-group"
+    className: "mpd-overlap-group"
   }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "group-89"
+    className: "mpd-group-89"
   }, /*#__PURE__*/_react.default.createElement("img", {
-    className: "line-4",
+    className: "mpd-line-4",
     src: line4
   }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "line-",
+    className: "mpd-line-",
     src: line5
   }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "line-",
+    className: "mpd-line-",
     src: line6
   }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "line-",
+    className: "mpd-line-",
     src: line7
   }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "line-",
+    className: "mpd-line-",
     src: line8
   })), /*#__PURE__*/_react.default.createElement("img", {
-    className: "rectangle-72",
+    className: "mpd-rectangle-72",
     src: rectangle72
   }), /*#__PURE__*/_react.default.createElement("div", {
-    className: "text-1 valign-text-middle typographyheadlineh5-extrabold-20"
+    className: "mpd-text-1 valign-text-middle typographyheadlineh5-extrabold-20"
   }, text1), /*#__PURE__*/_react.default.createElement("p", {
-    className: "text-2 typographybodysmall-12-regular"
+    className: "mpd-text-2 typographybodysmall-12-regular"
   }, /*#__PURE__*/_react.default.createElement("span", {
-    className: "span typographybodysmall-12-regular"
+    className: "mpd-span typographybodysmall-12-regular"
   }, spanText), /*#__PURE__*/_react.default.createElement("span", {
-    className: "span-1 typographybodysmall-12-regular"
+    className: "mpd-span-1 typographybodysmall-12-regular"
   }, spanText2), /*#__PURE__*/_react.default.createElement("span", {
-    className: "span2-1 overpass-semi-bold-mahogany-12px"
+    className: "mpd-span2-1 overpass-semi-bold-mahogany-12px"
   }, spanText3), /*#__PURE__*/_react.default.createElement("span", {
-    className: "span-1 typographybodysmall-12-regular"
+    className: "mpd-span-1 typographybodysmall-12-regular"
   }, spanText4), /*#__PURE__*/_react.default.createElement("span", {
-    className: "span typographybodysmall-12-regular"
+    className: "mpd-span typographybodysmall-12-regular"
   }, spanText5)), /*#__PURE__*/_react.default.createElement("img", {
-    className: "rectangle-73",
+    className: "mpd-rectangle-73",
     src: rectangle73
   }), /*#__PURE__*/_react.default.createElement("div", {
-    className: "text-3 valign-text-middle typographyheadlineh4-extrabold-24"
+    className: "mpd-text-3 valign-text-middle typographyheadlineh4-extrabold-24"
   }, text3), /*#__PURE__*/_react.default.createElement("p", {
-    className: "text-4 typographybodysmall-12-regular"
+    className: "mpd-text-4 typographybodysmall-12-regular"
   }, text4), /*#__PURE__*/_react.default.createElement("img", {
-    className: "rectangle-70",
+    className: "mpd-rectangle-70",
     src: rectangle70
   }), /*#__PURE__*/_react.default.createElement("div", {
-    className: "text-5 valign-text-middle typographyheadlineh4-extrabold-24"
+    className: "mpd-text-5 valign-text-middle typographyheadlineh4-extrabold-24"
   }, text5), /*#__PURE__*/_react.default.createElement("p", {
-    className: "text-6 typographybodysmall-12-regular"
+    className: "mpd-text-6 typographybodysmall-12-regular"
   }, text6), /*#__PURE__*/_react.default.createElement("p", {
-    className: "text-7 typography-body-smalltext-14-regular"
+    className: "mpd-text-7 typography-body-smalltext-14-regular"
   }, text7), /*#__PURE__*/_react.default.createElement("div", {
-    className: "why-webuild valign-text-middle typographyheadlineh4-extrabold-24"
+    className: "mpd-why-webuild valign-text-middle typographyheadlineh4-extrabold-24"
   }, whyWebuild), /*#__PURE__*/_react.default.createElement("img", {
-    className: "rectangle-69",
+    className: "mpd-rectangle-69",
     src: rectangle69
   }), /*#__PURE__*/_react.default.createElement(_Group.default, null), /*#__PURE__*/_react.default.createElement("p", {
-    className: "text-8 valign-text-middle overpass-semi-bold-white-16px2"
+    className: "mpd-text-8 valign-text-middle overpass-semi-bold-white-16px2"
   }, /*#__PURE__*/_react.default.createElement("span", null, /*#__PURE__*/_react.default.createElement("span", {
-    className: "span0 overpass-semi-bold-white-16px-22"
+    className: "mpd-span0 overpass-semi-bold-white-16px-22"
   }, spanText6), /*#__PURE__*/_react.default.createElement("span", {
-    className: "span1 overpass-semi-bold-white-32px"
+    className: "mpd-span1 overpass-semi-bold-white-32px"
   }, spanText7), /*#__PURE__*/_react.default.createElement("span", {
-    className: "span2 overpass-extra-bold-mahogany-40px"
+    className: "mpd-span2 overpass-extra-bold-mahogany-40px"
   }, spanText8))), /*#__PURE__*/_react.default.createElement("p", {
-    className: "text-9 typography-body-smalltext-14-regular"
+    className: "mpd-text-9 typography-body-smalltext-14-regular"
   }, text9), /*#__PURE__*/_react.default.createElement(_GetAQuoteButton.default, null, getAQuoteButton2Props.children), /*#__PURE__*/_react.default.createElement("div", {
-    className: "group-210"
+    className: "mpd-group-210"
   }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "our-projects valign-text-middle typographyheadlineh4-extrabold-24"
+    className: "mpd-our-projects valign-text-middle typographyheadlineh4-extrabold-24"
   }, ourProjects), /*#__PURE__*/_react.default.createElement("p", {
-    className: "text-22 typography-body-smalltext-14-regular"
+    className: "mpd-text-22 typography-body-smalltext-14-regular"
   }, text22), /*#__PURE__*/_react.default.createElement(_Frame.default, frame1613Props), /*#__PURE__*/_react.default.createElement("div", {
-    className: "overlap-group1"
+    className: "mpd-overlap-group1"
   }, /*#__PURE__*/_react.default.createElement(_Button.default, {
-    className: "x2668590"
+    className: "mpd-x2668590"
   }, button22Props.children), /*#__PURE__*/_react.default.createElement("div", {
-    className: "rectangle-71"
+    className: "mpd-rectangle-71"
   }), /*#__PURE__*/_react.default.createElement(_PackagesCard.default, {
     basic: packagesCardProps.basic,
     group69Props: packagesCardProps.group69Props,
@@ -39810,11 +39344,11 @@ function Frame1600(props) {
     group69Props: group113Props.group69Props,
     buttonProps: group113Props.buttonProps
   }), /*#__PURE__*/_react.default.createElement("p", {
-    className: "text-23 typographybody16-regular"
+    className: "mpd-text-23 typographybody16-regular"
   }, text23), /*#__PURE__*/_react.default.createElement("div", {
-    className: "packages valign-text-middle typographyheadlineh4-extrabold-24"
+    className: "mpd-packages valign-text-middle typographyheadlineh4-extrabold-24"
   }, packages), /*#__PURE__*/_react.default.createElement("img", {
-    className: "cost-estimator-bg",
+    className: "mpd-cost-estimator-bg",
     src: costEstimatorBg
   }), /*#__PURE__*/_react.default.createElement(_Group5.default, {
     costEstimator: group11422Props.costEstimator,
@@ -39823,43 +39357,43 @@ function Frame1600(props) {
     frame12Props: group11722Props.frame12Props,
     frame122Props: group11722Props.frame122Props
   })), /*#__PURE__*/_react.default.createElement("div", {
-    className: "testimonials valign-text-middle typographyheadlineh4-extrabold-24"
+    className: "mpd-testimonials valign-text-middle typographyheadlineh4-extrabold-24"
   }, testimonials), /*#__PURE__*/_react.default.createElement("p", {
-    className: "text-24 typographybody16-regular"
+    className: "mpd-text-24 typographybody16-regular"
   }, text24), /*#__PURE__*/_react.default.createElement("div", {
-    className: "group-27"
+    className: "mpd-group-27"
   }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "overlap-group4"
+    className: "mpd-overlap-group4"
   }, /*#__PURE__*/_react.default.createElement("p", {
-    className: "text-19 typographybodysmall-12-regular"
+    className: "mpd-text-19 typographybodysmall-12-regular"
   }, text19), /*#__PURE__*/_react.default.createElement("div", {
-    className: "group-120"
+    className: "mpd-group-120"
   }, /*#__PURE__*/_react.default.createElement("img", {
-    className: "ellipse-1",
+    className: "mpd-ellipse-1",
     src: ellipse1
   }), /*#__PURE__*/_react.default.createElement("div", {
-    className: "group-140"
+    className: "mpd-group-140"
   }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "name valign-text-middle typographyheadlineh5-extrabold-20"
+    className: "mpd-name valign-text-middle typographyheadlineh5-extrabold-20"
   }, name), /*#__PURE__*/_react.default.createElement("div", {
-    className: "bangalore-india valign-text-middle typographybodysmall-12-regular"
+    className: "mpd-bangalore-india valign-text-middle typographybodysmall-12-regular"
   }, bangaloreIndia))))), /*#__PURE__*/_react.default.createElement(_Group.default, {
-    className: "group-141"
+    className: "mpd-group-141"
   }), /*#__PURE__*/_react.default.createElement("div", {
-    className: "overlap-group2"
+    className: "mpd-overlap-group2"
   }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "rectangle-74"
+    className: "mpd-rectangle-74"
   }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "image-3",
+    className: "mpd-image-3",
     src: image3
   }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "image-4",
+    className: "mpd-image-4",
     src: image4
   }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "image-5",
+    className: "mpd-image-5",
     src: image5
   }), /*#__PURE__*/_react.default.createElement("div", {
-    className: "rectangle-67"
+    className: "mpd-rectangle-67"
   }), /*#__PURE__*/_react.default.createElement(_Group7.default, {
     group85: group8622Props.group85
   }), /*#__PURE__*/_react.default.createElement(_Group8.default, group32Props), /*#__PURE__*/_react.default.createElement(_Frame2.default, {
@@ -39879,7 +39413,2055 @@ function Frame1600(props) {
 
 var _default = Frame1600;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","../Group129":"components/Mobile/LandingPageMobile/Group129/index.jsx","../GetAQuoteButton2":"components/Mobile/LandingPageMobile/GetAQuoteButton2/index.jsx","../Frame1613":"components/Mobile/LandingPageMobile/Frame1613/index.jsx","../Button22":"components/Mobile/LandingPageMobile/Button22/index.jsx","../PackagesCard":"components/Mobile/LandingPageMobile/PackagesCard/index.jsx","../Group1112":"components/Mobile/LandingPageMobile/Group1112/index.jsx","../Group112":"components/Mobile/LandingPageMobile/Group112/index.jsx","../Group113":"components/Mobile/LandingPageMobile/Group113/index.jsx","../Group11422":"components/Mobile/LandingPageMobile/Group11422/index.jsx","../EstimateNowButton":"components/Mobile/LandingPageMobile/EstimateNowButton/index.jsx","../Group11722":"components/Mobile/LandingPageMobile/Group11722/index.jsx","../Group8622":"components/Mobile/LandingPageMobile/Group8622/index.jsx","../Group32":"components/Mobile/LandingPageMobile/Group32/index.jsx","../Frame5":"components/Mobile/LandingPageMobile/Frame5/index.jsx","../Group87":"components/Mobile/LandingPageMobile/Group87/index.jsx","../Frame145":"components/Mobile/LandingPageMobile/Frame145/index.jsx","./Frame1600.css":"components/Mobile/LandingPageMobile/Frame1600/Frame1600.css"}],"components/Desktop/AboutPageDesktop/Group89/Group89.css":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../Group129":"components/Mobile/LandingPageMobile/Group129/index.jsx","../GetAQuoteButton2":"components/Mobile/LandingPageMobile/GetAQuoteButton2/index.jsx","../Frame1613":"components/Mobile/LandingPageMobile/Frame1613/index.jsx","../Button22":"components/Mobile/LandingPageMobile/Button22/index.jsx","../PackagesCard":"components/Mobile/LandingPageMobile/PackagesCard/index.jsx","../Group1112":"components/Mobile/LandingPageMobile/Group1112/index.jsx","../Group112":"components/Mobile/LandingPageMobile/Group112/index.jsx","../Group113":"components/Mobile/LandingPageMobile/Group113/index.jsx","../Group11422":"components/Mobile/LandingPageMobile/Group11422/index.jsx","../EstimateNowButton":"components/Mobile/LandingPageMobile/EstimateNowButton/index.jsx","../Group11722":"components/Mobile/LandingPageMobile/Group11722/index.jsx","../Group8622":"components/Mobile/LandingPageMobile/Group8622/index.jsx","../Group32":"components/Mobile/LandingPageMobile/Group32/index.jsx","../Frame5":"components/Mobile/LandingPageMobile/Frame5/index.jsx","../Group87":"components/Mobile/LandingPageMobile/Group87/index.jsx","../Frame145":"components/Mobile/LandingPageMobile/Frame145/index.jsx","./Frame1600.css":"components/Mobile/LandingPageMobile/Frame1600/Frame1600.css"}],"components/Tablet/LandingPageTablet/White/White.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Tablet/LandingPageTablet/White/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+require("./White.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function White(props) {
+  var src = props.src;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "white"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "vector",
+    src: src
+  }));
+}
+
+var _default = White;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","./White.css":"components/Tablet/LandingPageTablet/White/White.css"}],"components/Tablet/LandingPageTablet/Group86/Group86.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Tablet/LandingPageTablet/Group86/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _White = _interopRequireDefault(require("../White"));
+
+require("./Group86.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Group86(props) {
+  var group85 = props.group85,
+      whiteProps = props.whiteProps;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "group-86"
+  }, /*#__PURE__*/_react.default.createElement(_White.default, {
+    src: whiteProps.src
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "group-85",
+    src: group85
+  }));
+}
+
+var _default = Group86;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","../White":"components/Tablet/LandingPageTablet/White/index.jsx","./Group86.css":"components/Tablet/LandingPageTablet/Group86/Group86.css"}],"components/Tablet/LandingPageTablet/IconMenu/IconMenu.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Tablet/LandingPageTablet/IconMenu/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+require("./IconMenu.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function IconMenu(props) {
+  var vector2 = props.vector2,
+      vector3 = props.vector3;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "icon-menu"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "vector-2",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-159@2x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "vector-1",
+    src: vector2
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "vector-1",
+    src: vector3
+  }));
+}
+
+var _default = IconMenu;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","./IconMenu.css":"components/Tablet/LandingPageTablet/IconMenu/IconMenu.css"}],"components/Tablet/LandingPageTablet/Frame144/Frame144.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Tablet/LandingPageTablet/Frame144/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _Group = _interopRequireDefault(require("../Group86"));
+
+var _IconMenu = _interopRequireDefault(require("../IconMenu"));
+
+require("./Frame144.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Frame144(props) {
+  var group86Props = props.group86Props,
+      iconMenuProps = props.iconMenuProps;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "frame-144"
+  }, /*#__PURE__*/_react.default.createElement(_Group.default, {
+    group85: group86Props.group85,
+    whiteProps: group86Props.whiteProps
+  }), /*#__PURE__*/_react.default.createElement(_IconMenu.default, {
+    vector2: iconMenuProps.vector2,
+    vector3: iconMenuProps.vector3
+  }));
+}
+
+var _default = Frame144;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","../Group86":"components/Tablet/LandingPageTablet/Group86/index.jsx","../IconMenu":"components/Tablet/LandingPageTablet/IconMenu/index.jsx","./Frame144.css":"components/Tablet/LandingPageTablet/Frame144/Frame144.css"}],"components/Tablet/LandingPageTablet/GetAQuoteButton2/GetAQuoteButton2.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Tablet/LandingPageTablet/GetAQuoteButton2/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireWildcard(require("react"));
+
+var _animaTimeline = require("anima-timeline");
+
+require("./GetAQuoteButton2.css");
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function GetAQuoteButton2(props) {
+  var children = props.children;
+  (0, _react.useEffect)(function () {
+    (0, _animaTimeline.loadTimelineData)(x26013033TimelineData);
+  }, []);
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "x26013033 component component-wrapper not-ready"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "master-button-Y0gomr"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "button-i2601303351-0VL8Sj valign-text-middle"
+  }, children)));
+}
+
+var x26013033TimelineData = [{
+  initial_state_name: "Property-1=Primary",
+  root_element: ".x26013033",
+  states_flow: {
+    "Property-1=Primary": {
+      listeners: [],
+      overrides: {}
+    },
+    "Property-1=Secondary": {
+      listeners: [],
+      overrides: {}
+    },
+    "Property-1=Tertiary": {
+      listeners: [],
+      overrides: {}
+    }
+  }
+}];
+var _default = GetAQuoteButton2;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","anima-timeline":"node_modules/anima-timeline/index-esm.js","./GetAQuoteButton2.css":"components/Tablet/LandingPageTablet/GetAQuoteButton2/GetAQuoteButton2.css"}],"components/Tablet/LandingPageTablet/Group139/Group139.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Tablet/LandingPageTablet/Group139/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+require("./Group139.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Group139(props) {
+  var children = props.children;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "group-139"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "overlap-group2"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "rectangle-46"
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "price overpass-extra-bold-shark-14px"
+  }, children)));
+}
+
+var _default = Group139;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","./Group139.css":"components/Tablet/LandingPageTablet/Group139/Group139.css"}],"components/Tablet/LandingPageTablet/Frame138/Frame138.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Tablet/LandingPageTablet/Frame138/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+require("./Frame138.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Frame138(props) {
+  var place = props.place,
+      living = props.living;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "frame-138"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "place typographybodycaption-14-semi-bold"
+  }, place), /*#__PURE__*/_react.default.createElement("div", {
+    className: "living typographybodycaption-14-semi-bold"
+  }, living));
+}
+
+var _default = Frame138;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","./Frame138.css":"components/Tablet/LandingPageTablet/Frame138/Frame138.css"}],"components/Tablet/LandingPageTablet/Group13022/Group13022.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Tablet/LandingPageTablet/Group13022/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+require("./Group13022.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Group13022(props) {
+  var rectangle62 = props.rectangle62,
+      text107 = props.text107,
+      surname = props.surname;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "group-130"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "rectangle-62",
+    src: rectangle62
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "group-99"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "text-11 valign-text-middle typographyheadlineh4-extrabold-24"
+  }, text107), /*#__PURE__*/_react.default.createElement("p", {
+    className: "surname typography-body-smalltext-14-regular"
+  }, surname)));
+}
+
+var _default = Group13022;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","./Group13022.css":"components/Tablet/LandingPageTablet/Group13022/Group13022.css"}],"components/Tablet/LandingPageTablet/Group135/Group135.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Tablet/LandingPageTablet/Group135/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+require("./Group135.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Group135(props) {
+  var rectangle62 = props.rectangle62,
+      text108 = props.text108,
+      surname = props.surname,
+      className = props.className;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "group-135 ".concat(className || "")
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "rectangle-62-1",
+    src: rectangle62
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "group-99-1"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "text-12 valign-text-middle typographyheadlineh4-extrabold-24"
+  }, text108), /*#__PURE__*/_react.default.createElement("p", {
+    className: "surname-1 typography-body-smalltext-14-regular"
+  }, surname)));
+}
+
+var _default = Group135;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","./Group135.css":"components/Tablet/LandingPageTablet/Group135/Group135.css"}],"components/Tablet/LandingPageTablet/Group137/Group137.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Tablet/LandingPageTablet/Group137/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+require("./Group137.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Group137(props) {
+  var rectangle62 = props.rectangle62,
+      text111 = props.text111,
+      surname = props.surname,
+      className = props.className;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "group-137 ".concat(className || "")
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "rectangle-62-2",
+    src: rectangle62
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "group-99-2"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "text-15 valign-text-middle typographyheadlineh4-extrabold-24"
+  }, text111), /*#__PURE__*/_react.default.createElement("p", {
+    className: "surname-2 typography-body-smalltext-14-regular"
+  }, surname)));
+}
+
+var _default = Group137;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","./Group137.css":"components/Tablet/LandingPageTablet/Group137/Group137.css"}],"components/Tablet/LandingPageTablet/Frame149/Frame149.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Tablet/LandingPageTablet/Frame149/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _Group = _interopRequireDefault(require("../Group139"));
+
+var _Frame = _interopRequireDefault(require("../Frame138"));
+
+var _Group2 = _interopRequireDefault(require("../Group13022"));
+
+var _Group3 = _interopRequireDefault(require("../Group135"));
+
+var _Group4 = _interopRequireDefault(require("../Group137"));
+
+require("./Frame149.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Frame149(props) {
+  var apartments = props.apartments,
+      buildiings = props.buildiings,
+      group139Props = props.group139Props,
+      frame138Props = props.frame138Props,
+      group13022Props = props.group13022Props,
+      group135Props = props.group135Props,
+      group1352Props = props.group1352Props,
+      group135Props2 = props.group135Props2,
+      group137Props = props.group137Props,
+      group135Props3 = props.group135Props3,
+      group1352Props2 = props.group1352Props2,
+      group1372Props = props.group1372Props;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "frame-149"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "frame-1609"
+  }, /*#__PURE__*/_react.default.createElement(_Group.default, null, group139Props.children), /*#__PURE__*/_react.default.createElement("div", {
+    className: "apartments typographybodycaption-14-semi-bold"
+  }, apartments), /*#__PURE__*/_react.default.createElement("div", {
+    className: "buildiings typographybodycaption-14-semi-bold"
+  }, buildiings), /*#__PURE__*/_react.default.createElement(_Frame.default, {
+    place: frame138Props.place,
+    living: frame138Props.living
+  })), /*#__PURE__*/_react.default.createElement("div", {
+    className: "frame-15"
+  }, /*#__PURE__*/_react.default.createElement(_Group2.default, {
+    rectangle62: group13022Props.rectangle62,
+    text107: group13022Props.text107,
+    surname: group13022Props.surname
+  }), /*#__PURE__*/_react.default.createElement(_Group3.default, {
+    rectangle62: group135Props.rectangle62,
+    text108: group135Props.text108,
+    surname: group135Props.surname
+  })), /*#__PURE__*/_react.default.createElement("div", {
+    className: "frame-15"
+  }, /*#__PURE__*/_react.default.createElement(_Group3.default, {
+    rectangle62: group1352Props.rectangle62,
+    text108: group1352Props.text108,
+    surname: group1352Props.surname,
+    className: "group-13"
+  }), /*#__PURE__*/_react.default.createElement(_Group3.default, {
+    rectangle62: group135Props2.rectangle62,
+    text108: group135Props2.text108,
+    surname: group135Props2.surname,
+    className: "group-13-1"
+  })), /*#__PURE__*/_react.default.createElement("div", {
+    className: "frame-15-1"
+  }, /*#__PURE__*/_react.default.createElement(_Group4.default, {
+    rectangle62: group137Props.rectangle62,
+    text111: group137Props.text111,
+    surname: group137Props.surname
+  }), /*#__PURE__*/_react.default.createElement(_Group3.default, {
+    rectangle62: group135Props3.rectangle62,
+    text108: group135Props3.text108,
+    surname: group135Props3.surname,
+    className: "group-13-1"
+  })), /*#__PURE__*/_react.default.createElement("div", {
+    className: "frame-15-1"
+  }, /*#__PURE__*/_react.default.createElement(_Group3.default, {
+    rectangle62: group1352Props2.rectangle62,
+    text108: group1352Props2.text108,
+    surname: group1352Props2.surname,
+    className: "group-13"
+  }), /*#__PURE__*/_react.default.createElement(_Group4.default, {
+    rectangle62: group1372Props.rectangle62,
+    text111: group1372Props.text111,
+    surname: group1372Props.surname,
+    className: "group-133"
+  })));
+}
+
+var _default = Frame149;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","../Group139":"components/Tablet/LandingPageTablet/Group139/index.jsx","../Frame138":"components/Tablet/LandingPageTablet/Frame138/index.jsx","../Group13022":"components/Tablet/LandingPageTablet/Group13022/index.jsx","../Group135":"components/Tablet/LandingPageTablet/Group135/index.jsx","../Group137":"components/Tablet/LandingPageTablet/Group137/index.jsx","./Frame149.css":"components/Tablet/LandingPageTablet/Frame149/Frame149.css"}],"components/Tablet/LandingPageTablet/Button22/Button22.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Tablet/LandingPageTablet/Button22/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireWildcard(require("react"));
+
+var _animaTimeline = require("anima-timeline");
+
+require("./Button22.css");
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function Button22(props) {
+  var children = props.children;
+  (0, _react.useEffect)(function () {
+    (0, _animaTimeline.loadTimelineData)(x26013224TimelineData);
+  }, []);
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "x26013224 component component-wrapper not-ready"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "master-button-KTVw70"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "button-i2601322451-i3uVbP valign-text-middle"
+  }, children)));
+}
+
+var x26013224TimelineData = [{
+  initial_state_name: "Property-1=Tertiary",
+  root_element: ".x26013224",
+  states_flow: {
+    "Property-1=Primary": {
+      listeners: [],
+      overrides: {}
+    },
+    "Property-1=Secondary": {
+      listeners: [],
+      overrides: {}
+    },
+    "Property-1=Tertiary": {
+      listeners: [],
+      overrides: {}
+    }
+  }
+}];
+var _default = Button22;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","anima-timeline":"node_modules/anima-timeline/index-esm.js","./Button22.css":"components/Tablet/LandingPageTablet/Button22/Button22.css"}],"components/Tablet/LandingPageTablet/Group69/Group69.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Tablet/LandingPageTablet/Group69/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+require("./Group69.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Group69(props) {
+  var number = props.number,
+      text4 = props.text4,
+      className = props.className;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "group-69 ".concat(className || "")
+  }, /*#__PURE__*/_react.default.createElement("h1", {
+    className: "number valign-text-middle typographyheadlineh2-extrabold-40"
+  }, number), /*#__PURE__*/_react.default.createElement("div", {
+    className: "rs-sft valign-text-middle typographybody16-regular"
+  }, text4));
+}
+
+var _default = Group69;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","./Group69.css":"components/Tablet/LandingPageTablet/Group69/Group69.css"}],"components/Tablet/LandingPageTablet/Button8/Button8.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Tablet/LandingPageTablet/Button8/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireWildcard(require("react"));
+
+var _animaTimeline = require("anima-timeline");
+
+require("./Button8.css");
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function Button8(props) {
+  var children = props.children,
+      className = props.className;
+  (0, _react.useEffect)(function () {
+    (0, _animaTimeline.loadTimelineData)(x26013055TimelineData);
+  }, []);
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "x26013055 component component-wrapper not-ready ".concat(className || "")
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "master-button-bEwMED"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "button-i2601305551-fEuPhW valign-text-middle"
+  }, children)));
+}
+
+var x26013055TimelineData = [{
+  initial_state_name: "Property-1=Primary",
+  root_element: ".x26013055",
+  states_flow: {
+    "Property-1=Primary": {
+      listeners: [],
+      overrides: {}
+    },
+    "Property-1=Secondary": {
+      listeners: [],
+      overrides: {}
+    },
+    "Property-1=Tertiary": {
+      listeners: [],
+      overrides: {}
+    }
+  }
+}];
+var _default = Button8;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","anima-timeline":"node_modules/anima-timeline/index-esm.js","./Button8.css":"components/Tablet/LandingPageTablet/Button8/Button8.css"}],"components/Tablet/LandingPageTablet/PackagesCard/PackagesCard.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Tablet/LandingPageTablet/PackagesCard/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _Group = _interopRequireDefault(require("../Group69"));
+
+var _Button = _interopRequireDefault(require("../Button8"));
+
+require("./PackagesCard.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function PackagesCard(props) {
+  var basic = props.basic,
+      group69Props = props.group69Props,
+      buttonProps = props.buttonProps;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "package-card"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "basic-1 valign-text-middle typographyheadlineh4-extrabold-24"
+  }, basic), /*#__PURE__*/_react.default.createElement("div", {
+    className: "basic"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "vector-3",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-138@2x.svg"
+  })), /*#__PURE__*/_react.default.createElement(_Group.default, {
+    number: group69Props.number,
+    text4: group69Props.text4
+  }), /*#__PURE__*/_react.default.createElement(_Button.default, null, buttonProps.children));
+}
+
+var _default = PackagesCard;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","../Group69":"components/Tablet/LandingPageTablet/Group69/index.jsx","../Button8":"components/Tablet/LandingPageTablet/Button8/index.jsx","./PackagesCard.css":"components/Tablet/LandingPageTablet/PackagesCard/PackagesCard.css"}],"components/Tablet/LandingPageTablet/Group1112/Group1112.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Tablet/LandingPageTablet/Group1112/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _Group = _interopRequireDefault(require("../Group69"));
+
+var _Button = _interopRequireDefault(require("../Button8"));
+
+require("./Group1112.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Group1112(props) {
+  var place = props.place,
+      overlapGroup4 = props.overlapGroup4,
+      group69Props = props.group69Props,
+      buttonProps = props.buttonProps;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "package-card-1"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "place-1 valign-text-middle typographyheadlineh4-extrabold-24"
+  }, place), /*#__PURE__*/_react.default.createElement("div", {
+    className: "standard"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "overlap-group2-1",
+    style: {
+      backgroundImage: "url(".concat(overlapGroup4, ")")
+    }
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "vector-4",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-79@2x.svg"
+  }))), /*#__PURE__*/_react.default.createElement(_Group.default, {
+    number: group69Props.number,
+    text4: group69Props.text4,
+    className: "group-69-1"
+  }), /*#__PURE__*/_react.default.createElement(_Button.default, {
+    className: "x26013094"
+  }, buttonProps.children));
+}
+
+var _default = Group1112;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","../Group69":"components/Tablet/LandingPageTablet/Group69/index.jsx","../Button8":"components/Tablet/LandingPageTablet/Button8/index.jsx","./Group1112.css":"components/Tablet/LandingPageTablet/Group1112/Group1112.css"}],"components/Tablet/LandingPageTablet/Group112/Group112.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Tablet/LandingPageTablet/Group112/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _Group = _interopRequireDefault(require("../Group69"));
+
+var _Button = _interopRequireDefault(require("../Button8"));
+
+require("./Group112.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Group112(props) {
+  var premium = props.premium,
+      group = props.group,
+      vector2 = props.vector2,
+      vector3 = props.vector3,
+      vector4 = props.vector4,
+      group2 = props.group2,
+      group69Props = props.group69Props,
+      buttonProps = props.buttonProps;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "package-card-2"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "premium-1 valign-text-middle typographyheadlineh4-extrabold-24"
+  }, premium), /*#__PURE__*/_react.default.createElement("div", {
+    className: "premium"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "overlap-group2-2"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "group",
+    style: {
+      backgroundImage: "url(".concat(group, ")")
+    }
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "vector-5",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-81@2x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "vector-8",
+    src: vector2
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "vector-6",
+    src: vector3
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "vector-7",
+    src: vector4
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "group-1",
+    style: {
+      backgroundImage: "url(".concat(group2, ")")
+    }
+  }))), /*#__PURE__*/_react.default.createElement(_Group.default, {
+    number: group69Props.number,
+    text4: group69Props.text4,
+    className: "group-69-1"
+  }), /*#__PURE__*/_react.default.createElement(_Button.default, {
+    className: "x26013134"
+  }, buttonProps.children));
+}
+
+var _default = Group112;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","../Group69":"components/Tablet/LandingPageTablet/Group69/index.jsx","../Button8":"components/Tablet/LandingPageTablet/Button8/index.jsx","./Group112.css":"components/Tablet/LandingPageTablet/Group112/Group112.css"}],"components/Tablet/LandingPageTablet/Group113/Group113.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Tablet/LandingPageTablet/Group113/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _Group = _interopRequireDefault(require("../Group69"));
+
+var _Button = _interopRequireDefault(require("../Button8"));
+
+require("./Group113.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Group113(props) {
+  var basic = props.basic,
+      group69Props = props.group69Props,
+      buttonProps = props.buttonProps;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "package-card-3"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "basic-2 valign-text-middle typographyheadlineh4-extrabold-24"
+  }, basic), /*#__PURE__*/_react.default.createElement("div", {
+    className: "luxury"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "vector-9",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-147@2x.svg"
+  })), /*#__PURE__*/_react.default.createElement(_Group.default, {
+    number: group69Props.number,
+    text4: group69Props.text4,
+    className: "group-69-1"
+  }), /*#__PURE__*/_react.default.createElement(_Button.default, {
+    className: "x26013173"
+  }, buttonProps.children));
+}
+
+var _default = Group113;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","../Group69":"components/Tablet/LandingPageTablet/Group69/index.jsx","../Button8":"components/Tablet/LandingPageTablet/Button8/index.jsx","./Group113.css":"components/Tablet/LandingPageTablet/Group113/Group113.css"}],"components/Tablet/LandingPageTablet/Group11422/Group11422.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Tablet/LandingPageTablet/Group11422/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+require("./Group11422.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Group11422(props) {
+  var costEstimator = props.costEstimator,
+      text93 = props.text93;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "group-114"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "cost-estimator valign-text-middle typographyheadlineh4-extrabold-24"
+  }, costEstimator), /*#__PURE__*/_react.default.createElement("p", {
+    className: "text-20 valign-text-middle typographybodysmall-12-regular"
+  }, text93));
+}
+
+var _default = Group11422;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","./Group11422.css":"components/Tablet/LandingPageTablet/Group11422/Group11422.css"}],"components/Tablet/LandingPageTablet/EstimateNowButton/EstimateNowButton.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Tablet/LandingPageTablet/EstimateNowButton/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireWildcard(require("react"));
+
+var _animaTimeline = require("anima-timeline");
+
+require("./EstimateNowButton.css");
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function EstimateNowButton(props) {
+  var children = props.children;
+  (0, _react.useEffect)(function () {
+    (0, _animaTimeline.loadTimelineData)(x26013220TimelineData);
+  }, []);
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "x26013220 component component-wrapper not-ready"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "master-button-8PZClG"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "button-i2601322051-Sid1RS valign-text-middle"
+  }, children)));
+}
+
+var x26013220TimelineData = [{
+  initial_state_name: "Property-1=Primary",
+  root_element: ".x26013220",
+  states_flow: {
+    "Property-1=Primary": {
+      listeners: [],
+      overrides: {}
+    },
+    "Property-1=Secondary": {
+      listeners: [],
+      overrides: {
+        "": {
+          position: "relative"
+        }
+      }
+    },
+    "Property-1=Tertiary": {
+      listeners: [],
+      overrides: {
+        "": {
+          position: "relative"
+        }
+      }
+    }
+  }
+}];
+var _default = EstimateNowButton;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","anima-timeline":"node_modules/anima-timeline/index-esm.js","./EstimateNowButton.css":"components/Tablet/LandingPageTablet/EstimateNowButton/EstimateNowButton.css"}],"components/Tablet/LandingPageTablet/Frame122/Frame122.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Tablet/LandingPageTablet/Frame122/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+require("./Frame122.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Frame122(props) {
+  var children = props.children,
+      className = props.className;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "frame-1 border-1px-white ".concat(className || "")
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "text-21 inter-normal-white-14px"
+  }, children));
+}
+
+var _default = Frame122;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","./Frame122.css":"components/Tablet/LandingPageTablet/Frame122/Frame122.css"}],"components/Tablet/LandingPageTablet/Group11722/Group11722.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Tablet/LandingPageTablet/Group11722/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _Frame = _interopRequireDefault(require("../Frame122"));
+
+require("./Group11722.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Group11722(props) {
+  var frame12Props = props.frame12Props,
+      frame122Props = props.frame122Props;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "group-117"
+  }, /*#__PURE__*/_react.default.createElement(_Frame.default, null, frame12Props.children), /*#__PURE__*/_react.default.createElement(_Frame.default, {
+    className: "frame-1-1"
+  }, frame122Props.children));
+}
+
+var _default = Group11722;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","../Frame122":"components/Tablet/LandingPageTablet/Frame122/index.jsx","./Group11722.css":"components/Tablet/LandingPageTablet/Group11722/Group11722.css"}],"components/Tablet/LandingPageTablet/Group2722/Group2722.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Tablet/LandingPageTablet/Group2722/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+require("./Group2722.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Group2722(props) {
+  var text120 = props.text120,
+      ellipse1 = props.ellipse1,
+      name = props.name,
+      bangaloreIndia = props.bangaloreIndia,
+      className = props.className;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "group-27 ".concat(className || "")
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "overlap-group2-3"
+  }, /*#__PURE__*/_react.default.createElement("p", {
+    className: "text-24 typographybodysmall-12-regular"
+  }, text120), /*#__PURE__*/_react.default.createElement("div", {
+    className: "group-120"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "ellipse-1",
+    src: ellipse1
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "group-140"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "name valign-text-middle typographyheadlineh5-extrabold-20"
+  }, name), /*#__PURE__*/_react.default.createElement("div", {
+    className: "bangalore-india valign-text-middle typographybodysmall-12-regular"
+  }, bangaloreIndia)))));
+}
+
+var _default = Group2722;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","./Group2722.css":"components/Tablet/LandingPageTablet/Group2722/Group2722.css"}],"components/Tablet/LandingPageTablet/Group129/Group129.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Tablet/LandingPageTablet/Group129/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+require("./Group129.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Group129() {
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "group-141"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "ellipse-99"
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "ellipse-10"
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "ellipse-10"
+  }));
+}
+
+var _default = Group129;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","./Group129.css":"components/Tablet/LandingPageTablet/Group129/Group129.css"}],"components/Tablet/LandingPageTablet/Frame165/Frame165.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Tablet/LandingPageTablet/Frame165/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+require("./Frame165.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Frame165(props) {
+  var image3 = props.image3,
+      image5 = props.image5,
+      image4 = props.image4,
+      image6 = props.image6,
+      image8 = props.image8,
+      image7 = props.image7;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "frame-165"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "image-3",
+    src: image3
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "image-",
+    src: image5
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "image-",
+    src: image4
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "image-",
+    src: image6
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "image-",
+    src: image8
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "image-",
+    src: image7
+  }));
+}
+
+var _default = Frame165;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","./Frame165.css":"components/Tablet/LandingPageTablet/Frame165/Frame165.css"}],"components/Tablet/LandingPageTablet/FacebookAppSymbol/FacebookAppSymbol.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Tablet/LandingPageTablet/FacebookAppSymbol/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+require("./FacebookAppSymbol.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function FacebookAppSymbol(props) {
+  var src = props.src;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "facebook-app-symbol"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "f-1",
+    src: src
+  }));
+}
+
+var _default = FacebookAppSymbol;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","./FacebookAppSymbol.css":"components/Tablet/LandingPageTablet/FacebookAppSymbol/FacebookAppSymbol.css"}],"components/Tablet/LandingPageTablet/Instagram/Instagram.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Tablet/LandingPageTablet/Instagram/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+require("./Instagram.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Instagram(props) {
+  var instagram = props.instagram,
+      vector2 = props.vector2;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "instagram",
+    style: {
+      backgroundImage: "url(".concat(instagram, ")")
+    }
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "overlap-group2-5"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "vector-14",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-155@2x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "vector-13",
+    src: vector2
+  })));
+}
+
+var _default = Instagram;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","./Instagram.css":"components/Tablet/LandingPageTablet/Instagram/Instagram.css"}],"components/Tablet/LandingPageTablet/Twitter/Twitter.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Tablet/LandingPageTablet/Twitter/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+require("./Twitter.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Twitter(props) {
+  var src = props.src;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "twitter"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "vector-15",
+    src: src
+  }));
+}
+
+var _default = Twitter;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","./Twitter.css":"components/Tablet/LandingPageTablet/Twitter/Twitter.css"}],"components/Tablet/LandingPageTablet/Group87/Group87.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Tablet/LandingPageTablet/Group87/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _FacebookAppSymbol = _interopRequireDefault(require("../FacebookAppSymbol"));
+
+var _Instagram = _interopRequireDefault(require("../Instagram"));
+
+var _Twitter = _interopRequireDefault(require("../Twitter"));
+
+require("./Group87.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Group87(props) {
+  var facebookAppSymbolProps = props.facebookAppSymbolProps,
+      facebookAppSymbolProps2 = props.facebookAppSymbolProps2,
+      twitterProps = props.twitterProps;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "group-87"
+  }, /*#__PURE__*/_react.default.createElement(_FacebookAppSymbol.default, {
+    src: facebookAppSymbolProps.src
+  }), /*#__PURE__*/_react.default.createElement(_Instagram.default, {
+    instagram: facebookAppSymbolProps2.instagram,
+    vector2: facebookAppSymbolProps2.vector2
+  }), /*#__PURE__*/_react.default.createElement(_Twitter.default, {
+    src: twitterProps.src
+  }));
+}
+
+var _default = Group87;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","../FacebookAppSymbol":"components/Tablet/LandingPageTablet/FacebookAppSymbol/index.jsx","../Instagram":"components/Tablet/LandingPageTablet/Instagram/index.jsx","../Twitter":"components/Tablet/LandingPageTablet/Twitter/index.jsx","./Group87.css":"components/Tablet/LandingPageTablet/Group87/Group87.css"}],"components/Tablet/LandingPageTablet/Footer/Footer.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Tablet/LandingPageTablet/Footer/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _Group = _interopRequireDefault(require("../Group87"));
+
+require("./Footer.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Footer(props) {
+  var group85 = props.group85,
+      place = props.place,
+      overlapGroup = props.overlapGroup,
+      vector2 = props.vector2,
+      phone = props.phone,
+      overlapGroup1 = props.overlapGroup1,
+      vector3 = props.vector3,
+      text42 = props.text42,
+      text3 = props.text3,
+      contactWebuildCom = props.contactWebuildCom,
+      quickLinks = props.quickLinks,
+      aboutUs = props.aboutUs,
+      projects = props.projects,
+      gallery = props.gallery,
+      knowledgeTransfer = props.knowledgeTransfer,
+      blogs = props.blogs,
+      faqs = props.faqs,
+      group87Props = props.group87Props;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "footer"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "flex-row-2"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "vector-11",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-148@2x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "group-85-1",
+    src: group85
+  }), /*#__PURE__*/_react.default.createElement(_Group.default, {
+    facebookAppSymbolProps: group87Props.facebookAppSymbolProps,
+    facebookAppSymbolProps2: group87Props.facebookAppSymbolProps2,
+    twitterProps: group87Props.twitterProps
+  })), /*#__PURE__*/_react.default.createElement("div", {
+    className: "flex-row"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "group-32"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "place-2 valign-text-middle typographyheadlineh5-extrabold-20"
+  }, place), /*#__PURE__*/_react.default.createElement("div", {
+    className: "flex-row-4"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "flex-col-1"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "map-pin-1"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "overlap-group2-4",
+    style: {
+      backgroundImage: "url(".concat(overlapGroup, ")")
+    }
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "vector-12",
+    src: vector2
+  }))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "phone",
+    style: {
+      backgroundImage: "url(".concat(phone, ")")
+    }
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "mail"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "overlap-group3",
+    style: {
+      backgroundImage: "url(".concat(overlapGroup1, ")")
+    }
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "vector-10",
+    src: vector3
+  })))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "flex-col"
+  }, /*#__PURE__*/_react.default.createElement("p", {
+    className: "text-23 typography-body-smalltext-14-regular"
+  }, text42), /*#__PURE__*/_react.default.createElement("div", {
+    className: "flex-col-item valign-text-middle typography-body-smalltext-14-regular"
+  }, text3), /*#__PURE__*/_react.default.createElement("div", {
+    className: "flex-col-item valign-text-middle typography-body-smalltext-14-regular"
+  }, contactWebuildCom)))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "group-147"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "quick-links valign-text-middle typographyheadlineh5-extrabold-20"
+  }, quickLinks), /*#__PURE__*/_react.default.createElement("div", {
+    className: "flex-row-3"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "about-us valign-text-middle typographybody16-regular"
+  }, aboutUs), /*#__PURE__*/_react.default.createElement("div", {
+    className: "projects valign-text-middle typographybody16-regular"
+  }, projects)), /*#__PURE__*/_react.default.createElement("div", {
+    className: "flex-row-1"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "gallery valign-text-middle typographybody16-regular"
+  }, gallery), /*#__PURE__*/_react.default.createElement("div", {
+    className: "knowledge-transfer valign-text-middle typographybody16-regular"
+  }, knowledgeTransfer)), /*#__PURE__*/_react.default.createElement("div", {
+    className: "flex-row-1"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "blogs valign-text-middle typographybody16-regular"
+  }, blogs), /*#__PURE__*/_react.default.createElement("div", {
+    className: "fa-qs valign-text-middle typographybody16-regular"
+  }, faqs)))));
+}
+
+var _default = Footer;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","../Group87":"components/Tablet/LandingPageTablet/Group87/index.jsx","./Footer.css":"components/Tablet/LandingPageTablet/Footer/Footer.css"}],"components/Tablet/LandingPageTablet/X01LandingPageTablet/X01LandingPageTablet.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Tablet/LandingPageTablet/X01LandingPageTablet/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _Frame = _interopRequireDefault(require("../Frame144"));
+
+var _GetAQuoteButton = _interopRequireDefault(require("../GetAQuoteButton2"));
+
+var _Frame2 = _interopRequireDefault(require("../Frame149"));
+
+var _Button = _interopRequireDefault(require("../Button22"));
+
+var _PackagesCard = _interopRequireDefault(require("../PackagesCard"));
+
+var _Group = _interopRequireDefault(require("../Group1112"));
+
+var _Group2 = _interopRequireDefault(require("../Group112"));
+
+var _Group3 = _interopRequireDefault(require("../Group113"));
+
+var _Group4 = _interopRequireDefault(require("../Group11422"));
+
+var _EstimateNowButton = _interopRequireDefault(require("../EstimateNowButton"));
+
+var _Group5 = _interopRequireDefault(require("../Group11722"));
+
+var _Group6 = _interopRequireDefault(require("../Group2722"));
+
+var _Group7 = _interopRequireDefault(require("../Group129"));
+
+var _Frame3 = _interopRequireDefault(require("../Frame165"));
+
+var _Footer = _interopRequireDefault(require("../Footer"));
+
+require("./X01LandingPageTablet.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function X01LandingPageTablet() {
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "container-center-horizontal"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpt-x01-landing-pagetablet screen"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpt-overlap-group"
+  }, /*#__PURE__*/_react.default.createElement(_Frame.default, {
+    group86Props: frame144Data.group86Props,
+    iconMenuProps: frame144Data.iconMenuProps
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpt-frame-16"
+  }, /*#__PURE__*/_react.default.createElement("p", {
+    className: "lpt-text-8 valign-text-middle overpass-semi-bold-white-16px2"
+  }, /*#__PURE__*/_react.default.createElement("span", null, /*#__PURE__*/_react.default.createElement("span", {
+    className: "lpt-span0 overpass-semi-bold-white-16px-22"
+  }, "Gain the Power of \u201CUnified C2C\u201D ", /*#__PURE__*/_react.default.createElement("br", null), "Unburden yourself while"), /*#__PURE__*/_react.default.createElement("span", {
+    className: "lpt-span1 overpass-semi-bold-white-32px"
+  }, " ", /*#__PURE__*/_react.default.createElement("br", null)), /*#__PURE__*/_react.default.createElement("span", {
+    className: "lpt-span2-1 overpass-extra-bold-mahogany-40px"
+  }, "we build your future."))), /*#__PURE__*/_react.default.createElement("p", {
+    className: "lpt-text-9 typography-body-smalltext-14-regular"
+  }, "At Webuilld we offer you a completely", /*#__PURE__*/_react.default.createElement("br", null), "\u201CUnified Conception to Construction\u201D value proposition.\xA0\xA0No more dealing with a dozen sub-contractors or labour hassles when constructing your home or commercial building"), /*#__PURE__*/_react.default.createElement(_GetAQuoteButton.default, null, "GET A QUOTE"))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpt-why-webuild valign-text-middle typographyheadlineh4-extrabold-24"
+  }, "Why Webuild?"), /*#__PURE__*/_react.default.createElement("p", {
+    className: "lpt-text-1 typography-body-smalltext-14-regular"
+  }, "Because we bring to the table XX years of comprehensive experience, XX happy customers blended with trust, reliability and transparency"), /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpt-group-144"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-rectangle-7",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/rectangle-72-1@1x.png"
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpt-group-143"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpt-building"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpt-overlap-group2-8"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpt-group-3"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-vector-40",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-61@2x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-vector-24",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-62@2x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-vector-43",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-63@2x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-vector-31",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-64@2x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-vector-26",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-357@2x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-vector-28",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-66@2x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-vector-23",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-359@2x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-vector-36",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-68@2x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-vector-38",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-361@2x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-vector-19",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-70@2x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-vector-17",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-363@2x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-vector-37",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-72@2x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-vector-34",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-73@2x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-vector-16",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-366@2x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-vector-46",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-73@2x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-vector-50",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-76@2x.svg"
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpt-group-2"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-vector-29",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-76@2x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-vector-27",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-79@2x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-vector-45",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-372@2x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-vector-30",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-79@2x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-vector-39",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-82@2x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-vector-20",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-375@2x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-vector-48",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-82@2x.svg"
+  }))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpt-text-2 valign-text-middle typographyheadlineh5-extrabold-20"
+  }, "The Webuildd Difference"), /*#__PURE__*/_react.default.createElement("p", {
+    className: "lpt-text-3 typographybodysmall-12-regular"
+  }, /*#__PURE__*/_react.default.createElement("span", {
+    className: "lpt-span typographybodysmall-12-regular"
+  }, "What makes us stand miles apart from other firms? We call it \u201CWebuildd Difference\u201D: from the very first time you meet us, to the interaction with our team, the hassle-free engagement and finally the day we hand you the keys to your new home/building, the only standard we accept for ourselves (and our customers) is \u201CConsistent Excellence\u201D. We are never satisfied with our laurels, and our service to you goes far beyond simply putting one brick on top of another. We not only ensure that get quality, but also blend it with creativity, engineering, management, quality and multiple other disciplines to deliver the perfect output for your residential or commercial needs. We have even created our very own"), /*#__PURE__*/_react.default.createElement("span", {
+    className: "lpt-span-1 typographybodysmall-12-regular"
+  }, " ", /*#__PURE__*/_react.default.createElement("br", null)), /*#__PURE__*/_react.default.createElement("span", {
+    className: "lpt-span2 overpass-semi-bold-mahogany-12px"
+  }, "cost estimator"), /*#__PURE__*/_react.default.createElement("span", {
+    className: "lpt-span-1 typographybodysmall-12-regular"
+  }, "\xA0"), /*#__PURE__*/_react.default.createElement("span", {
+    className: "lpt-span typographybodysmall-12-regular"
+  }, "that helps you calculate your probable capital outgo for your upcoming building. We really like to make things easy for our clients")))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpt-group-142"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-rectangle-7",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/rectangle-73-1@1x.png"
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpt-group-145"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpt-blueprint"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpt-overlap-group2-9"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-vector-32",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-377@2x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-vector-49",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-110@2x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-vector-47",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-379@2x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-vector-22",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-380@2x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-vector-44",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-113@2x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-vector-35",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-382@2x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-vector-25",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-383@2x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-vector-41",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-384@2x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-vector-42",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-385@2x.svg"
+  }))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpt-text-4 valign-text-middle typographyheadlineh4-extrabold-24"
+  }, "Why Choose Us? Minimum Hassles. Maximum Value"), /*#__PURE__*/_react.default.createElement("p", {
+    className: "lpt-text-5 typography-body-smalltext-14-regular"
+  }, "We possess third generation business continuity which is a rarity. Which means that you gain decades of collaborative experience to your benefit. Expertise, quality, transparency, reliability and cost effectiveness are why our customers come back to us again and again. We offer a perfect blend of all these factors resulting in deep customer delight. We put the \u201CSmart\u201D in everything that we do. Smarter design, smarter spaces, smarter value. Simply: smarter living. With exciting options and construction plans to choose from, one is certain to be right for you. Yes, other people do some of what we do, but no one does everything in the unique way we do."))), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-rectangle-70",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/rectangle-70-1@1x.png"
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpt-group-146"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpt-plan"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpt-overlap-group2-6"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpt-overlap-group3-1"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-vector-21",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-122@2x.svg"
+  })), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-vector-33",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-388@2x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-vector-18",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-389@2x.svg"
+  }))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpt-text-6 valign-text-middle typographyheadlineh4-extrabold-24"
+  }, "Our Customer Value Propositions"), /*#__PURE__*/_react.default.createElement("p", {
+    className: "lpt-text-7 typography-body-smalltext-14-regular"
+  }, "When it comes to building a new residential or commercial building, choosing the right partner to bring your vision to life is an important first step. Our experienced Webuildd team has all the expertise, resources, and connections you need to turn inspiration into reality with seamless ease. You don\u2019t have to deal with the hassles of managing complex coordination and multiple resources. Our in-house team has you covered from legal, estimation, site planning, architectural design,")), /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpt-frame-154"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpt-our-projects valign-text-middle typographyheadlineh4-extrabold-24"
+  }, "Our Projects"), /*#__PURE__*/_react.default.createElement("p", {
+    className: "lpt-text-10 typography-body-smalltext-14-regular"
+  }, "We offer an entire array of construction options. Choose from basic to luxury according to your requirements"), /*#__PURE__*/_react.default.createElement(_Frame2.default, frame149Data)), /*#__PURE__*/_react.default.createElement(_Button.default, null, "VIEW MORE"), /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpt-packages valign-text-middle typographyheadlineh4-extrabold-24"
+  }, "Packages"), /*#__PURE__*/_react.default.createElement("p", {
+    className: "lpt-text-19 typographybody16-regular"
+  }, "We offer an entire array of construction options. Choose from basic to luxury according to your requirements"), /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpt-frame-158"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpt-frame-156"
+  }, /*#__PURE__*/_react.default.createElement(_PackagesCard.default, {
+    basic: "Basic",
+    group69Props: packagesCardData.group69Props,
+    buttonProps: packagesCardData.buttonProps
+  }), /*#__PURE__*/_react.default.createElement(_Group.default, {
+    place: "Standard",
+    overlapGroup4: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-139@2x.svg",
+    group69Props: group1112Data.group69Props,
+    buttonProps: group1112Data.buttonProps
+  })), /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpt-frame-157"
+  }, /*#__PURE__*/_react.default.createElement(_Group2.default, group112Data), /*#__PURE__*/_react.default.createElement(_Group3.default, {
+    basic: "Luxury",
+    group69Props: group113Data.group69Props,
+    buttonProps: group113Data.buttonProps
+  }))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpt-overlap-group1"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpt-frame-162"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpt-overlap-group2-7"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpt-cost-estimator-bg"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpt-rectangle-63"
+  })), /*#__PURE__*/_react.default.createElement(_Group4.default, {
+    costEstimator: "Cost Estimator",
+    text93: "Our very own software infused with years of experience. Use it to find a probable cost estimation to help you make a better choice"
+  }), /*#__PURE__*/_react.default.createElement(_EstimateNowButton.default, null, "ESTIMATE NOW"), /*#__PURE__*/_react.default.createElement(_Group5.default, {
+    frame12Props: group11722Data.frame12Props,
+    frame122Props: group11722Data.frame122Props
+  }))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpt-frame-166"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpt-overlap-group3-2"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpt-frame-160"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpt-frame-159"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpt-frame-37"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-frame-36",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-36-3@1x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-frame-",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-36-3@1x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-frame-",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-36-3@1x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-frame-",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-36-3@1x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-frame-",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-36-3@1x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-frame-",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-36-3@1x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-frame-",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-36-3@1x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-frame-",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-36-3@1x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-frame-",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-36-3@1x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-frame-",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-36-3@1x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-frame-",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-36-3@1x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-frame-",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-36-3@1x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-frame-",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-36-3@1x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-frame-",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-36-3@1x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-frame-",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-36-3@1x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-frame-",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-36-3@1x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-frame-",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-36-3@1x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-frame-",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-36-3@1x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-frame-",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-36-3@1x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-frame-",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-36-3@1x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-frame-",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-36-3@1x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-frame-",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-36-3@1x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-frame-",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-36-3@1x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-frame-",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-36-3@1x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-frame-",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-36-3@1x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-frame-",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-36-3@1x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-frame-",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-36-3@1x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-frame-",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-36-3@1x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-frame-64",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-64-3@1x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-frame-65",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-65@1x.png"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-frame--1",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-65@1x.png"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-frame--1",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-65@1x.png"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-frame--1",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-65@1x.png"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-frame--1",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-65@1x.png"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-frame--1",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-65@1x.png"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-frame--1",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-65@1x.png"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-frame--1",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-65@1x.png"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-frame--1",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-65@1x.png"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-frame--1",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-65@1x.png"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-frame--1",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-65@1x.png"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-frame--1",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-65@1x.png"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-frame--1",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-65@1x.png"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-frame--1",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-65@1x.png"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-frame--1",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-65@1x.png"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-frame--1",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-65@1x.png"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "lpt-frame--1",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/frame-65@1x.png"
+  })))), /*#__PURE__*/_react.default.createElement(_Group6.default, {
+    text120: "The whole team was very very supportive and I am really very happy. I am an extremely happy customer, Thank you Webuild !",
+    ellipse1: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/ellipse-1-3@2x.png",
+    name: "Robert Fox",
+    bangaloreIndia: "Bangalore, India"
+  }), /*#__PURE__*/_react.default.createElement(_Group6.default, {
+    text120: "The whole team was very very supportive and I am really very happy. I am an extremely happy customer, Thank you Webuild !",
+    ellipse1: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/ellipse-1-3@2x.png",
+    name: "Robert Fox",
+    bangaloreIndia: "Bangalore, India",
+    className: "lpt-group-27-1"
+  }), /*#__PURE__*/_react.default.createElement(_Group7.default, null), /*#__PURE__*/_react.default.createElement("p", {
+    className: "lpt-text-26 typographybody16-regular"
+  }, "Listen to what our customers say about us. They are the beating heart of our business"), /*#__PURE__*/_react.default.createElement("div", {
+    className: "lpt-testimonials valign-text-middle typographyheadlineh4-extrabold-24"
+  }, "Testimonials")))), /*#__PURE__*/_react.default.createElement(_Frame3.default, {
+    image3: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/image-3-2@2x.png",
+    image5: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/image-5-2@2x.png",
+    image4: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/image-4-2@2x.png",
+    image6: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/image-3-2@2x.png",
+    image8: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/image-5-2@2x.png",
+    image7: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/image-4-2@2x.png"
+  }), /*#__PURE__*/_react.default.createElement(_Footer.default, footerData)));
+}
+
+var _default = X01LandingPageTablet;
+exports.default = _default;
+var whiteData = {
+  src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-98@2x.svg"
+};
+var group86Data = {
+  group85: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/group-85-13@2x.svg",
+  whiteProps: whiteData
+};
+var iconMenuData = {
+  vector2: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-159@2x.svg",
+  vector3: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-159@2x.svg"
+};
+var frame144Data = {
+  group86Props: group86Data,
+  iconMenuProps: iconMenuData
+};
+var group139Data = {
+  children: "ALL"
+};
+var frame138Data = {
+  place: "INTERIOR",
+  living: "LIVING"
+};
+var group13022Data = {
+  rectangle62: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/rectangle-62-33@2x.png",
+  text107: "Project Name",
+  surname: "Small description about the project"
+};
+var group135Data = {
+  rectangle62: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/rectangle-62-34@2x.png",
+  text108: "Project Name",
+  surname: "Small description about the project"
+};
+var group1352Data = {
+  rectangle62: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/rectangle-62-35@2x.png",
+  text108: "Project Name",
+  surname: "Small description about the project"
+};
+var group1353Data = {
+  rectangle62: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/rectangle-62-36@2x.png",
+  text108: "Project Name",
+  surname: "Small description about the project"
+};
+var group137Data = {
+  rectangle62: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/rectangle-62-37@2x.png",
+  text111: "Project Name",
+  surname: "Small description about the project"
+};
+var group1354Data = {
+  rectangle62: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/rectangle-62-38@2x.png",
+  text108: "Project Name",
+  surname: "Small description about the project"
+};
+var group1355Data = {
+  rectangle62: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/rectangle-62-39@2x.png",
+  text108: "Project Name",
+  surname: "Small description about the project"
+};
+var group1372Data = {
+  rectangle62: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/rectangle-62-40@2x.png",
+  text111: "Project Name",
+  surname: "Small description about the project"
+};
+var frame149Data = {
+  apartments: "APARTMENTS",
+  buildiings: "BUILDIINGS",
+  group139Props: group139Data,
+  frame138Props: frame138Data,
+  group13022Props: group13022Data,
+  group135Props: group135Data,
+  group1352Props: group1352Data,
+  group135Props2: group1353Data,
+  group137Props: group137Data,
+  group135Props3: group1354Data,
+  group1352Props2: group1355Data,
+  group1372Props: group1372Data
+};
+var group69Data = {
+  number: "1600",
+  text4: "Rs/Sft"
+};
+var button8Data = {
+  children: "VIEW DETAILS"
+};
+var packagesCardData = {
+  group69Props: group69Data,
+  buttonProps: button8Data
+};
+var group692Data = {
+  number: "1600",
+  text4: "Rs/Sft"
+};
+var button82Data = {
+  children: "VIEW DETAILS"
+};
+var group1112Data = {
+  group69Props: group692Data,
+  buttonProps: button82Data
+};
+var group693Data = {
+  number: "1600",
+  text4: "Rs/Sft"
+};
+var button83Data = {
+  children: "VIEW DETAILS"
+};
+var group112Data = {
+  premium: "Premium",
+  group: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-141@2x.svg",
+  vector2: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-82@2x.svg",
+  vector3: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-83@2x.svg",
+  vector4: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-145@2x.svg",
+  group2: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-146@2x.svg",
+  group69Props: group693Data,
+  buttonProps: button83Data
+};
+var group694Data = {
+  number: "1600",
+  text4: "Rs/Sft"
+};
+var button84Data = {
+  children: "VIEW DETAILS"
+};
+var group113Data = {
+  group69Props: group694Data,
+  buttonProps: button84Data
+};
+var frame122Data = {
+  children: "City"
+};
+var frame1222Data = {
+  children: "Area of Construction (Sq.ft)"
+};
+var group11722Data = {
+  frame12Props: frame122Data,
+  frame122Props: frame1222Data
+};
+var facebookAppSymbolData = {
+  src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/f-1-1@2x.svg"
+};
+var instagramData = {
+  instagram: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-223@2x.svg",
+  vector2: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-409@2x.svg"
+};
+var twitterData = {
+  src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-347@2x.svg"
+};
+var group87Data = {
+  facebookAppSymbolProps: facebookAppSymbolData,
+  facebookAppSymbolProps2: instagramData,
+  twitterProps: twitterData
+};
+var footerData = {
+  group85: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/group-85-26@2x.svg",
+  place: "Contact",
+  overlapGroup: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-374@2x.svg",
+  vector2: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-150@2x.svg",
+  phone: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-151@2x.svg",
+  overlapGroup1: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-264@2x.svg",
+  vector3: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-111@2x.svg",
+  text42: "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+  text3: "+91 8976535221, +91 8755645342",
+  contactWebuildCom: "contact@webuild.com",
+  quickLinks: "Quick Links",
+  aboutUs: "About Us",
+  projects: "Projects",
+  gallery: "Gallery",
+  knowledgeTransfer: "Knowledge Transfer",
+  blogs: "Blogs",
+  faqs: "FAQ’s",
+  group87Props: group87Data
+};
+},{"react":"node_modules/react/index.js","../Frame144":"components/Tablet/LandingPageTablet/Frame144/index.jsx","../GetAQuoteButton2":"components/Tablet/LandingPageTablet/GetAQuoteButton2/index.jsx","../Frame149":"components/Tablet/LandingPageTablet/Frame149/index.jsx","../Button22":"components/Tablet/LandingPageTablet/Button22/index.jsx","../PackagesCard":"components/Tablet/LandingPageTablet/PackagesCard/index.jsx","../Group1112":"components/Tablet/LandingPageTablet/Group1112/index.jsx","../Group112":"components/Tablet/LandingPageTablet/Group112/index.jsx","../Group113":"components/Tablet/LandingPageTablet/Group113/index.jsx","../Group11422":"components/Tablet/LandingPageTablet/Group11422/index.jsx","../EstimateNowButton":"components/Tablet/LandingPageTablet/EstimateNowButton/index.jsx","../Group11722":"components/Tablet/LandingPageTablet/Group11722/index.jsx","../Group2722":"components/Tablet/LandingPageTablet/Group2722/index.jsx","../Group129":"components/Tablet/LandingPageTablet/Group129/index.jsx","../Frame165":"components/Tablet/LandingPageTablet/Frame165/index.jsx","../Footer":"components/Tablet/LandingPageTablet/Footer/index.jsx","./X01LandingPageTablet.css":"components/Tablet/LandingPageTablet/X01LandingPageTablet/X01LandingPageTablet.css"}],"components/Desktop/AboutPageDesktop/Group89/Group89.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
@@ -42471,806 +44053,7 @@ function X02AboutPageTablet(props) {
 
 var _default = X02AboutPageTablet;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","../Frame144":"components/Tablet/AboutPageTablet/Frame144/index.jsx","../FounderCard":"components/Tablet/AboutPageTablet/FounderCard/index.jsx","../FounderCard2":"components/Tablet/AboutPageTablet/FounderCard2/index.jsx","../FounderCard32":"components/Tablet/AboutPageTablet/FounderCard32/index.jsx","../FounderCard4":"components/Tablet/AboutPageTablet/FounderCard4/index.jsx","../Frame165":"components/Tablet/AboutPageTablet/Frame165/index.jsx","../Footer":"components/Tablet/AboutPageTablet/Footer/index.jsx","./X02AboutPageTablet.css":"components/Tablet/AboutPageTablet/X02AboutPageTablet/X02AboutPageTablet.css"}],"components/Mobile/PortfolioPageMobile/Group86/Group86.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Mobile/PortfolioPageMobile/Group86/index.jsx":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-require("./Group86.css");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Group86(props) {
-  var group85 = props.group85;
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "group-86"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "white"
-  }, /*#__PURE__*/_react.default.createElement("img", {
-    className: "vector",
-    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-98@2x.svg"
-  })), /*#__PURE__*/_react.default.createElement("img", {
-    className: "group-85",
-    src: group85
-  }));
-}
-
-var _default = Group86;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","./Group86.css":"components/Mobile/PortfolioPageMobile/Group86/Group86.css"}],"components/Mobile/PortfolioPageMobile/IconMenu/IconMenu.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Mobile/PortfolioPageMobile/IconMenu/index.jsx":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-require("./IconMenu.css");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function IconMenu(props) {
-  var vector2 = props.vector2,
-      vector3 = props.vector3;
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "icon-menu"
-  }, /*#__PURE__*/_react.default.createElement("img", {
-    className: "vector-2",
-    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-159@2x.svg"
-  }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "vector-1",
-    src: vector2
-  }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "vector-1",
-    src: vector3
-  }));
-}
-
-var _default = IconMenu;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","./IconMenu.css":"components/Mobile/PortfolioPageMobile/IconMenu/IconMenu.css"}],"components/Mobile/PortfolioPageMobile/Frame145/Frame145.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Mobile/PortfolioPageMobile/Frame145/index.jsx":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-var _Group = _interopRequireDefault(require("../Group86"));
-
-var _IconMenu = _interopRequireDefault(require("../IconMenu"));
-
-require("./Frame145.css");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Frame145(props) {
-  var group86Props = props.group86Props,
-      iconMenuProps = props.iconMenuProps;
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "frame-145"
-  }, /*#__PURE__*/_react.default.createElement(_Group.default, {
-    group85: group86Props.group85
-  }), /*#__PURE__*/_react.default.createElement(_IconMenu.default, {
-    vector2: iconMenuProps.vector2,
-    vector3: iconMenuProps.vector3
-  }));
-}
-
-var _default = Frame145;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","../Group86":"components/Mobile/PortfolioPageMobile/Group86/index.jsx","../IconMenu":"components/Mobile/PortfolioPageMobile/IconMenu/index.jsx","./Frame145.css":"components/Mobile/PortfolioPageMobile/Frame145/Frame145.css"}],"components/Mobile/PortfolioPageMobile/Group139/Group139.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Mobile/PortfolioPageMobile/Group139/index.jsx":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-require("./Group139.css");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Group139(props) {
-  var children = props.children;
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "group-139"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "overlap-group"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "rectangle-46"
-  }), /*#__PURE__*/_react.default.createElement("div", {
-    className: "price"
-  }, children)));
-}
-
-var _default = Group139;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","./Group139.css":"components/Mobile/PortfolioPageMobile/Group139/Group139.css"}],"components/Mobile/PortfolioPageMobile/Frame138/Frame138.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Mobile/PortfolioPageMobile/Frame138/index.jsx":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-require("./Frame138.css");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Frame138(props) {
-  var place = props.place,
-      living = props.living;
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "frame-138"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "place typographybodycaption-14-semi-bold"
-  }, place), /*#__PURE__*/_react.default.createElement("div", {
-    className: "living typographybodycaption-14-semi-bold"
-  }, living));
-}
-
-var _default = Frame138;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","./Frame138.css":"components/Mobile/PortfolioPageMobile/Frame138/Frame138.css"}],"components/Mobile/PortfolioPageMobile/ProjectCard22/ProjectCard22.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Mobile/PortfolioPageMobile/ProjectCard22/index.jsx":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-require("./ProjectCard22.css");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function ProjectCard22(props) {
-  var rectangle62 = props.rectangle62,
-      text77 = props.text77,
-      surname = props.surname,
-      className = props.className;
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "project-card ".concat(className || "")
-  }, /*#__PURE__*/_react.default.createElement("img", {
-    className: "rectangle-62",
-    src: rectangle62
-  }), /*#__PURE__*/_react.default.createElement("div", {
-    className: "group-99"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "text-1 valign-text-middle typographyheadlineh4-extrabold-24"
-  }, text77), /*#__PURE__*/_react.default.createElement("p", {
-    className: "surname typography-body-smalltext-14-regular"
-  }, surname)));
-}
-
-var _default = ProjectCard22;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","./ProjectCard22.css":"components/Mobile/PortfolioPageMobile/ProjectCard22/ProjectCard22.css"}],"components/Mobile/PortfolioPageMobile/Button22/Button22.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Mobile/PortfolioPageMobile/Button22/index.jsx":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireWildcard(require("react"));
-
-var _animaTimeline = require("anima-timeline");
-
-require("./Button22.css");
-
-function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
-
-function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
-
-function Button22(props) {
-  var children = props.children;
-  (0, _react.useEffect)(function () {
-    (0, _animaTimeline.loadTimelineData)(x27320769TimelineData);
-  }, []);
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "x27320769 component component-wrapper not-ready"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "master-button-A5N4Z6"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "button-i2732076951-Zn9NwL valign-text-middle"
-  }, children)));
-}
-
-var x27320769TimelineData = [{
-  initial_state_name: "Property-1=Tertiary",
-  root_element: ".x27320769",
-  states_flow: {
-    "Property-1=Primary": {
-      listeners: [],
-      overrides: {}
-    },
-    "Property-1=Secondary": {
-      listeners: [],
-      overrides: {}
-    },
-    "Property-1=Tertiary": {
-      listeners: [],
-      overrides: {}
-    }
-  }
-}];
-var _default = Button22;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","anima-timeline":"node_modules/anima-timeline/index-esm.js","./Button22.css":"components/Mobile/PortfolioPageMobile/Button22/Button22.css"}],"components/Mobile/PortfolioPageMobile/Frame1613/Frame1613.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Mobile/PortfolioPageMobile/Frame1613/index.jsx":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-var _Group = _interopRequireDefault(require("../Group139"));
-
-var _Frame = _interopRequireDefault(require("../Frame138"));
-
-var _ProjectCard = _interopRequireDefault(require("../ProjectCard22"));
-
-var _Button = _interopRequireDefault(require("../Button22"));
-
-require("./Frame1613.css");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Frame1613(props) {
-  var apartments = props.apartments,
-      buildiings = props.buildiings,
-      group139Props = props.group139Props,
-      frame138Props = props.frame138Props,
-      projectCard22Props = props.projectCard22Props,
-      projectCard222Props = props.projectCard222Props,
-      projectCard223Props = props.projectCard223Props,
-      projectCard224Props = props.projectCard224Props,
-      projectCard225Props = props.projectCard225Props,
-      projectCard226Props = props.projectCard226Props,
-      projectCard227Props = props.projectCard227Props,
-      projectCard228Props = props.projectCard228Props,
-      projectCard229Props = props.projectCard229Props,
-      button22Props = props.button22Props;
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "frame-1613"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "frame-1612"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "flex-row"
-  }, /*#__PURE__*/_react.default.createElement(_Group.default, null, group139Props.children), /*#__PURE__*/_react.default.createElement("div", {
-    className: "apartments typographybodycaption-14-semi-bold"
-  }, apartments), /*#__PURE__*/_react.default.createElement("div", {
-    className: "buildiings typographybodycaption-14-semi-bold"
-  }, buildiings)), /*#__PURE__*/_react.default.createElement(_Frame.default, {
-    place: frame138Props.place,
-    living: frame138Props.living
-  })), /*#__PURE__*/_react.default.createElement("div", {
-    className: "frame-1611"
-  }, /*#__PURE__*/_react.default.createElement(_ProjectCard.default, {
-    rectangle62: projectCard22Props.rectangle62,
-    text77: projectCard22Props.text77,
-    surname: projectCard22Props.surname
-  }), /*#__PURE__*/_react.default.createElement(_ProjectCard.default, {
-    rectangle62: projectCard222Props.rectangle62,
-    text77: projectCard222Props.text77,
-    surname: projectCard222Props.surname,
-    className: "project-card-1"
-  }), /*#__PURE__*/_react.default.createElement(_ProjectCard.default, {
-    rectangle62: projectCard223Props.rectangle62,
-    text77: projectCard223Props.text77,
-    surname: projectCard223Props.surname,
-    className: "project-card-1"
-  }), /*#__PURE__*/_react.default.createElement(_ProjectCard.default, {
-    rectangle62: projectCard224Props.rectangle62,
-    text77: projectCard224Props.text77,
-    surname: projectCard224Props.surname,
-    className: "project-card-1"
-  }), /*#__PURE__*/_react.default.createElement(_ProjectCard.default, {
-    rectangle62: projectCard225Props.rectangle62,
-    text77: projectCard225Props.text77,
-    surname: projectCard225Props.surname,
-    className: "project-card-1"
-  }), /*#__PURE__*/_react.default.createElement(_ProjectCard.default, {
-    rectangle62: projectCard226Props.rectangle62,
-    text77: projectCard226Props.text77,
-    surname: projectCard226Props.surname,
-    className: "project-card-1"
-  }), /*#__PURE__*/_react.default.createElement(_ProjectCard.default, {
-    rectangle62: projectCard227Props.rectangle62,
-    text77: projectCard227Props.text77,
-    surname: projectCard227Props.surname,
-    className: "project-card-1"
-  }), /*#__PURE__*/_react.default.createElement(_ProjectCard.default, {
-    rectangle62: projectCard228Props.rectangle62,
-    text77: projectCard228Props.text77,
-    surname: projectCard228Props.surname,
-    className: "project-card-1"
-  }), /*#__PURE__*/_react.default.createElement(_ProjectCard.default, {
-    rectangle62: projectCard229Props.rectangle62,
-    text77: projectCard229Props.text77,
-    surname: projectCard229Props.surname,
-    className: "project-card-1"
-  })), /*#__PURE__*/_react.default.createElement(_Button.default, null, button22Props.children));
-}
-
-var _default = Frame1613;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","../Group139":"components/Mobile/PortfolioPageMobile/Group139/index.jsx","../Frame138":"components/Mobile/PortfolioPageMobile/Frame138/index.jsx","../ProjectCard22":"components/Mobile/PortfolioPageMobile/ProjectCard22/index.jsx","../Button22":"components/Mobile/PortfolioPageMobile/Button22/index.jsx","./Frame1613.css":"components/Mobile/PortfolioPageMobile/Frame1613/Frame1613.css"}],"components/Mobile/PortfolioPageMobile/Group8622/Group8622.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Mobile/PortfolioPageMobile/Group8622/index.jsx":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-require("./Group8622.css");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Group8622(props) {
-  var group85 = props.group85;
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "group-86-1"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "white-1"
-  }, /*#__PURE__*/_react.default.createElement("img", {
-    className: "vector-3",
-    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-148@2x.svg"
-  })), /*#__PURE__*/_react.default.createElement("img", {
-    className: "group-85-1",
-    src: group85
-  }));
-}
-
-var _default = Group8622;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","./Group8622.css":"components/Mobile/PortfolioPageMobile/Group8622/Group8622.css"}],"components/Mobile/PortfolioPageMobile/FacebookAppSymbol/FacebookAppSymbol.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Mobile/PortfolioPageMobile/FacebookAppSymbol/index.jsx":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-require("./FacebookAppSymbol.css");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function FacebookAppSymbol(props) {
-  var src = props.src;
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "facebook-app-symbol"
-  }, /*#__PURE__*/_react.default.createElement("img", {
-    className: "f-1",
-    src: src
-  }));
-}
-
-var _default = FacebookAppSymbol;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","./FacebookAppSymbol.css":"components/Mobile/PortfolioPageMobile/FacebookAppSymbol/FacebookAppSymbol.css"}],"components/Mobile/PortfolioPageMobile/Twitter/Twitter.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Mobile/PortfolioPageMobile/Twitter/index.jsx":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-require("./Twitter.css");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Twitter(props) {
-  var src = props.src;
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "twitter"
-  }, /*#__PURE__*/_react.default.createElement("img", {
-    className: "vector-6",
-    src: src
-  }));
-}
-
-var _default = Twitter;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","./Twitter.css":"components/Mobile/PortfolioPageMobile/Twitter/Twitter.css"}],"components/Mobile/PortfolioPageMobile/Group872/Group872.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Mobile/PortfolioPageMobile/Group872/index.jsx":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-var _FacebookAppSymbol = _interopRequireDefault(require("../FacebookAppSymbol"));
-
-var _Twitter = _interopRequireDefault(require("../Twitter"));
-
-require("./Group872.css");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Group872(props) {
-  var overlapGroup = props.overlapGroup,
-      vector2 = props.vector2,
-      facebookAppSymbolProps = props.facebookAppSymbolProps,
-      twitterProps = props.twitterProps;
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "group-87"
-  }, /*#__PURE__*/_react.default.createElement(_FacebookAppSymbol.default, {
-    src: facebookAppSymbolProps.src
-  }), /*#__PURE__*/_react.default.createElement("div", {
-    className: "instagram"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "overlap-group-1",
-    style: {
-      backgroundImage: "url(".concat(overlapGroup, ")")
-    }
-  }, /*#__PURE__*/_react.default.createElement("img", {
-    className: "vector-5",
-    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-110@2x.svg"
-  }), /*#__PURE__*/_react.default.createElement("img", {
-    className: "vector-4",
-    src: vector2
-  }))), /*#__PURE__*/_react.default.createElement(_Twitter.default, {
-    src: twitterProps.src
-  }));
-}
-
-var _default = Group872;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","../FacebookAppSymbol":"components/Mobile/PortfolioPageMobile/FacebookAppSymbol/index.jsx","../Twitter":"components/Mobile/PortfolioPageMobile/Twitter/index.jsx","./Group872.css":"components/Mobile/PortfolioPageMobile/Group872/Group872.css"}],"components/Mobile/PortfolioPageMobile/Group322/Group322.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Mobile/PortfolioPageMobile/Group322/index.jsx":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-require("./Group322.css");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Group322(props) {
-  var place = props.place,
-      overlapGroup = props.overlapGroup,
-      phone = props.phone,
-      overlapGroup1 = props.overlapGroup1,
-      vector2 = props.vector2,
-      text165 = props.text165,
-      text164 = props.text164,
-      contactWebuildCom = props.contactWebuildCom;
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "group-32"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "place-1 valign-text-middle typographyheadlineh5-extrabold-20"
-  }, place), /*#__PURE__*/_react.default.createElement("div", {
-    className: "flex-row-2"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "flex-col"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "map-pin-1"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "overlap-group-2",
-    style: {
-      backgroundImage: "url(".concat(overlapGroup, ")")
-    }
-  }, /*#__PURE__*/_react.default.createElement("img", {
-    className: "vector-8",
-    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-244@2x.svg"
-  }))), /*#__PURE__*/_react.default.createElement("div", {
-    className: "phone",
-    style: {
-      backgroundImage: "url(".concat(phone, ")")
-    }
-  }), /*#__PURE__*/_react.default.createElement("div", {
-    className: "mail"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "overlap-group1",
-    style: {
-      backgroundImage: "url(".concat(overlapGroup1, ")")
-    }
-  }, /*#__PURE__*/_react.default.createElement("img", {
-    className: "vector-7",
-    src: vector2
-  })))), /*#__PURE__*/_react.default.createElement("div", {
-    className: "flex-col-1"
-  }, /*#__PURE__*/_react.default.createElement("p", {
-    className: "text-11 typography-body-smalltext-14-regular"
-  }, text165), /*#__PURE__*/_react.default.createElement("div", {
-    className: "flex-col-item valign-text-middle typography-body-smalltext-14-regular"
-  }, text164), /*#__PURE__*/_react.default.createElement("div", {
-    className: "flex-col-item valign-text-middle typography-body-smalltext-14-regular"
-  }, contactWebuildCom))));
-}
-
-var _default = Group322;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","./Group322.css":"components/Mobile/PortfolioPageMobile/Group322/Group322.css"}],"components/Mobile/PortfolioPageMobile/Frame140/Frame140.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Mobile/PortfolioPageMobile/Frame140/index.jsx":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-require("./Frame140.css");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Frame140(props) {
-  var aboutUs = props.aboutUs,
-      projects = props.projects,
-      className = props.className;
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "frame-140 ".concat(className || "")
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "about-us valign-text-middle typographybody16-regular"
-  }, aboutUs), /*#__PURE__*/_react.default.createElement("div", {
-    className: "projects valign-text-middle typographybody16-regular"
-  }, projects));
-}
-
-var _default = Frame140;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","./Frame140.css":"components/Mobile/PortfolioPageMobile/Frame140/Frame140.css"}],"components/Mobile/PortfolioPageMobile/Frame5/Frame5.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Mobile/PortfolioPageMobile/Frame5/index.jsx":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-var _Frame = _interopRequireDefault(require("../Frame140"));
-
-require("./Frame5.css");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Frame5(props) {
-  var quickLinks = props.quickLinks,
-      frame140Props = props.frame140Props,
-      frame1402Props = props.frame1402Props,
-      frame1403Props = props.frame1403Props;
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "frame-5"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "quick-links valign-text-middle typographyheadlineh5-extrabold-20"
-  }, quickLinks), /*#__PURE__*/_react.default.createElement("div", {
-    className: "frame-4"
-  }, /*#__PURE__*/_react.default.createElement(_Frame.default, {
-    aboutUs: frame140Props.aboutUs,
-    projects: frame140Props.projects
-  }), /*#__PURE__*/_react.default.createElement(_Frame.default, {
-    aboutUs: frame1402Props.aboutUs,
-    projects: frame1402Props.projects,
-    className: "frame-14"
-  }), /*#__PURE__*/_react.default.createElement(_Frame.default, {
-    aboutUs: frame1403Props.aboutUs,
-    projects: frame1403Props.projects,
-    className: "frame-14"
-  })));
-}
-
-var _default = Frame5;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","../Frame140":"components/Mobile/PortfolioPageMobile/Frame140/index.jsx","./Frame5.css":"components/Mobile/PortfolioPageMobile/Frame5/Frame5.css"}],"components/Mobile/PortfolioPageMobile/Group2122/Group2122.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Mobile/PortfolioPageMobile/Group2122/index.jsx":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-var _Group = _interopRequireDefault(require("../Group8622"));
-
-var _Group2 = _interopRequireDefault(require("../Group872"));
-
-var _Group3 = _interopRequireDefault(require("../Group322"));
-
-var _Frame = _interopRequireDefault(require("../Frame5"));
-
-require("./Group2122.css");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function Group2122(props) {
-  var group862Props = props.group862Props,
-      group872Props = props.group872Props,
-      group322Props = props.group322Props,
-      frame5Props = props.frame5Props;
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "group-212"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "flex-row-1"
-  }, /*#__PURE__*/_react.default.createElement(_Group.default, {
-    group85: group862Props.group85
-  }), /*#__PURE__*/_react.default.createElement(_Group2.default, {
-    overlapGroup: group872Props.overlapGroup,
-    vector2: group872Props.vector2,
-    facebookAppSymbolProps: group872Props.facebookAppSymbolProps,
-    twitterProps: group872Props.twitterProps
-  })), /*#__PURE__*/_react.default.createElement(_Group3.default, group322Props), /*#__PURE__*/_react.default.createElement(_Frame.default, {
-    quickLinks: frame5Props.quickLinks,
-    frame140Props: frame5Props.frame140Props,
-    frame1402Props: frame5Props.frame1402Props,
-    frame1403Props: frame5Props.frame1403Props
-  }));
-}
-
-var _default = Group2122;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","../Group8622":"components/Mobile/PortfolioPageMobile/Group8622/index.jsx","../Group872":"components/Mobile/PortfolioPageMobile/Group872/index.jsx","../Group322":"components/Mobile/PortfolioPageMobile/Group322/index.jsx","../Frame5":"components/Mobile/PortfolioPageMobile/Frame5/index.jsx","./Group2122.css":"components/Mobile/PortfolioPageMobile/Group2122/Group2122.css"}],"components/Mobile/PortfolioPageMobile/X03PortfolioPageMobile/X03PortfolioPageMobile.css":[function(require,module,exports) {
-var reloadCSS = require('_css_loader');
-
-module.hot.dispose(reloadCSS);
-module.hot.accept(reloadCSS);
-},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Mobile/PortfolioPageMobile/X03PortfolioPageMobile/index.jsx":[function(require,module,exports) {
-"use strict";
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.default = void 0;
-
-var _react = _interopRequireDefault(require("react"));
-
-var _Frame = _interopRequireDefault(require("../Frame145"));
-
-var _Frame2 = _interopRequireDefault(require("../Frame1613"));
-
-var _Group = _interopRequireDefault(require("../Group2122"));
-
-require("./X03PortfolioPageMobile.css");
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-function X03PortfolioPageMobile(props) {
-  var ourProjects = props.ourProjects,
-      rectangle76 = props.rectangle76,
-      text166 = props.text166,
-      frame145Props = props.frame145Props,
-      frame1613Props = props.frame1613Props,
-      frame1613Props2 = props.frame1613Props2;
-  return /*#__PURE__*/_react.default.createElement("div", {
-    className: "container-center-horizontal"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "x03-portfolio-page-mobile screen"
-  }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "frame-1656"
-  }, /*#__PURE__*/_react.default.createElement(_Frame.default, {
-    group86Props: frame145Props.group86Props,
-    iconMenuProps: frame145Props.iconMenuProps
-  }), /*#__PURE__*/_react.default.createElement("h1", {
-    className: "title valign-text-middle typographyheadlineh4-extrabold-24"
-  }, ourProjects), /*#__PURE__*/_react.default.createElement("img", {
-    className: "rectangle-76",
-    src: rectangle76
-  }), /*#__PURE__*/_react.default.createElement("p", {
-    className: "text-12 typography-body-smalltext-14-regular"
-  }, text166), /*#__PURE__*/_react.default.createElement(_Frame2.default, frame1613Props), /*#__PURE__*/_react.default.createElement(_Group.default, {
-    group862Props: frame1613Props2.group862Props,
-    group872Props: frame1613Props2.group872Props,
-    group322Props: frame1613Props2.group322Props,
-    frame5Props: frame1613Props2.frame5Props
-  }))));
-}
-
-var _default = X03PortfolioPageMobile;
-exports.default = _default;
-},{"react":"node_modules/react/index.js","../Frame145":"components/Mobile/PortfolioPageMobile/Frame145/index.jsx","../Frame1613":"components/Mobile/PortfolioPageMobile/Frame1613/index.jsx","../Group2122":"components/Mobile/PortfolioPageMobile/Group2122/index.jsx","./X03PortfolioPageMobile.css":"components/Mobile/PortfolioPageMobile/X03PortfolioPageMobile/X03PortfolioPageMobile.css"}],"components/Desktop/PortfolioDetailPageDesktop/Group86/Group86.css":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../Frame144":"components/Tablet/AboutPageTablet/Frame144/index.jsx","../FounderCard":"components/Tablet/AboutPageTablet/FounderCard/index.jsx","../FounderCard2":"components/Tablet/AboutPageTablet/FounderCard2/index.jsx","../FounderCard32":"components/Tablet/AboutPageTablet/FounderCard32/index.jsx","../FounderCard4":"components/Tablet/AboutPageTablet/FounderCard4/index.jsx","../Frame165":"components/Tablet/AboutPageTablet/Frame165/index.jsx","../Footer":"components/Tablet/AboutPageTablet/Footer/index.jsx","./X02AboutPageTablet.css":"components/Tablet/AboutPageTablet/X02AboutPageTablet/X02AboutPageTablet.css"}],"components/Desktop/PortfolioDetailPageDesktop/Group86/Group86.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
@@ -44182,13 +44965,13 @@ var _X01LandingPageDesktop = _interopRequireDefault(require("./components/Deskto
 
 var _Frame = _interopRequireDefault(require("./components/Mobile/LandingPageMobile/Frame1600"));
 
+var _X01LandingPageTablet = _interopRequireDefault(require("./components/Tablet/LandingPageTablet/X01LandingPageTablet"));
+
 var _Frame2 = _interopRequireDefault(require("./components/Desktop/AboutPageDesktop/Frame173"));
 
 var _X02AboutPageMobile = _interopRequireDefault(require("./components/Mobile/AboutPageMobile/X02AboutPageMobile"));
 
 var _X02AboutPageTablet = _interopRequireDefault(require("./components/Tablet/AboutPageTablet/X02AboutPageTablet"));
-
-var _X03PortfolioPageMobile = _interopRequireDefault(require("./components/Mobile/PortfolioPageMobile/X03PortfolioPageMobile"));
 
 var _X04PortfolioDetailPage = _interopRequireDefault(require("./components/Desktop/PortfolioDetailPageDesktop/X04PortfolioDetailPage"));
 
@@ -44196,12 +44979,17 @@ var _X04PortfolioDetailPageMobile = _interopRequireDefault(require("./components
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+// import X03PortfolioPageMobile from "./components/Mobile/PortfolioPageMobile/X03PortfolioPageMobile";
 function App() {
   return /*#__PURE__*/_react.default.createElement(_reactRouterDom.BrowserRouter, null, /*#__PURE__*/_react.default.createElement(_reactRouterDom.Switch, null, /*#__PURE__*/_react.default.createElement(_reactRouterDom.Route, {
     path: "/:path(|home)"
   }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "desktop-only"
+  }, /*#__PURE__*/_react.default.createElement(_X01LandingPageDesktop.default, x01LandingPageDesktopData)), /*#__PURE__*/_react.default.createElement("div", {
     className: "mobile-only"
-  }, /*#__PURE__*/_react.default.createElement(_Frame.default, frame1600Data))), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Route, {
+  }, /*#__PURE__*/_react.default.createElement(_Frame.default, frame1600Data)), /*#__PURE__*/_react.default.createElement("div", {
+    className: "tablet-only"
+  }, /*#__PURE__*/_react.default.createElement(_X01LandingPageTablet.default, null))), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Route, {
     path: "/:path(|about)"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "desktop-only"
@@ -45378,7 +46166,7 @@ var frame1600Data = {
   group87Props: group87Data,
   frame145Props: frame145Data
 };
-},{"./App.css":"App.css","react":"node_modules/react/index.js","react-router-dom":"node_modules/react-router-dom/esm/react-router-dom.js","./components/Desktop/LandingPageDesktop/X01LandingPageDesktop":"components/Desktop/LandingPageDesktop/X01LandingPageDesktop/index.jsx","./components/Mobile/LandingPageMobile/Frame1600":"components/Mobile/LandingPageMobile/Frame1600/index.jsx","./components/Desktop/AboutPageDesktop/Frame173":"components/Desktop/AboutPageDesktop/Frame173/index.jsx","./components/Mobile/AboutPageMobile/X02AboutPageMobile":"components/Mobile/AboutPageMobile/X02AboutPageMobile/index.jsx","./components/Tablet/AboutPageTablet/X02AboutPageTablet":"components/Tablet/AboutPageTablet/X02AboutPageTablet/index.jsx","./components/Mobile/PortfolioPageMobile/X03PortfolioPageMobile":"components/Mobile/PortfolioPageMobile/X03PortfolioPageMobile/index.jsx","./components/Desktop/PortfolioDetailPageDesktop/X04PortfolioDetailPage":"components/Desktop/PortfolioDetailPageDesktop/X04PortfolioDetailPage/index.jsx","./components/Mobile/PortfolioDetailPageMobile/X04PortfolioDetailPageMobile":"components/Mobile/PortfolioDetailPageMobile/X04PortfolioDetailPageMobile/index.jsx"}],"styleguide.css":[function(require,module,exports) {
+},{"./App.css":"App.css","react":"node_modules/react/index.js","react-router-dom":"node_modules/react-router-dom/esm/react-router-dom.js","./components/Desktop/LandingPageDesktop/X01LandingPageDesktop":"components/Desktop/LandingPageDesktop/X01LandingPageDesktop/index.jsx","./components/Mobile/LandingPageMobile/Frame1600":"components/Mobile/LandingPageMobile/Frame1600/index.jsx","./components/Tablet/LandingPageTablet/X01LandingPageTablet":"components/Tablet/LandingPageTablet/X01LandingPageTablet/index.jsx","./components/Desktop/AboutPageDesktop/Frame173":"components/Desktop/AboutPageDesktop/Frame173/index.jsx","./components/Mobile/AboutPageMobile/X02AboutPageMobile":"components/Mobile/AboutPageMobile/X02AboutPageMobile/index.jsx","./components/Tablet/AboutPageTablet/X02AboutPageTablet":"components/Tablet/AboutPageTablet/X02AboutPageTablet/index.jsx","./components/Desktop/PortfolioDetailPageDesktop/X04PortfolioDetailPage":"components/Desktop/PortfolioDetailPageDesktop/X04PortfolioDetailPage/index.jsx","./components/Mobile/PortfolioDetailPageMobile/X04PortfolioDetailPageMobile":"components/Mobile/PortfolioDetailPageMobile/X04PortfolioDetailPageMobile/index.jsx"}],"styleguide.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
@@ -45432,7 +46220,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54176" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61899" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

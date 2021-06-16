@@ -3,10 +3,11 @@ import React from "react";
 import { Switch, BrowserRouter as Router, Route } from "react-router-dom";
 import X01LandingPageDesktop from "./components/Desktop/LandingPageDesktop/X01LandingPageDesktop";
 import Frame1600 from "./components/Mobile/LandingPageMobile/Frame1600";
+import X01LandingPageTablet from "./components/Tablet/LandingPageTablet/X01LandingPageTablet";
 import Frame173 from "./components/Desktop/AboutPageDesktop/Frame173";
 import X02AboutPageMobile from "./components/Mobile/AboutPageMobile/X02AboutPageMobile";
 import X02AboutPageTablet from "./components/Tablet/AboutPageTablet/X02AboutPageTablet"
-import X03PortfolioPageMobile from "./components/Mobile/PortfolioPageMobile/X03PortfolioPageMobile";
+// import X03PortfolioPageMobile from "./components/Mobile/PortfolioPageMobile/X03PortfolioPageMobile";
 import X04PortfolioDetailPage from "./components/Desktop/PortfolioDetailPageDesktop/X04PortfolioDetailPage";
 import X04PortfolioDetailPageMobile from "./components/Mobile/PortfolioDetailPageMobile/X04PortfolioDetailPageMobile"
 
@@ -15,11 +16,14 @@ function App() {
     <Router>
       <Switch>
         <Route path="/:path(|home)">
-          {/* <div className="desktop-only">
+          <div className="desktop-only">
             <X01LandingPageDesktop {...x01LandingPageDesktopData} />
-          </div> */}
+          </div>
           <div className="mobile-only">
             <Frame1600 {...frame1600Data} />
+          </div>
+          <div className="tablet-only">
+            <X01LandingPageTablet />
           </div>
         </Route>
         <Route path="/:path(|about)">

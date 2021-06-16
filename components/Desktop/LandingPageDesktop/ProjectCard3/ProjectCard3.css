@@ -1,4 +1,4 @@
-.project-card {
+.lpd-project-card {
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -22,30 +22,30 @@
     top: 3134px;
 }
 
-.lpd-project-card-2.project-card {
+.lpd-project-card-2.lpd-project-card {
     left: 519px;
 }
 
-.lpd-project-card-3.project-card {
+.lpd-project-card-3.lpd-project-card {
     left: 953px;
     top: 3134px;
 }
 
-.lpd-project-card-4.project-card {
+.lpd-project-card-4.lpd-project-card {
     left: 953px;
     top: 3488px;
 }
 
-.lpd-project-card-5.project-card {
+.lpd-project-card-5.lpd-project-card {
     top: 3134px;
 }
 
-.lpd-project-card-6.project-card {
+.lpd-project-card-6.lpd-project-card {
     left: 519px;
     top: 3488px;
 }
 
-.lpd-project-card-7.project-card {
+.lpd-project-card-7.lpd-project-card {
     top: 3488px;
 }
 
@@ -53,7 +53,7 @@
     left: 953px;
 }
 
-.rectangle-62 {
+.lpd-rectangle-62 {
     height: 240px;
     mix-blend-mode: normal;
     object-fit: cover;
