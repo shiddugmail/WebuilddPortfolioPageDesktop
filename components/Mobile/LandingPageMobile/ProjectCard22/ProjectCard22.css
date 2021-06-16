@@ -1,0 +1,49 @@
+.group-99 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.61px;
+  margin-top: 24px;
+  min-height: 66px;
+  width: 224px;
+}
+.project-card {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 330px;
+  width: 335px;
+}
+.project-card-1.project-card {
+  margin-top: 16px;
+  position: relative;
+}
+.rectangle-62 {
+  height: 240px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  width: 335px;
+}
+.surname {
+  color: var(--black);
+  line-height: 24px;
+  margin-right: 2.0px;
+  margin-top: 8px;
+  min-height: 24px;
+  min-width: 222px;
+  mix-blend-mode: normal;
+  text-align: center;
+  white-space: nowrap;
+}
+.text-10 {
+  color: var(--red);
+  font-weight: 800;
+  height: 34px;
+  line-height: 34px;
+  margin-left: 0.56px;
+  min-height: 34px;
+  min-width: 155px;
+  mix-blend-mode: normal;
+  text-align: center;
+  white-space: nowrap;
+}

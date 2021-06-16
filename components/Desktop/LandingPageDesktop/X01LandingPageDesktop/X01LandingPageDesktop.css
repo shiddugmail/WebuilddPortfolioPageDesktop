@@ -331,11 +331,17 @@
 }
 
 .lpd-x01-landing-page-desktop {
-    align-items: flex-start;
-    background-color: var(--desert-storm);
-    display: flex;
-    justify-content: center;
-    mix-blend-mode: normal;
-    overflow: hidden;
-    width: 1440px;
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+    .lpd-x01-landing-page-desktop {
+        align-items: flex-start;
+        background-color: var(--desert-storm);
+        display: flex;
+        justify-content: center;
+        mix-blend-mode: normal;
+        overflow: hidden;
+        width: 1440px;
+    }
 }

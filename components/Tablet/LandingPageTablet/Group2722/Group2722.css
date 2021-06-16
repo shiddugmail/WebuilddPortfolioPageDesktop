@@ -1,0 +1,75 @@
+.bangalore-india {
+  color: var(--black);
+  height: 12px;
+  line-height: 21px;
+  margin-bottom: -9px;
+  margin-top: 8px;
+  min-height: 12px;
+  mix-blend-mode: normal;
+  white-space: nowrap;
+}
+.ellipse-1 {
+  height: 48px;
+  margin-bottom: -8px;
+  margin-left: -4px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  width: 44px;
+}
+.group-120 {
+  align-items: flex-end;
+  display: flex;
+  height: 40px;
+  margin-right: 34.45px;
+  margin-top: 16px;
+  min-width: 197px;
+}
+.group-140 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-left: 2px;
+  min-height: 40px;
+  width: 158px;
+}
+.group-27 {
+  align-items: flex-start;
+  display: flex;
+  height: 226px;
+  left: 70px;
+  min-width: 304px;
+  position: absolute;
+  top: 212px;
+}
+.group-27-1.group-27 {
+  left: 396px;
+}
+.name {
+  color: var(--black);
+  font-weight: 800;
+  height: 20px;
+  line-height: 30px;
+  margin-bottom: -10px;
+  min-height: 20px;
+  mix-blend-mode: normal;
+  white-space: nowrap;
+}
+.overlap-group2-3 {
+  align-items: flex-end;
+  background-color: var(--white);
+  border-radius: 12px;
+  box-shadow: 0px 2px 5px #00153429;
+  display: flex;
+  flex-direction: column;
+  min-height: 226px;
+  padding: 40px 34.1px;
+  width: 302px;
+}
+.text-24 {
+  color: var(--black);
+  line-height: 21px;
+  min-height: 90px;
+  min-width: 232px;
+  mix-blend-mode: normal;
+  width: 232px;
+}

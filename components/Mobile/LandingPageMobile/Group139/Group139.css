@@ -1,0 +1,30 @@
+.group-139 {
+  align-items: flex-start;
+  display: flex;
+  min-width: 62px;
+}
+.overlap-group3 {
+  height: 24px;
+  position: relative;
+  width: 60px;
+}
+.price {
+  left: 8px;
+  letter-spacing: 0;
+  line-height: 24px;
+  mix-blend-mode: normal;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  white-space: nowrap;
+  width: 46px;
+}
+.rectangle-46 {
+  background-color: var(--red);
+  height: 8px;
+  left: 0;
+  mix-blend-mode: normal;
+  position: absolute;
+  top: 14px;
+  width: 60px;
+}

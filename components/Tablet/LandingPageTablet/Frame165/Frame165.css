@@ -1,0 +1,22 @@
+.frame-165 {
+  align-items: flex-start;
+  background-color: var(--mercury);
+  display: flex;
+  height: 90px;
+  min-width: 768px;
+  mix-blend-mode: normal;
+  padding: 16px 84px;
+}
+.image- {
+  height: 58px;
+  margin-left: 24px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  width: 80px;
+}
+.image-3 {
+  height: 58px;
+  mix-blend-mode: normal;
+  object-fit: cover;
+  width: 80px;
+}

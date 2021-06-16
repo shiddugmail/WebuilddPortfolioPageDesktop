@@ -1,0 +1,36 @@
+.cost-estimator {
+  color: var(--white);
+  font-weight: 800;
+  height: 32px;
+  line-height: 34px;
+  margin-bottom: -2px;
+  margin-right: 2.0px;
+  min-height: 32px;
+  min-width: 340px;
+  mix-blend-mode: normal;
+  text-align: center;
+  white-space: nowrap;
+  width: 340px;
+}
+.group-114 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  left: 19px;
+  min-height: 115px;
+  position: absolute;
+  top: 1797px;
+  width: 342px;
+}
+.text-25 {
+  color: var(--white);
+  height: 67px;
+  line-height: 21px;
+  margin-right: 2.0px;
+  margin-top: 16px;
+  min-height: 67px;
+  min-width: 277px;
+  mix-blend-mode: normal;
+  text-align: center;
+  width: 277px;
+}

@@ -38287,7 +38287,1599 @@ function X01LandingPageDesktop(props) {
 
 var _default = X01LandingPageDesktop;
 exports.default = _default;
-},{"react":"node_modules/react/index.js","../Group89":"components/Desktop/LandingPageDesktop/Group89/index.jsx","../GetAQuoteButton22":"components/Desktop/LandingPageDesktop/GetAQuoteButton22/index.jsx","../Frame29":"components/Desktop/LandingPageDesktop/Frame29/index.jsx","../Frame292":"components/Desktop/LandingPageDesktop/Frame292/index.jsx","../Frame293":"components/Desktop/LandingPageDesktop/Frame293/index.jsx","../Group109":"components/Desktop/LandingPageDesktop/Group109/index.jsx","../Group104":"components/Desktop/LandingPageDesktop/Group104/index.jsx","../ProjectCard3":"components/Desktop/LandingPageDesktop/ProjectCard3/index.jsx","../Button22":"components/Desktop/LandingPageDesktop/Button22/index.jsx","../Group102":"components/Desktop/LandingPageDesktop/Group102/index.jsx","../PackageCard":"components/Desktop/LandingPageDesktop/PackageCard/index.jsx","../Group111":"components/Desktop/LandingPageDesktop/Group111/index.jsx","../Group273":"components/Desktop/LandingPageDesktop/Group273/index.jsx","../Group129":"components/Desktop/LandingPageDesktop/Group129/index.jsx","../Group114":"components/Desktop/LandingPageDesktop/Group114/index.jsx","../EstimateNowButton":"components/Desktop/LandingPageDesktop/EstimateNowButton/index.jsx","../Group117":"components/Desktop/LandingPageDesktop/Group117/index.jsx","../Group156":"components/Desktop/LandingPageDesktop/Group156/index.jsx","../Group1292":"components/Desktop/LandingPageDesktop/Group1292/index.jsx","../HeaderWithBackground9":"components/Desktop/LandingPageDesktop/HeaderWithBackground9/index.jsx","../Footer2":"components/Desktop/LandingPageDesktop/Footer2/index.jsx","./X01LandingPageDesktop.css":"components/Desktop/LandingPageDesktop/X01LandingPageDesktop/X01LandingPageDesktop.css"}],"components/Desktop/AboutPageDesktop/Group89/Group89.css":[function(require,module,exports) {
+},{"react":"node_modules/react/index.js","../Group89":"components/Desktop/LandingPageDesktop/Group89/index.jsx","../GetAQuoteButton22":"components/Desktop/LandingPageDesktop/GetAQuoteButton22/index.jsx","../Frame29":"components/Desktop/LandingPageDesktop/Frame29/index.jsx","../Frame292":"components/Desktop/LandingPageDesktop/Frame292/index.jsx","../Frame293":"components/Desktop/LandingPageDesktop/Frame293/index.jsx","../Group109":"components/Desktop/LandingPageDesktop/Group109/index.jsx","../Group104":"components/Desktop/LandingPageDesktop/Group104/index.jsx","../ProjectCard3":"components/Desktop/LandingPageDesktop/ProjectCard3/index.jsx","../Button22":"components/Desktop/LandingPageDesktop/Button22/index.jsx","../Group102":"components/Desktop/LandingPageDesktop/Group102/index.jsx","../PackageCard":"components/Desktop/LandingPageDesktop/PackageCard/index.jsx","../Group111":"components/Desktop/LandingPageDesktop/Group111/index.jsx","../Group273":"components/Desktop/LandingPageDesktop/Group273/index.jsx","../Group129":"components/Desktop/LandingPageDesktop/Group129/index.jsx","../Group114":"components/Desktop/LandingPageDesktop/Group114/index.jsx","../EstimateNowButton":"components/Desktop/LandingPageDesktop/EstimateNowButton/index.jsx","../Group117":"components/Desktop/LandingPageDesktop/Group117/index.jsx","../Group156":"components/Desktop/LandingPageDesktop/Group156/index.jsx","../Group1292":"components/Desktop/LandingPageDesktop/Group1292/index.jsx","../HeaderWithBackground9":"components/Desktop/LandingPageDesktop/HeaderWithBackground9/index.jsx","../Footer2":"components/Desktop/LandingPageDesktop/Footer2/index.jsx","./X01LandingPageDesktop.css":"components/Desktop/LandingPageDesktop/X01LandingPageDesktop/X01LandingPageDesktop.css"}],"components/Mobile/LandingPageMobile/Group129/Group129.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Mobile/LandingPageMobile/Group129/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+require("./Group129.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Group129(props) {
+  var className = props.className;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "group-129 ".concat(className || "")
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "ellipse-99"
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "ellipse-10"
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "ellipse-10"
+  }));
+}
+
+var _default = Group129;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","./Group129.css":"components/Mobile/LandingPageMobile/Group129/Group129.css"}],"components/Mobile/LandingPageMobile/GetAQuoteButton2/GetAQuoteButton2.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Mobile/LandingPageMobile/GetAQuoteButton2/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireWildcard(require("react"));
+
+var _animaTimeline = require("anima-timeline");
+
+require("./GetAQuoteButton2.css");
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function GetAQuoteButton2(props) {
+  var children = props.children;
+  (0, _react.useEffect)(function () {
+    (0, _animaTimeline.loadTimelineData)(x2668579TimelineData);
+  }, []);
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "x2668579 component component-wrapper not-ready"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "master-button-OkO4H7"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "button-i266857951-MlNlfQ valign-text-middle"
+  }, children)));
+}
+
+var x2668579TimelineData = [{
+  initial_state_name: "Property-1=Primary",
+  root_element: ".x2668579",
+  states_flow: {
+    "Property-1=Primary": {
+      listeners: [],
+      overrides: {}
+    },
+    "Property-1=Secondary": {
+      listeners: [],
+      overrides: {
+        "": {
+          position: "relative"
+        }
+      }
+    },
+    "Property-1=Tertiary": {
+      listeners: [],
+      overrides: {
+        "": {
+          position: "relative"
+        }
+      }
+    }
+  }
+}];
+var _default = GetAQuoteButton2;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","anima-timeline":"node_modules/anima-timeline/index-esm.js","./GetAQuoteButton2.css":"components/Mobile/LandingPageMobile/GetAQuoteButton2/GetAQuoteButton2.css"}],"components/Mobile/LandingPageMobile/Group139/Group139.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Mobile/LandingPageMobile/Group139/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+require("./Group139.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Group139(props) {
+  var children = props.children;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "group-139"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "overlap-group3"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "rectangle-46"
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "price overpass-extra-bold-shark-14px"
+  }, children)));
+}
+
+var _default = Group139;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","./Group139.css":"components/Mobile/LandingPageMobile/Group139/Group139.css"}],"components/Mobile/LandingPageMobile/Frame138/Frame138.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Mobile/LandingPageMobile/Frame138/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+require("./Frame138.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Frame138(props) {
+  var place = props.place,
+      living = props.living;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "frame-138"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "place typographybodycaption-14-semi-bold"
+  }, place), /*#__PURE__*/_react.default.createElement("div", {
+    className: "living typographybodycaption-14-semi-bold"
+  }, living));
+}
+
+var _default = Frame138;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","./Frame138.css":"components/Mobile/LandingPageMobile/Frame138/Frame138.css"}],"components/Mobile/LandingPageMobile/ProjectCard22/ProjectCard22.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Mobile/LandingPageMobile/ProjectCard22/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+require("./ProjectCard22.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function ProjectCard22(props) {
+  var rectangle62 = props.rectangle62,
+      text77 = props.text77,
+      surname = props.surname,
+      className = props.className;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "project-card ".concat(className || "")
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "rectangle-62",
+    src: rectangle62
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "group-99"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "text-10 valign-text-middle typographyheadlineh4-extrabold-24"
+  }, text77), /*#__PURE__*/_react.default.createElement("p", {
+    className: "surname typography-body-smalltext-14-regular"
+  }, surname)));
+}
+
+var _default = ProjectCard22;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","./ProjectCard22.css":"components/Mobile/LandingPageMobile/ProjectCard22/ProjectCard22.css"}],"components/Mobile/LandingPageMobile/Button22/Button22.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Mobile/LandingPageMobile/Button22/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireWildcard(require("react"));
+
+var _animaTimeline = require("anima-timeline");
+
+require("./Button22.css");
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function Button22(props) {
+  var children = props.children,
+      className = props.className;
+  (0, _react.useEffect)(function () {
+    (0, _animaTimeline.loadTimelineData)(x27320746TimelineData);
+  }, []);
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "x27320746 component component-wrapper not-ready ".concat(className || "")
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "master-button-37nz0S"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "button-i2732074651-Mmab5X valign-text-middle"
+  }, children)));
+}
+
+var x27320746TimelineData = [{
+  initial_state_name: "Property-1=Tertiary",
+  root_element: ".x27320746",
+  states_flow: {
+    "Property-1=Primary": {
+      listeners: [],
+      overrides: {}
+    },
+    "Property-1=Secondary": {
+      listeners: [],
+      overrides: {}
+    },
+    "Property-1=Tertiary": {
+      listeners: [],
+      overrides: {}
+    }
+  }
+}];
+var _default = Button22;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","anima-timeline":"node_modules/anima-timeline/index-esm.js","./Button22.css":"components/Mobile/LandingPageMobile/Button22/Button22.css"}],"components/Mobile/LandingPageMobile/Frame1613/Frame1613.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Mobile/LandingPageMobile/Frame1613/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _Group = _interopRequireDefault(require("../Group139"));
+
+var _Frame = _interopRequireDefault(require("../Frame138"));
+
+var _ProjectCard = _interopRequireDefault(require("../ProjectCard22"));
+
+var _Button = _interopRequireDefault(require("../Button22"));
+
+require("./Frame1613.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Frame1613(props) {
+  var apartments = props.apartments,
+      buildiings = props.buildiings,
+      group139Props = props.group139Props,
+      frame138Props = props.frame138Props,
+      projectCard22Props = props.projectCard22Props,
+      projectCard222Props = props.projectCard222Props,
+      projectCard223Props = props.projectCard223Props,
+      projectCard224Props = props.projectCard224Props,
+      projectCard225Props = props.projectCard225Props,
+      projectCard226Props = props.projectCard226Props,
+      projectCard227Props = props.projectCard227Props,
+      projectCard228Props = props.projectCard228Props,
+      projectCard229Props = props.projectCard229Props,
+      button22Props = props.button22Props;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "frame-1613"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "frame-1612"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "flex-row"
+  }, /*#__PURE__*/_react.default.createElement(_Group.default, null, group139Props.children), /*#__PURE__*/_react.default.createElement("div", {
+    className: "apartments typographybodycaption-14-semi-bold"
+  }, apartments), /*#__PURE__*/_react.default.createElement("div", {
+    className: "buildiings typographybodycaption-14-semi-bold"
+  }, buildiings)), /*#__PURE__*/_react.default.createElement(_Frame.default, {
+    place: frame138Props.place,
+    living: frame138Props.living
+  })), /*#__PURE__*/_react.default.createElement("div", {
+    className: "frame-1611"
+  }, /*#__PURE__*/_react.default.createElement(_ProjectCard.default, {
+    rectangle62: projectCard22Props.rectangle62,
+    text77: projectCard22Props.text77,
+    surname: projectCard22Props.surname
+  }), /*#__PURE__*/_react.default.createElement(_ProjectCard.default, {
+    rectangle62: projectCard222Props.rectangle62,
+    text77: projectCard222Props.text77,
+    surname: projectCard222Props.surname,
+    className: "project-card-1"
+  }), /*#__PURE__*/_react.default.createElement(_ProjectCard.default, {
+    rectangle62: projectCard223Props.rectangle62,
+    text77: projectCard223Props.text77,
+    surname: projectCard223Props.surname,
+    className: "project-card-1"
+  }), /*#__PURE__*/_react.default.createElement(_ProjectCard.default, {
+    rectangle62: projectCard224Props.rectangle62,
+    text77: projectCard224Props.text77,
+    surname: projectCard224Props.surname,
+    className: "project-card-1"
+  }), /*#__PURE__*/_react.default.createElement(_ProjectCard.default, {
+    rectangle62: projectCard225Props.rectangle62,
+    text77: projectCard225Props.text77,
+    surname: projectCard225Props.surname,
+    className: "project-card-1"
+  }), /*#__PURE__*/_react.default.createElement(_ProjectCard.default, {
+    rectangle62: projectCard226Props.rectangle62,
+    text77: projectCard226Props.text77,
+    surname: projectCard226Props.surname,
+    className: "project-card-1"
+  }), /*#__PURE__*/_react.default.createElement(_ProjectCard.default, {
+    rectangle62: projectCard227Props.rectangle62,
+    text77: projectCard227Props.text77,
+    surname: projectCard227Props.surname,
+    className: "project-card-1"
+  }), /*#__PURE__*/_react.default.createElement(_ProjectCard.default, {
+    rectangle62: projectCard228Props.rectangle62,
+    text77: projectCard228Props.text77,
+    surname: projectCard228Props.surname,
+    className: "project-card-1"
+  }), /*#__PURE__*/_react.default.createElement(_ProjectCard.default, {
+    rectangle62: projectCard229Props.rectangle62,
+    text77: projectCard229Props.text77,
+    surname: projectCard229Props.surname,
+    className: "project-card-1"
+  })), /*#__PURE__*/_react.default.createElement(_Button.default, null, button22Props.children));
+}
+
+var _default = Frame1613;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","../Group139":"components/Mobile/LandingPageMobile/Group139/index.jsx","../Frame138":"components/Mobile/LandingPageMobile/Frame138/index.jsx","../ProjectCard22":"components/Mobile/LandingPageMobile/ProjectCard22/index.jsx","../Button22":"components/Mobile/LandingPageMobile/Button22/index.jsx","./Frame1613.css":"components/Mobile/LandingPageMobile/Frame1613/Frame1613.css"}],"components/Mobile/LandingPageMobile/Group69/Group69.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Mobile/LandingPageMobile/Group69/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+require("./Group69.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Group69(props) {
+  var number = props.number,
+      text4 = props.text4,
+      className = props.className;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "group-69 ".concat(className || "")
+  }, /*#__PURE__*/_react.default.createElement("h1", {
+    className: "number valign-text-middle typographyheadlineh2-extrabold-40"
+  }, number), /*#__PURE__*/_react.default.createElement("div", {
+    className: "rs-sft valign-text-middle typographybody16-regular"
+  }, text4));
+}
+
+var _default = Group69;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","./Group69.css":"components/Mobile/LandingPageMobile/Group69/Group69.css"}],"components/Mobile/LandingPageMobile/Button8/Button8.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Mobile/LandingPageMobile/Button8/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireWildcard(require("react"));
+
+var _animaTimeline = require("anima-timeline");
+
+require("./Button8.css");
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function Button8(props) {
+  var children = props.children,
+      className = props.className;
+  (0, _react.useEffect)(function () {
+    (0, _animaTimeline.loadTimelineData)(x2668602TimelineData);
+  }, []);
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "x2668602 component component-wrapper not-ready ".concat(className || "")
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "master-button-pOdK04"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "button-i266860251-RsTw5N valign-text-middle"
+  }, children)));
+}
+
+var x2668602TimelineData = [{
+  initial_state_name: "Property-1=Primary",
+  root_element: ".x2668602",
+  states_flow: {
+    "Property-1=Primary": {
+      listeners: [],
+      overrides: {}
+    },
+    "Property-1=Secondary": {
+      listeners: [],
+      overrides: {}
+    },
+    "Property-1=Tertiary": {
+      listeners: [],
+      overrides: {}
+    }
+  }
+}];
+var _default = Button8;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","anima-timeline":"node_modules/anima-timeline/index-esm.js","./Button8.css":"components/Mobile/LandingPageMobile/Button8/Button8.css"}],"components/Mobile/LandingPageMobile/PackagesCard/PackagesCard.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Mobile/LandingPageMobile/PackagesCard/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _Group = _interopRequireDefault(require("../Group69"));
+
+var _Button = _interopRequireDefault(require("../Button8"));
+
+require("./PackagesCard.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function PackagesCard(props) {
+  var basic = props.basic,
+      group69Props = props.group69Props,
+      buttonProps = props.buttonProps;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "packages-card"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "basic-1 valign-text-middle typographyheadlineh4-extrabold-24"
+  }, basic), /*#__PURE__*/_react.default.createElement("div", {
+    className: "basic"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "vector",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-201@2x.svg"
+  })), /*#__PURE__*/_react.default.createElement(_Group.default, {
+    number: group69Props.number,
+    text4: group69Props.text4
+  }), /*#__PURE__*/_react.default.createElement(_Button.default, null, buttonProps.children));
+}
+
+var _default = PackagesCard;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","../Group69":"components/Mobile/LandingPageMobile/Group69/index.jsx","../Button8":"components/Mobile/LandingPageMobile/Button8/index.jsx","./PackagesCard.css":"components/Mobile/LandingPageMobile/PackagesCard/PackagesCard.css"}],"components/Mobile/LandingPageMobile/Group1112/Group1112.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Mobile/LandingPageMobile/Group1112/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _Group = _interopRequireDefault(require("../Group69"));
+
+var _Button = _interopRequireDefault(require("../Button8"));
+
+require("./Group1112.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Group1112(props) {
+  var place = props.place,
+      overlapGroup4 = props.overlapGroup4,
+      group69Props = props.group69Props,
+      buttonProps = props.buttonProps;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "packages-card-1"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "place-1 valign-text-middle typographyheadlineh4-extrabold-24"
+  }, place), /*#__PURE__*/_react.default.createElement("div", {
+    className: "standard"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "overlap-group3-1",
+    style: {
+      backgroundImage: "url(".concat(overlapGroup4, ")")
+    }
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "vector-1",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-203@2x.svg"
+  }))), /*#__PURE__*/_react.default.createElement(_Group.default, {
+    number: group69Props.number,
+    text4: group69Props.text4,
+    className: "group-69-1"
+  }), /*#__PURE__*/_react.default.createElement(_Button.default, {
+    className: "x2668641"
+  }, buttonProps.children));
+}
+
+var _default = Group1112;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","../Group69":"components/Mobile/LandingPageMobile/Group69/index.jsx","../Button8":"components/Mobile/LandingPageMobile/Button8/index.jsx","./Group1112.css":"components/Mobile/LandingPageMobile/Group1112/Group1112.css"}],"components/Mobile/LandingPageMobile/Group112/Group112.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Mobile/LandingPageMobile/Group112/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _Group = _interopRequireDefault(require("../Group69"));
+
+var _Button = _interopRequireDefault(require("../Button8"));
+
+require("./Group112.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Group112(props) {
+  var premium = props.premium,
+      group = props.group,
+      vector2 = props.vector2,
+      vector3 = props.vector3,
+      vector4 = props.vector4,
+      group2 = props.group2,
+      group69Props = props.group69Props,
+      buttonProps = props.buttonProps;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "packages-card-2"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "premium-1 valign-text-middle typographyheadlineh4-extrabold-24"
+  }, premium), /*#__PURE__*/_react.default.createElement("div", {
+    className: "premium"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "overlap-group3-2"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "group",
+    style: {
+      backgroundImage: "url(".concat(group, ")")
+    }
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "vector-5",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-81@2x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "vector-3",
+    src: vector2
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "vector-2",
+    src: vector3
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "vector-4",
+    src: vector4
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "group-1",
+    style: {
+      backgroundImage: "url(".concat(group2, ")")
+    }
+  }))), /*#__PURE__*/_react.default.createElement(_Group.default, {
+    number: group69Props.number,
+    text4: group69Props.text4,
+    className: "group-69-1"
+  }), /*#__PURE__*/_react.default.createElement(_Button.default, {
+    className: "x2668680"
+  }, buttonProps.children));
+}
+
+var _default = Group112;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","../Group69":"components/Mobile/LandingPageMobile/Group69/index.jsx","../Button8":"components/Mobile/LandingPageMobile/Button8/index.jsx","./Group112.css":"components/Mobile/LandingPageMobile/Group112/Group112.css"}],"components/Mobile/LandingPageMobile/Group113/Group113.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Mobile/LandingPageMobile/Group113/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _Group = _interopRequireDefault(require("../Group69"));
+
+var _Button = _interopRequireDefault(require("../Button8"));
+
+require("./Group113.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Group113(props) {
+  var basic = props.basic,
+      group69Props = props.group69Props,
+      buttonProps = props.buttonProps;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "packages-card-3"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "basic-2 valign-text-middle typographyheadlineh4-extrabold-24"
+  }, basic), /*#__PURE__*/_react.default.createElement("div", {
+    className: "luxury"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "vector-6",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-210@2x.svg"
+  })), /*#__PURE__*/_react.default.createElement(_Group.default, {
+    number: group69Props.number,
+    text4: group69Props.text4,
+    className: "group-69-1"
+  }), /*#__PURE__*/_react.default.createElement(_Button.default, {
+    className: "x2668719"
+  }, buttonProps.children));
+}
+
+var _default = Group113;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","../Group69":"components/Mobile/LandingPageMobile/Group69/index.jsx","../Button8":"components/Mobile/LandingPageMobile/Button8/index.jsx","./Group113.css":"components/Mobile/LandingPageMobile/Group113/Group113.css"}],"components/Mobile/LandingPageMobile/Group11422/Group11422.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Mobile/LandingPageMobile/Group11422/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+require("./Group11422.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Group11422(props) {
+  var costEstimator = props.costEstimator,
+      text93 = props.text93;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "group-114"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "cost-estimator valign-text-middle typographyheadlineh4-extrabold-24"
+  }, costEstimator), /*#__PURE__*/_react.default.createElement("p", {
+    className: "text-25 valign-text-middle typographybodysmall-12-regular"
+  }, text93));
+}
+
+var _default = Group11422;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","./Group11422.css":"components/Mobile/LandingPageMobile/Group11422/Group11422.css"}],"components/Mobile/LandingPageMobile/EstimateNowButton/EstimateNowButton.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Mobile/LandingPageMobile/EstimateNowButton/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireWildcard(require("react"));
+
+var _animaTimeline = require("anima-timeline");
+
+require("./EstimateNowButton.css");
+
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
+
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
+
+function EstimateNowButton(props) {
+  var children = props.children;
+  (0, _react.useEffect)(function () {
+    (0, _animaTimeline.loadTimelineData)(x2668831TimelineData);
+  }, []);
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "x2668831 component component-wrapper not-ready"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "master-button-KRtkKN"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "button-i266883151-zXi8Hy valign-text-middle"
+  }, children)));
+}
+
+var x2668831TimelineData = [{
+  initial_state_name: "Property-1=Primary",
+  root_element: ".x2668831",
+  states_flow: {
+    "Property-1=Primary": {
+      listeners: [],
+      overrides: {}
+    },
+    "Property-1=Secondary": {
+      listeners: [],
+      overrides: {
+        "": {
+          position: "relative"
+        }
+      }
+    },
+    "Property-1=Tertiary": {
+      listeners: [],
+      overrides: {
+        "": {
+          position: "relative"
+        }
+      }
+    }
+  }
+}];
+var _default = EstimateNowButton;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","anima-timeline":"node_modules/anima-timeline/index-esm.js","./EstimateNowButton.css":"components/Mobile/LandingPageMobile/EstimateNowButton/EstimateNowButton.css"}],"components/Mobile/LandingPageMobile/Frame122/Frame122.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Mobile/LandingPageMobile/Frame122/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+require("./Frame122.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Frame122(props) {
+  var children = props.children,
+      className = props.className;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "frame-1-1 border-1px-white ".concat(className || "")
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "text-26 inter-normal-white-14px"
+  }, children));
+}
+
+var _default = Frame122;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","./Frame122.css":"components/Mobile/LandingPageMobile/Frame122/Frame122.css"}],"components/Mobile/LandingPageMobile/Group11722/Group11722.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Mobile/LandingPageMobile/Group11722/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _Frame = _interopRequireDefault(require("../Frame122"));
+
+require("./Group11722.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Group11722(props) {
+  var frame12Props = props.frame12Props,
+      frame122Props = props.frame122Props;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "group-117"
+  }, /*#__PURE__*/_react.default.createElement(_Frame.default, null, frame12Props.children), /*#__PURE__*/_react.default.createElement(_Frame.default, {
+    className: "frame-1"
+  }, frame122Props.children));
+}
+
+var _default = Group11722;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","../Frame122":"components/Mobile/LandingPageMobile/Frame122/index.jsx","./Group11722.css":"components/Mobile/LandingPageMobile/Group11722/Group11722.css"}],"components/Mobile/LandingPageMobile/Group8622/Group8622.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Mobile/LandingPageMobile/Group8622/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+require("./Group8622.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Group8622(props) {
+  var group85 = props.group85;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "group-86"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "white"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "vector-7",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-148@2x.svg"
+  })), /*#__PURE__*/_react.default.createElement("img", {
+    className: "group-85",
+    src: group85
+  }));
+}
+
+var _default = Group8622;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","./Group8622.css":"components/Mobile/LandingPageMobile/Group8622/Group8622.css"}],"components/Mobile/LandingPageMobile/Group32/Group32.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Mobile/LandingPageMobile/Group32/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+require("./Group32.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Group32(props) {
+  var place = props.place,
+      overlapGroup42 = props.overlapGroup42,
+      phone = props.phone,
+      overlapGroup5 = props.overlapGroup5,
+      vector2 = props.vector2,
+      text21 = props.text21,
+      text20 = props.text20,
+      contactWebuildCom = props.contactWebuildCom;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "group-32"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "place-2 valign-text-middle typographyheadlineh5-extrabold-20"
+  }, place), /*#__PURE__*/_react.default.createElement("div", {
+    className: "flex-row-1"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "flex-col-1"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "map-pin-1"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "overlap-group3-3",
+    style: {
+      backgroundImage: "url(".concat(overlapGroup42, ")")
+    }
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "vector-9",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-213@2x.svg"
+  }))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "phone",
+    style: {
+      backgroundImage: "url(".concat(phone, ")")
+    }
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "mail"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "overlap-group4-1",
+    style: {
+      backgroundImage: "url(".concat(overlapGroup5, ")")
+    }
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "vector-8",
+    src: vector2
+  })))), /*#__PURE__*/_react.default.createElement("div", {
+    className: "flex-col"
+  }, /*#__PURE__*/_react.default.createElement("p", {
+    className: "text-21 typography-body-smalltext-14-regular"
+  }, text21), /*#__PURE__*/_react.default.createElement("div", {
+    className: "flex-col-item valign-text-middle typography-body-smalltext-14-regular"
+  }, text20), /*#__PURE__*/_react.default.createElement("div", {
+    className: "flex-col-item valign-text-middle typography-body-smalltext-14-regular"
+  }, contactWebuildCom))));
+}
+
+var _default = Group32;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","./Group32.css":"components/Mobile/LandingPageMobile/Group32/Group32.css"}],"components/Mobile/LandingPageMobile/Frame140/Frame140.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Mobile/LandingPageMobile/Frame140/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+require("./Frame140.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Frame140(props) {
+  var aboutUs = props.aboutUs,
+      projects = props.projects,
+      className = props.className;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "frame-140 ".concat(className || "")
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "about-us valign-text-middle typographybody16-regular"
+  }, aboutUs), /*#__PURE__*/_react.default.createElement("div", {
+    className: "projects valign-text-middle typographybody16-regular"
+  }, projects));
+}
+
+var _default = Frame140;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","./Frame140.css":"components/Mobile/LandingPageMobile/Frame140/Frame140.css"}],"components/Mobile/LandingPageMobile/Frame5/Frame5.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Mobile/LandingPageMobile/Frame5/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _Frame = _interopRequireDefault(require("../Frame140"));
+
+require("./Frame5.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Frame5(props) {
+  var quickLinks = props.quickLinks,
+      frame140Props = props.frame140Props,
+      frame1402Props = props.frame1402Props,
+      frame1403Props = props.frame1403Props;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "frame-5"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "quick-links valign-text-middle typographyheadlineh5-extrabold-20"
+  }, quickLinks), /*#__PURE__*/_react.default.createElement("div", {
+    className: "frame-4"
+  }, /*#__PURE__*/_react.default.createElement(_Frame.default, {
+    aboutUs: frame140Props.aboutUs,
+    projects: frame140Props.projects
+  }), /*#__PURE__*/_react.default.createElement(_Frame.default, {
+    aboutUs: frame1402Props.aboutUs,
+    projects: frame1402Props.projects,
+    className: "frame-14"
+  }), /*#__PURE__*/_react.default.createElement(_Frame.default, {
+    aboutUs: frame1403Props.aboutUs,
+    projects: frame1403Props.projects,
+    className: "frame-14"
+  })));
+}
+
+var _default = Frame5;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","../Frame140":"components/Mobile/LandingPageMobile/Frame140/index.jsx","./Frame5.css":"components/Mobile/LandingPageMobile/Frame5/Frame5.css"}],"components/Mobile/LandingPageMobile/FacebookAppSymbol/FacebookAppSymbol.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Mobile/LandingPageMobile/FacebookAppSymbol/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+require("./FacebookAppSymbol.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function FacebookAppSymbol(props) {
+  var src = props.src;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "facebook-app-symbol"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "f-1",
+    src: src
+  }));
+}
+
+var _default = FacebookAppSymbol;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","./FacebookAppSymbol.css":"components/Mobile/LandingPageMobile/FacebookAppSymbol/FacebookAppSymbol.css"}],"components/Mobile/LandingPageMobile/Instagram/Instagram.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Mobile/LandingPageMobile/Instagram/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+require("./Instagram.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Instagram(props) {
+  var instagram = props.instagram,
+      vector2 = props.vector2;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "instagram",
+    style: {
+      backgroundImage: "url(".concat(instagram, ")")
+    }
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "overlap-group3-4"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "vector-11",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-155@2x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "vector-10",
+    src: vector2
+  })));
+}
+
+var _default = Instagram;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","./Instagram.css":"components/Mobile/LandingPageMobile/Instagram/Instagram.css"}],"components/Mobile/LandingPageMobile/Twitter/Twitter.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Mobile/LandingPageMobile/Twitter/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+require("./Twitter.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Twitter(props) {
+  var src = props.src;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "twitter"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "vector-12",
+    src: src
+  }));
+}
+
+var _default = Twitter;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","./Twitter.css":"components/Mobile/LandingPageMobile/Twitter/Twitter.css"}],"components/Mobile/LandingPageMobile/Group87/Group87.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Mobile/LandingPageMobile/Group87/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _FacebookAppSymbol = _interopRequireDefault(require("../FacebookAppSymbol"));
+
+var _Instagram = _interopRequireDefault(require("../Instagram"));
+
+var _Twitter = _interopRequireDefault(require("../Twitter"));
+
+require("./Group87.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Group87(props) {
+  var facebookAppSymbolProps = props.facebookAppSymbolProps,
+      facebookAppSymbolProps2 = props.facebookAppSymbolProps2,
+      twitterProps = props.twitterProps;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "group-87"
+  }, /*#__PURE__*/_react.default.createElement(_FacebookAppSymbol.default, {
+    src: facebookAppSymbolProps.src
+  }), /*#__PURE__*/_react.default.createElement(_Instagram.default, {
+    instagram: facebookAppSymbolProps2.instagram,
+    vector2: facebookAppSymbolProps2.vector2
+  }), /*#__PURE__*/_react.default.createElement(_Twitter.default, {
+    src: twitterProps.src
+  }));
+}
+
+var _default = Group87;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","../FacebookAppSymbol":"components/Mobile/LandingPageMobile/FacebookAppSymbol/index.jsx","../Instagram":"components/Mobile/LandingPageMobile/Instagram/index.jsx","../Twitter":"components/Mobile/LandingPageMobile/Twitter/index.jsx","./Group87.css":"components/Mobile/LandingPageMobile/Group87/Group87.css"}],"components/Mobile/LandingPageMobile/White/White.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Mobile/LandingPageMobile/White/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+require("./White.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function White(props) {
+  var src = props.src;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "white-1"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "vector-13",
+    src: src
+  }));
+}
+
+var _default = White;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","./White.css":"components/Mobile/LandingPageMobile/White/White.css"}],"components/Mobile/LandingPageMobile/Group86/Group86.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Mobile/LandingPageMobile/Group86/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _White = _interopRequireDefault(require("../White"));
+
+require("./Group86.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Group86(props) {
+  var group85 = props.group85,
+      whiteProps = props.whiteProps;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "group-86-1"
+  }, /*#__PURE__*/_react.default.createElement(_White.default, {
+    src: whiteProps.src
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "group-85-1",
+    src: group85
+  }));
+}
+
+var _default = Group86;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","../White":"components/Mobile/LandingPageMobile/White/index.jsx","./Group86.css":"components/Mobile/LandingPageMobile/Group86/Group86.css"}],"components/Mobile/LandingPageMobile/IconMenu/IconMenu.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Mobile/LandingPageMobile/IconMenu/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+require("./IconMenu.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function IconMenu(props) {
+  var vector2 = props.vector2,
+      vector3 = props.vector3;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "icon-menu"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "vector-15",
+    src: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-159@2x.svg"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "vector-14",
+    src: vector2
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "vector-14",
+    src: vector3
+  }));
+}
+
+var _default = IconMenu;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","./IconMenu.css":"components/Mobile/LandingPageMobile/IconMenu/IconMenu.css"}],"components/Mobile/LandingPageMobile/Frame145/Frame145.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Mobile/LandingPageMobile/Frame145/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _Group = _interopRequireDefault(require("../Group86"));
+
+var _IconMenu = _interopRequireDefault(require("../IconMenu"));
+
+require("./Frame145.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Frame145(props) {
+  var group86Props = props.group86Props,
+      iconMenuProps = props.iconMenuProps;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "frame-145"
+  }, /*#__PURE__*/_react.default.createElement(_Group.default, {
+    group85: group86Props.group85,
+    whiteProps: group86Props.whiteProps
+  }), /*#__PURE__*/_react.default.createElement(_IconMenu.default, {
+    vector2: iconMenuProps.vector2,
+    vector3: iconMenuProps.vector3
+  }));
+}
+
+var _default = Frame145;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","../Group86":"components/Mobile/LandingPageMobile/Group86/index.jsx","../IconMenu":"components/Mobile/LandingPageMobile/IconMenu/index.jsx","./Frame145.css":"components/Mobile/LandingPageMobile/Frame145/Frame145.css"}],"components/Mobile/LandingPageMobile/Frame1600/Frame1600.css":[function(require,module,exports) {
+var reloadCSS = require('_css_loader');
+
+module.hot.dispose(reloadCSS);
+module.hot.accept(reloadCSS);
+},{"_css_loader":"node_modules/parcel-bundler/src/builtins/css-loader.js"}],"components/Mobile/LandingPageMobile/Frame1600/index.jsx":[function(require,module,exports) {
+"use strict";
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+var _react = _interopRequireDefault(require("react"));
+
+var _Group = _interopRequireDefault(require("../Group129"));
+
+var _GetAQuoteButton = _interopRequireDefault(require("../GetAQuoteButton2"));
+
+var _Frame = _interopRequireDefault(require("../Frame1613"));
+
+var _Button = _interopRequireDefault(require("../Button22"));
+
+var _PackagesCard = _interopRequireDefault(require("../PackagesCard"));
+
+var _Group2 = _interopRequireDefault(require("../Group1112"));
+
+var _Group3 = _interopRequireDefault(require("../Group112"));
+
+var _Group4 = _interopRequireDefault(require("../Group113"));
+
+var _Group5 = _interopRequireDefault(require("../Group11422"));
+
+var _EstimateNowButton = _interopRequireDefault(require("../EstimateNowButton"));
+
+var _Group6 = _interopRequireDefault(require("../Group11722"));
+
+var _Group7 = _interopRequireDefault(require("../Group8622"));
+
+var _Group8 = _interopRequireDefault(require("../Group32"));
+
+var _Frame2 = _interopRequireDefault(require("../Frame5"));
+
+var _Group9 = _interopRequireDefault(require("../Group87"));
+
+var _Frame3 = _interopRequireDefault(require("../Frame145"));
+
+require("./Frame1600.css");
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function Frame1600(props) {
+  var line4 = props.line4,
+      line5 = props.line5,
+      line6 = props.line6,
+      line7 = props.line7,
+      line8 = props.line8,
+      rectangle72 = props.rectangle72,
+      text1 = props.text1,
+      spanText = props.spanText,
+      spanText2 = props.spanText2,
+      spanText3 = props.spanText3,
+      spanText4 = props.spanText4,
+      spanText5 = props.spanText5,
+      rectangle73 = props.rectangle73,
+      text3 = props.text3,
+      text4 = props.text4,
+      rectangle70 = props.rectangle70,
+      text5 = props.text5,
+      text6 = props.text6,
+      text7 = props.text7,
+      whyWebuild = props.whyWebuild,
+      rectangle69 = props.rectangle69,
+      spanText6 = props.spanText6,
+      spanText7 = props.spanText7,
+      spanText8 = props.spanText8,
+      text9 = props.text9,
+      ourProjects = props.ourProjects,
+      text22 = props.text22,
+      text23 = props.text23,
+      packages = props.packages,
+      costEstimatorBg = props.costEstimatorBg,
+      testimonials = props.testimonials,
+      text24 = props.text24,
+      text19 = props.text19,
+      ellipse1 = props.ellipse1,
+      name = props.name,
+      bangaloreIndia = props.bangaloreIndia,
+      image3 = props.image3,
+      image4 = props.image4,
+      image5 = props.image5,
+      getAQuoteButton2Props = props.getAQuoteButton2Props,
+      frame1613Props = props.frame1613Props,
+      button22Props = props.button22Props,
+      packagesCardProps = props.packagesCardProps,
+      group1112Props = props.group1112Props,
+      group112Props = props.group112Props,
+      group113Props = props.group113Props,
+      group11422Props = props.group11422Props,
+      estimateNowButtonProps = props.estimateNowButtonProps,
+      group11722Props = props.group11722Props,
+      group8622Props = props.group8622Props,
+      group32Props = props.group32Props,
+      frame5Props = props.frame5Props,
+      group87Props = props.group87Props,
+      frame145Props = props.frame145Props;
+  return /*#__PURE__*/_react.default.createElement("div", {
+    className: "frame-1600"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "overlap-group"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "group-89"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "line-4",
+    src: line4
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "line-",
+    src: line5
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "line-",
+    src: line6
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "line-",
+    src: line7
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "line-",
+    src: line8
+  })), /*#__PURE__*/_react.default.createElement("img", {
+    className: "rectangle-72",
+    src: rectangle72
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "text-1 valign-text-middle typographyheadlineh5-extrabold-20"
+  }, text1), /*#__PURE__*/_react.default.createElement("p", {
+    className: "text-2 typographybodysmall-12-regular"
+  }, /*#__PURE__*/_react.default.createElement("span", {
+    className: "span typographybodysmall-12-regular"
+  }, spanText), /*#__PURE__*/_react.default.createElement("span", {
+    className: "span-1 typographybodysmall-12-regular"
+  }, spanText2), /*#__PURE__*/_react.default.createElement("span", {
+    className: "span2-1 overpass-semi-bold-mahogany-12px"
+  }, spanText3), /*#__PURE__*/_react.default.createElement("span", {
+    className: "span-1 typographybodysmall-12-regular"
+  }, spanText4), /*#__PURE__*/_react.default.createElement("span", {
+    className: "span typographybodysmall-12-regular"
+  }, spanText5)), /*#__PURE__*/_react.default.createElement("img", {
+    className: "rectangle-73",
+    src: rectangle73
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "text-3 valign-text-middle typographyheadlineh4-extrabold-24"
+  }, text3), /*#__PURE__*/_react.default.createElement("p", {
+    className: "text-4 typographybodysmall-12-regular"
+  }, text4), /*#__PURE__*/_react.default.createElement("img", {
+    className: "rectangle-70",
+    src: rectangle70
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "text-5 valign-text-middle typographyheadlineh4-extrabold-24"
+  }, text5), /*#__PURE__*/_react.default.createElement("p", {
+    className: "text-6 typographybodysmall-12-regular"
+  }, text6), /*#__PURE__*/_react.default.createElement("p", {
+    className: "text-7 typography-body-smalltext-14-regular"
+  }, text7), /*#__PURE__*/_react.default.createElement("div", {
+    className: "why-webuild valign-text-middle typographyheadlineh4-extrabold-24"
+  }, whyWebuild), /*#__PURE__*/_react.default.createElement("img", {
+    className: "rectangle-69",
+    src: rectangle69
+  }), /*#__PURE__*/_react.default.createElement(_Group.default, null), /*#__PURE__*/_react.default.createElement("p", {
+    className: "text-8 valign-text-middle overpass-semi-bold-white-16px2"
+  }, /*#__PURE__*/_react.default.createElement("span", null, /*#__PURE__*/_react.default.createElement("span", {
+    className: "span0 overpass-semi-bold-white-16px-22"
+  }, spanText6), /*#__PURE__*/_react.default.createElement("span", {
+    className: "span1 overpass-semi-bold-white-32px"
+  }, spanText7), /*#__PURE__*/_react.default.createElement("span", {
+    className: "span2 overpass-extra-bold-mahogany-40px"
+  }, spanText8))), /*#__PURE__*/_react.default.createElement("p", {
+    className: "text-9 typography-body-smalltext-14-regular"
+  }, text9), /*#__PURE__*/_react.default.createElement(_GetAQuoteButton.default, null, getAQuoteButton2Props.children), /*#__PURE__*/_react.default.createElement("div", {
+    className: "group-210"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "our-projects valign-text-middle typographyheadlineh4-extrabold-24"
+  }, ourProjects), /*#__PURE__*/_react.default.createElement("p", {
+    className: "text-22 typography-body-smalltext-14-regular"
+  }, text22), /*#__PURE__*/_react.default.createElement(_Frame.default, frame1613Props), /*#__PURE__*/_react.default.createElement("div", {
+    className: "overlap-group1"
+  }, /*#__PURE__*/_react.default.createElement(_Button.default, {
+    className: "x2668590"
+  }, button22Props.children), /*#__PURE__*/_react.default.createElement("div", {
+    className: "rectangle-71"
+  }), /*#__PURE__*/_react.default.createElement(_PackagesCard.default, {
+    basic: packagesCardProps.basic,
+    group69Props: packagesCardProps.group69Props,
+    buttonProps: packagesCardProps.buttonProps
+  }), /*#__PURE__*/_react.default.createElement(_Group2.default, {
+    place: group1112Props.place,
+    overlapGroup4: group1112Props.overlapGroup4,
+    group69Props: group1112Props.group69Props,
+    buttonProps: group1112Props.buttonProps
+  }), /*#__PURE__*/_react.default.createElement(_Group3.default, group112Props), /*#__PURE__*/_react.default.createElement(_Group4.default, {
+    basic: group113Props.basic,
+    group69Props: group113Props.group69Props,
+    buttonProps: group113Props.buttonProps
+  }), /*#__PURE__*/_react.default.createElement("p", {
+    className: "text-23 typographybody16-regular"
+  }, text23), /*#__PURE__*/_react.default.createElement("div", {
+    className: "packages valign-text-middle typographyheadlineh4-extrabold-24"
+  }, packages), /*#__PURE__*/_react.default.createElement("img", {
+    className: "cost-estimator-bg",
+    src: costEstimatorBg
+  }), /*#__PURE__*/_react.default.createElement(_Group5.default, {
+    costEstimator: group11422Props.costEstimator,
+    text93: group11422Props.text93
+  }), /*#__PURE__*/_react.default.createElement(_EstimateNowButton.default, null, estimateNowButtonProps.children), /*#__PURE__*/_react.default.createElement(_Group6.default, {
+    frame12Props: group11722Props.frame12Props,
+    frame122Props: group11722Props.frame122Props
+  })), /*#__PURE__*/_react.default.createElement("div", {
+    className: "testimonials valign-text-middle typographyheadlineh4-extrabold-24"
+  }, testimonials), /*#__PURE__*/_react.default.createElement("p", {
+    className: "text-24 typographybody16-regular"
+  }, text24), /*#__PURE__*/_react.default.createElement("div", {
+    className: "group-27"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "overlap-group4"
+  }, /*#__PURE__*/_react.default.createElement("p", {
+    className: "text-19 typographybodysmall-12-regular"
+  }, text19), /*#__PURE__*/_react.default.createElement("div", {
+    className: "group-120"
+  }, /*#__PURE__*/_react.default.createElement("img", {
+    className: "ellipse-1",
+    src: ellipse1
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "group-140"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "name valign-text-middle typographyheadlineh5-extrabold-20"
+  }, name), /*#__PURE__*/_react.default.createElement("div", {
+    className: "bangalore-india valign-text-middle typographybodysmall-12-regular"
+  }, bangaloreIndia))))), /*#__PURE__*/_react.default.createElement(_Group.default, {
+    className: "group-141"
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "overlap-group2"
+  }, /*#__PURE__*/_react.default.createElement("div", {
+    className: "rectangle-74"
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "image-3",
+    src: image3
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "image-4",
+    src: image4
+  }), /*#__PURE__*/_react.default.createElement("img", {
+    className: "image-5",
+    src: image5
+  }), /*#__PURE__*/_react.default.createElement("div", {
+    className: "rectangle-67"
+  }), /*#__PURE__*/_react.default.createElement(_Group7.default, {
+    group85: group8622Props.group85
+  }), /*#__PURE__*/_react.default.createElement(_Group8.default, group32Props), /*#__PURE__*/_react.default.createElement(_Frame2.default, {
+    quickLinks: frame5Props.quickLinks,
+    frame140Props: frame5Props.frame140Props,
+    frame1402Props: frame5Props.frame1402Props,
+    frame1403Props: frame5Props.frame1403Props
+  }), /*#__PURE__*/_react.default.createElement(_Group9.default, {
+    facebookAppSymbolProps: group87Props.facebookAppSymbolProps,
+    facebookAppSymbolProps2: group87Props.facebookAppSymbolProps2,
+    twitterProps: group87Props.twitterProps
+  }))), /*#__PURE__*/_react.default.createElement(_Frame3.default, {
+    group86Props: frame145Props.group86Props,
+    iconMenuProps: frame145Props.iconMenuProps
+  })));
+}
+
+var _default = Frame1600;
+exports.default = _default;
+},{"react":"node_modules/react/index.js","../Group129":"components/Mobile/LandingPageMobile/Group129/index.jsx","../GetAQuoteButton2":"components/Mobile/LandingPageMobile/GetAQuoteButton2/index.jsx","../Frame1613":"components/Mobile/LandingPageMobile/Frame1613/index.jsx","../Button22":"components/Mobile/LandingPageMobile/Button22/index.jsx","../PackagesCard":"components/Mobile/LandingPageMobile/PackagesCard/index.jsx","../Group1112":"components/Mobile/LandingPageMobile/Group1112/index.jsx","../Group112":"components/Mobile/LandingPageMobile/Group112/index.jsx","../Group113":"components/Mobile/LandingPageMobile/Group113/index.jsx","../Group11422":"components/Mobile/LandingPageMobile/Group11422/index.jsx","../EstimateNowButton":"components/Mobile/LandingPageMobile/EstimateNowButton/index.jsx","../Group11722":"components/Mobile/LandingPageMobile/Group11722/index.jsx","../Group8622":"components/Mobile/LandingPageMobile/Group8622/index.jsx","../Group32":"components/Mobile/LandingPageMobile/Group32/index.jsx","../Frame5":"components/Mobile/LandingPageMobile/Frame5/index.jsx","../Group87":"components/Mobile/LandingPageMobile/Group87/index.jsx","../Frame145":"components/Mobile/LandingPageMobile/Frame145/index.jsx","./Frame1600.css":"components/Mobile/LandingPageMobile/Frame1600/Frame1600.css"}],"components/Desktop/AboutPageDesktop/Group89/Group89.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
@@ -42588,7 +44180,9 @@ var _reactRouterDom = require("react-router-dom");
 
 var _X01LandingPageDesktop = _interopRequireDefault(require("./components/Desktop/LandingPageDesktop/X01LandingPageDesktop"));
 
-var _Frame = _interopRequireDefault(require("./components/Desktop/AboutPageDesktop/Frame173"));
+var _Frame = _interopRequireDefault(require("./components/Mobile/LandingPageMobile/Frame1600"));
+
+var _Frame2 = _interopRequireDefault(require("./components/Desktop/AboutPageDesktop/Frame173"));
 
 var _X02AboutPageMobile = _interopRequireDefault(require("./components/Mobile/AboutPageMobile/X02AboutPageMobile"));
 
@@ -42606,12 +44200,12 @@ function App() {
   return /*#__PURE__*/_react.default.createElement(_reactRouterDom.BrowserRouter, null, /*#__PURE__*/_react.default.createElement(_reactRouterDom.Switch, null, /*#__PURE__*/_react.default.createElement(_reactRouterDom.Route, {
     path: "/:path(|home)"
   }, /*#__PURE__*/_react.default.createElement("div", {
-    className: "desktop-only"
-  }, /*#__PURE__*/_react.default.createElement(_X01LandingPageDesktop.default, x01LandingPageDesktopData))), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Route, {
+    className: "mobile-only"
+  }, /*#__PURE__*/_react.default.createElement(_Frame.default, frame1600Data))), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Route, {
     path: "/:path(|about)"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "desktop-only"
-  }, /*#__PURE__*/_react.default.createElement(_Frame.default, frame173Data)), /*#__PURE__*/_react.default.createElement("div", {
+  }, /*#__PURE__*/_react.default.createElement(_Frame2.default, frame173Data)), /*#__PURE__*/_react.default.createElement("div", {
     className: "mobile-only"
   }, /*#__PURE__*/_react.default.createElement(_X02AboutPageMobile.default, x02AboutPageMobileData))), /*#__PURE__*/_react.default.createElement(_reactRouterDom.Route, {
     path: "/:path(|portfolio-detail)"
@@ -42622,9 +44216,7 @@ function App() {
     headerWithBackgroundProps: x04PortfolioDetailPageData.headerWithBackgroundProps
   })), /*#__PURE__*/_react.default.createElement("div", {
     className: "mobile-only"
-  }, /*#__PURE__*/_react.default.createElement(_X04PortfolioDetailPageMobile.default, x04PortfolioDetailPageMobileData)), /*#__PURE__*/_react.default.createElement("div", {
-    className: "tablet-only"
-  }, /*#__PURE__*/_react.default.createElement(_X02AboutPageTablet.default, x02AboutPageTabletData)))));
+  }, /*#__PURE__*/_react.default.createElement(_X04PortfolioDetailPageMobile.default, x04PortfolioDetailPageMobileData)))));
 }
 
 var _default = App;
@@ -43505,8 +45097,288 @@ var frame165Data = {
   image6: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/image-3-2@2x.png",
   image8: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/image-5-2@2x.png",
   image7: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/image-4-2@2x.png"
+}; // Mobile Landing Page
+
+var getAQuoteButton2Data = {
+  children: "GET A QUOTE"
+}; // const group139Data = {
+//   children: "ALL"
+// };
+
+var frame138Data = {
+  place: "INTERIOR",
+  living: "LIVING"
 };
-},{"./App.css":"App.css","react":"node_modules/react/index.js","react-router-dom":"node_modules/react-router-dom/esm/react-router-dom.js","./components/Desktop/LandingPageDesktop/X01LandingPageDesktop":"components/Desktop/LandingPageDesktop/X01LandingPageDesktop/index.jsx","./components/Desktop/AboutPageDesktop/Frame173":"components/Desktop/AboutPageDesktop/Frame173/index.jsx","./components/Mobile/AboutPageMobile/X02AboutPageMobile":"components/Mobile/AboutPageMobile/X02AboutPageMobile/index.jsx","./components/Tablet/AboutPageTablet/X02AboutPageTablet":"components/Tablet/AboutPageTablet/X02AboutPageTablet/index.jsx","./components/Mobile/PortfolioPageMobile/X03PortfolioPageMobile":"components/Mobile/PortfolioPageMobile/X03PortfolioPageMobile/index.jsx","./components/Desktop/PortfolioDetailPageDesktop/X04PortfolioDetailPage":"components/Desktop/PortfolioDetailPageDesktop/X04PortfolioDetailPage/index.jsx","./components/Mobile/PortfolioDetailPageMobile/X04PortfolioDetailPageMobile":"components/Mobile/PortfolioDetailPageMobile/X04PortfolioDetailPageMobile/index.jsx"}],"styleguide.css":[function(require,module,exports) {
+var projectCard22Data = {
+  rectangle62: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/rectangle-62-24@2x.png",
+  text77: "Project Name",
+  surname: "Small description about the project"
+};
+var projectCard222Data = {
+  rectangle62: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/rectangle-62-25@2x.png",
+  text77: "Project Name",
+  surname: "Small description about the project"
+};
+var projectCard223Data = {
+  rectangle62: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/rectangle-62-26@2x.png",
+  text77: "Project Name",
+  surname: "Small description about the project"
+};
+var projectCard224Data = {
+  rectangle62: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/rectangle-62-27@2x.png",
+  text77: "Project Name",
+  surname: "Small description about the project"
+};
+var projectCard225Data = {
+  rectangle62: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/rectangle-62-28@2x.png",
+  text77: "Project Name",
+  surname: "Small description about the project"
+};
+var projectCard226Data = {
+  rectangle62: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/rectangle-62-29@2x.png",
+  text77: "Project Name",
+  surname: "Small description about the project"
+};
+var projectCard227Data = {
+  rectangle62: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/rectangle-62-30@2x.png",
+  text77: "Project Name",
+  surname: "Small description about the project"
+};
+var projectCard228Data = {
+  rectangle62: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/rectangle-62-31@2x.png",
+  text77: "Project Name",
+  surname: "Small description about the project"
+};
+var projectCard229Data = {
+  rectangle62: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/rectangle-62-32@2x.png",
+  text77: "Project Name",
+  surname: "Small description about the project"
+}; // const button22Data = {
+//   children: "VIEW MORE"
+// };
+
+var frame1613Data = {
+  apartments: "APARTMENTS",
+  buildiings: "BUILDIINGS",
+  group139Props: group139Data,
+  frame138Props: frame138Data,
+  projectCard22Props: projectCard22Data,
+  projectCard222Props: projectCard222Data,
+  projectCard223Props: projectCard223Data,
+  projectCard224Props: projectCard224Data,
+  projectCard225Props: projectCard225Data,
+  projectCard226Props: projectCard226Data,
+  projectCard227Props: projectCard227Data,
+  projectCard228Props: projectCard228Data,
+  projectCard229Props: projectCard229Data,
+  button22Props: button22Data
+};
+var button222Data = {
+  children: "VIEW MORE"
+}; // const group69Data = {
+//   number: "1600",
+//   text4: "Rs/Sft"
+// };
+// const button8Data = {
+//   children: "VIEW DETAILS"
+// };
+
+var packagesCardData = {
+  basic: "Basic",
+  group69Props: group69Data,
+  buttonProps: button8Data
+}; // const group692Data = {
+//   number: "1600",
+//   text4: "Rs/Sft"
+// };
+// const button82Data = {
+//   children: "VIEW DETAILS"
+// };
+
+var group1112DataMobile = {
+  place: "Standard",
+  overlapGroup4: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-139@2x.svg",
+  group69Props: group692Data,
+  buttonProps: button82Data
+}; // const group693Data = {
+//   number: "1600",
+//   text4: "Rs/Sft"
+// };
+// const button83Data = {
+//   children: "VIEW DETAILS"
+// };
+
+var group112Data = {
+  premium: "Premium",
+  group: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-141@2x.svg",
+  vector2: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-82@2x.svg",
+  vector3: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-207@2x.svg",
+  vector4: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-208@2x.svg",
+  group2: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-209@2x.svg",
+  group69Props: group693Data,
+  buttonProps: button83Data
+}; // const group694Data = {
+//   number: "1600",
+//   text4: "Rs/Sft"
+// };
+// const button84Data = {
+//   children: "VIEW DETAILS"
+// };
+
+var group113Data = {
+  basic: "Luxury",
+  group69Props: group694Data,
+  buttonProps: button84Data
+};
+var group11422Data = {
+  costEstimator: "Cost Estimator",
+  text93: "Our very own software infused with years of experience. Use it to find a probable cost estimation to help you make a better choice"
+}; // const estimateNowButtonData = {
+//   children: "ESTIMATE NOW"
+// };
+
+var frame122Data = {
+  children: "City"
+};
+var frame1222Data = {
+  children: "Area of Construction (Sq.ft)"
+};
+var group11722Data = {
+  frame12Props: frame122Data,
+  frame122Props: frame1222Data
+}; // const group8622Data = {
+//   group85:
+//     "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/group-85-24@2x.svg"
+// };
+// const group32Data = {
+//   place: "Contact",
+//   overlapGroup42:
+//     "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-437@2x.svg",
+//   phone:
+//     "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-214@2x.svg",
+//   overlapGroup5:
+//     "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-342@2x.svg",
+//   vector2:
+//     "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-111@2x.svg",
+//   text21:
+//     "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint.",
+//   text20: "+91 8976535221, +91 8755645342",
+//   contactWebuildCom: "contact@webuild.com"
+// };
+// const frame140Data = {
+//   aboutUs: "About Us",
+//   projects: "Projects"
+// };
+// const frame1402Data = {
+//   aboutUs: "Gallery",
+//   projects: "Knowledge Transfer"
+// };
+// const frame1403Data = {
+//   aboutUs: "Blogs",
+//   projects: "FAQ’s"
+// };
+// const frame5Data = {
+//   quickLinks: "Quick Links",
+//   frame140Props: frame140Data,
+//   frame1402Props: frame1402Data,
+//   frame1403Props: frame1403Data
+// };
+// const facebookAppSymbolData = {
+//   src:
+//     "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/f-1-1@2x.svg"
+// };
+// const instagramData = {
+//   instagram:
+//     "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-223@2x.svg",
+//   vector2:
+//     "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-346@2x.svg"
+// };
+// const twitterData = {
+//   src:
+//     "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-347@2x.svg"
+// };
+// const group87Data = {
+//   facebookAppSymbolProps: facebookAppSymbolData,
+//   facebookAppSymbolProps2: instagramData,
+//   twitterProps: twitterData
+// };
+// const whiteData = {
+//   src:
+//     "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-98@2x.svg"
+// };
+// const group86Data = {
+//   group85:
+//     "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/group-85-13@2x.svg",
+//   whiteProps: whiteData
+// };
+// const iconMenuData = {
+//   vector2:
+//     "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-159@2x.svg",
+//   vector3:
+//     "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/vector-159@2x.svg"
+// };
+// const frame145Data = {
+//   group86Props: group86Data,
+//   iconMenuProps: iconMenuData
+// };
+
+var frame1600Data = {
+  line4: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/line-4-1@1x.svg",
+  line5: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/line-4-1@1x.svg",
+  line6: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/line-4-1@1x.svg",
+  line7: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/line-4-1@1x.svg",
+  line8: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/line-8-3@1x.svg",
+  rectangle72: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/rectangle-72@2x.png",
+  text1: "The Webuildd Difference",
+  spanText: "What makes us stand miles apart from other firms? We call it “Webuildd Difference”: from the very first time you meet us, to the interaction with our team, the hassle-free engagement and finally the day we hand you the keys to your new home/building, the only standard we accept for ourselves (and our customers) is “Consistent Excellence”. We are never satisfied with our laurels, and our service to you goes far beyond simply putting one brick on top of another. We not only ensure that get quality, but also blend it with creativity, engineering, management, quality and multiple other disciplines to deliver the perfect output for your residential or commercial needs. We have even created our very own",
+  spanText2: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, " ", /*#__PURE__*/_react.default.createElement("br", null)),
+  spanText3: "cost estimator",
+  spanText4: " ",
+  spanText5: "that helps you calculate your probable capital outgo for your upcoming building. We really like to make things easy for our clients",
+  rectangle73: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/rectangle-73@2x.png",
+  text3: "Why Choose Us? Minimum Hassles. Maximum Value",
+  text4: "We possess third generation business continuity which is a rarity. Which means that you gain decades of collaborative experience to your benefit. Expertise, quality, transparency, reliability and cost effectiveness are why our customers come back to us again and again. We offer a perfect blend of all these factors resulting in deep customer delight. We put the “Smart” in everything that we do. Smarter design, smarter spaces, smarter value. Simply: smarter living. With exciting options and construction plans to choose from, one is certain to be right for you. Yes, other people do some of what we do, but no one does everything in the unique way we do.",
+  rectangle70: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/rectangle-70@2x.png",
+  text5: "Our Customer Value Propositions",
+  text6: "When it comes to building a new residential or commercial building, choosing the right partner to bring your vision to life is an important first step. Our experienced Webuildd team has all the expertise, resources, and connections you need to turn inspiration into reality with seamless ease. You don’t have to deal with the hassles of managing complex coordination and multiple resources. Our in-house team has you covered from legal, estimation, site planning, architectural design,",
+  text7: "Because we bring to the table XX years of comprehensive experience, XX happy customers blended with  trust, reliability and transparency",
+  whyWebuild: "Why Webuild?",
+  rectangle69: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/rectangle-69-3@2x.png",
+  spanText6: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "Gain the Power of \u201CUnified C2C\u201D ", /*#__PURE__*/_react.default.createElement("br", null), "Unburden yourself while"),
+  spanText7: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, " ", /*#__PURE__*/_react.default.createElement("br", null)),
+  spanText8: "we build your future.",
+  text9: /*#__PURE__*/_react.default.createElement(_react.default.Fragment, null, "At Webuilld we offer you a completely", /*#__PURE__*/_react.default.createElement("br", null), "\u201CUnified Conception to Construction\u201D value proposition. No more dealing with a dozen sub-contractors or labour hassles when constructing your home or commercial building"),
+  ourProjects: "Our Projects",
+  text22: "We offer an entire array of construction options. Choose from basic to luxury according to your requirements",
+  text23: "We offer an entire array of construction options. Choose from basic to luxury according to your requirements",
+  packages: "Packages",
+  costEstimatorBg: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/cost-estimator-bg-1@3x.png",
+  testimonials: "Testimonials",
+  text24: "Listen to what our customers say about us. They are the beating heart of our business",
+  text19: "The whole team was very very supportive and I am really very happy. I am an extremely happy customer, Thank you Webuild !",
+  ellipse1: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/ellipse-1-4@2x.png",
+  name: "Robert Fox",
+  bangaloreIndia: "Bangalore, India",
+  image3: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/image-3-2@2x.png",
+  image4: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/image-4-2@2x.png",
+  image5: "https://anima-uploads.s3.amazonaws.com/projects/60c1b397ba70f9d1bdda22ff/img/image-5-2@2x.png",
+  getAQuoteButton2Props: getAQuoteButton2Data,
+  frame1613Props: frame1613Data,
+  button22Props: button222Data,
+  packagesCardProps: packagesCardData,
+  group1112Props: group1112DataMobile,
+  group112Props: group112Data,
+  group113Props: group113Data,
+  group11422Props: group11422Data,
+  estimateNowButtonProps: estimateNowButtonData,
+  group11722Props: group11722Data,
+  group8622Props: group8622Data,
+  group32Props: group32Data,
+  frame5Props: frame5Data,
+  group87Props: group87Data,
+  frame145Props: frame145Data
+};
+},{"./App.css":"App.css","react":"node_modules/react/index.js","react-router-dom":"node_modules/react-router-dom/esm/react-router-dom.js","./components/Desktop/LandingPageDesktop/X01LandingPageDesktop":"components/Desktop/LandingPageDesktop/X01LandingPageDesktop/index.jsx","./components/Mobile/LandingPageMobile/Frame1600":"components/Mobile/LandingPageMobile/Frame1600/index.jsx","./components/Desktop/AboutPageDesktop/Frame173":"components/Desktop/AboutPageDesktop/Frame173/index.jsx","./components/Mobile/AboutPageMobile/X02AboutPageMobile":"components/Mobile/AboutPageMobile/X02AboutPageMobile/index.jsx","./components/Tablet/AboutPageTablet/X02AboutPageTablet":"components/Tablet/AboutPageTablet/X02AboutPageTablet/index.jsx","./components/Mobile/PortfolioPageMobile/X03PortfolioPageMobile":"components/Mobile/PortfolioPageMobile/X03PortfolioPageMobile/index.jsx","./components/Desktop/PortfolioDetailPageDesktop/X04PortfolioDetailPage":"components/Desktop/PortfolioDetailPageDesktop/X04PortfolioDetailPage/index.jsx","./components/Mobile/PortfolioDetailPageMobile/X04PortfolioDetailPageMobile":"components/Mobile/PortfolioDetailPageMobile/X04PortfolioDetailPageMobile/index.jsx"}],"styleguide.css":[function(require,module,exports) {
 var reloadCSS = require('_css_loader');
 
 module.hot.dispose(reloadCSS);
@@ -43560,7 +45432,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "61977" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "54176" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

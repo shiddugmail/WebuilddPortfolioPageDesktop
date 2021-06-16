@@ -1,0 +1,22 @@
+.group-85 {
+  display: none;
+}
+.group-86 {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  .group-85 {
+    height: 23px;
+    margin-bottom: 0.9px;
+    margin-left: 7px;
+    width: 120px;
+  }
+  .group-86 {
+    align-items: center;
+    display: flex;
+    height: 33px;
+    min-width: 178px;
+    position: relative;
+  }
+}

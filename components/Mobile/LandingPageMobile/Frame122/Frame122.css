@@ -1,0 +1,21 @@
+.frame-1-1 {
+  align-items: center;
+  border-radius: 4px;
+  display: flex;
+  height: 50px;
+  overflow: hidden;
+  padding: 0 16px;
+  width: 337px;
+}
+.frame-1.frame-1-1 {
+  margin-top: 24px;
+  position: relative;
+}
+.text-26 {
+  letter-spacing: 0;
+  line-height: 22px;
+  min-height: 22px;
+  min-width: 29px;
+  mix-blend-mode: normal;
+  white-space: nowrap;
+}

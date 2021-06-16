@@ -1,0 +1,35 @@
+.group-69 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+  min-height: 94px;
+  width: 254px;
+}
+.group-69-1.group-69 {
+  position: relative;
+}
+.number {
+  color: var(--black);
+  font-weight: 800;
+  height: 58px;
+  line-height: 48px;
+  margin-right: 2.0px;
+  min-height: 58px;
+  min-width: 252px;
+  mix-blend-mode: normal;
+  text-align: center;
+  width: 252px;
+}
+.rs-sft {
+  color: var(--black);
+  height: 28px;
+  line-height: 28px;
+  margin-right: 3.0px;
+  margin-top: 8px;
+  min-height: 28px;
+  min-width: 49px;
+  mix-blend-mode: normal;
+  text-align: center;
+  white-space: nowrap;
+}

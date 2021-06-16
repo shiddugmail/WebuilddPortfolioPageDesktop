@@ -1,0 +1,60 @@
+.apartments {
+  color: var(--black);
+  font-weight: 600;
+  line-height: 24px;
+  margin-left: 22px;
+  min-height: 24px;
+  min-width: 106px;
+  mix-blend-mode: normal;
+  text-align: center;
+  white-space: nowrap;
+  width: 106px;
+}
+.buildiings {
+  color: var(--black);
+  font-weight: 600;
+  line-height: 24px;
+  margin-left: 22px;
+  min-height: 24px;
+  min-width: 90px;
+  mix-blend-mode: normal;
+  text-align: center;
+  white-space: nowrap;
+  width: 90px;
+}
+.flex-row {
+  align-items: flex-start;
+  display: flex;
+  height: 24px;
+  margin-left: 2.0px;
+  min-width: 302px;
+  position: relative;
+}
+.frame-1611 {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+  min-height: 3098px;
+  position: relative;
+  width: 335px;
+}
+.frame-1612 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 64px;
+  mix-blend-mode: normal;
+  position: relative;
+  width: 300px;
+}
+.frame-1613 {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-right: 13.0px;
+  margin-top: 32px;
+  min-height: 3250px;
+  position: relative;
+  width: 335px;
+}

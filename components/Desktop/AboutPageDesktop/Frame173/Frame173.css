@@ -835,15 +835,11 @@
     width: 412px;
 }
 
-
-/* @media screen and (min-width: 768px) { */
-
-.frame-173 {
-    align-items: flex-start;
-    display: flex;
-    min-width: 1440px;
-    mix-blend-mode: normal;
+@media screen and (min-width: 768px) {
+    .frame-173 {
+        align-items: flex-start;
+        display: flex;
+        min-width: 1440px;
+        mix-blend-mode: normal;
+    }
 }
-
-
-/* } */
