@@ -1,15 +1,19 @@
 import "./App.css";
 import React from "react";
 import { Switch, BrowserRouter as Router, Route } from "react-router-dom";
-import X01LandingPageDesktop from "./components/Desktop/LandingPageDesktop/X01LandingPageDesktop";
+//import X01LandingPageDesktop from "./components/Desktop/LandingPageDesktop/X01LandingPageDesktop";
 import Frame1600 from "./components/Mobile/LandingPageMobile/Frame1600";
 import X01LandingPageTablet from "./components/Tablet/LandingPageTablet/X01LandingPageTablet";
 import Frame173 from "./components/Desktop/AboutPageDesktop/Frame173";
 import X02AboutPageMobile from "./components/Mobile/AboutPageMobile/X02AboutPageMobile";
 import X02AboutPageTablet from "./components/Tablet/AboutPageTablet/X02AboutPageTablet"
 // import X03PortfolioPageMobile from "./components/Mobile/PortfolioPageMobile/X03PortfolioPageMobile";
-import X04PortfolioDetailPage from "./components/Desktop/PortfolioDetailPageDesktop/X04PortfolioDetailPage";
+import X04PortfolioDetailPage from "./components/Desktop/PortfolioDetailPageDesktop/X04PortfolioDetailPage"
 import X04PortfolioDetailPageMobile from "./components/Mobile/PortfolioDetailPageMobile/X04PortfolioDetailPageMobile"
+
+
+import X01LandingPageDesktop from './components/01-landing-page-desktop'
+import X05GalleryPageMobile from './components/Mobile/BlogPageMobile'
 
 function App() {
   return (
@@ -17,7 +21,8 @@ function App() {
       <Switch>
         <Route path="/:path(|home)">
           <div className="desktop-only">
-            <X01LandingPageDesktop {...x01LandingPageDesktopData} />
+            {/* <X01LandingPageDesktop {...x01LandingPageDesktopData} /> */}
+            <X01LandingPageDesktop />
           </div>
           <div className="mobile-only">
             <Frame1600 {...frame1600Data} />
@@ -47,6 +52,26 @@ function App() {
           {/* <div className="tablet-only">
             <X02AboutPageTablet {...x02AboutPageTabletData} />
           </div> */}
+        </Route>
+        <Route path="/:path(|blog)">
+          <div className="desktop-only">
+            <h1> testing desktop</h1>
+          </div>
+          <div className="tablet-only">
+            <h1> testing tablet</h1>
+          </div>
+          <div className="mobile-only">
+            <X05GalleryPageMobile />
+              {/* <h1> testing mobile</h1> */}
+          </div>
+        </Route>
+        <Route path="/:path(|about)">
+          <div className="desktop-only">
+            <Frame173 {...frame173Data} />
+          </div>
+          <div className="mobile-only">
+            <X02AboutPageMobile {...x02AboutPageMobileData} />
+          </div>
         </Route>
       </Switch>
     </Router>

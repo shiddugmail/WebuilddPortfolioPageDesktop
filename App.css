@@ -22,19 +22,9 @@
     }
 }
 
-@media (max-width: 767px) {
-    .mobile-only {
-        display: none;
-    }
-    .tablet-only {
-        display: block;
-    }
-    .desktop-only {
-        display: none;
-    }
-}
 
-@media (min-width: 768px) {
+
+@media (min-width: 769px) {
     .mobile-only {
         display: none;
     }
